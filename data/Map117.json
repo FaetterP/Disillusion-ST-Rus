@@ -1,9 +1,253 @@
 {
-"autoplayBgm":true,"autoplayBgs":false,"battleback1Name":"","battleback2Name":"","bgm":{"name":"wormohedron","pan":0,"pitch":100,"volume":75},"bgs":{"name":"","pan":0,"pitch":100,"volume":90},"disableDashing":false,"displayName":"","encounterList":[],"encounterStep":30,"height":8,"note":"","parallaxLoopX":false,"parallaxLoopY":false,"parallaxName":"sewer","parallaxShow":true,"parallaxSx":0,"parallaxSy":0,"scrollType":0,"specifyBattleback":false,"tilesetId":1,"width":11,
-"data":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-"events":[
-null,
-{"id":1,"name":"sewer","note":"","pages":[{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[{"code":357,"indent":0,"parameters":["VisuMZ_4_PictureCmnEvts","ClearAllPictureCommonEvents","System: Clear All Picture Common Events",{}]},{"code":230,"indent":0,"parameters":[60]},{"code":231,"indent":0,"parameters":[1,"sewer",0,0,0,0,100,100,255,0]},{"code":231,"indent":0,"parameters":[2,"sewerfroggy",0,0,0,0,100,100,255,0]},{"code":231,"indent":0,"parameters":[3,"sewermel",0,0,0,0,100,100,255,0]},{"code":222,"indent":0,"parameters":[]},{"code":357,"indent":0,"parameters":["Mimosa_MouseCursorPlus","set_picture_cursor","Set Picture Cursor Image",{"picture_id":"2","cursor_name":"look"}]},{"code":657,"indent":0,"parameters":["Picture ID = 2"]},{"code":657,"indent":0,"parameters":["Cursor Name = look"]},{"code":357,"indent":0,"parameters":["Mimosa_MouseCursorPlus","set_picture_cursor","Set Picture Cursor Image",{"picture_id":"3","cursor_name":"look"}]},{"code":657,"indent":0,"parameters":["Picture ID = 3"]},{"code":657,"indent":0,"parameters":["Cursor Name = look"]},{"code":357,"indent":0,"parameters":["VisuMZ_4_PictureCmnEvts","ChangePictureCommonEvent","System: Change Picture Common Event",{"PictureIDs:arraynum":"[\"2\"]","CommonEventID:num":"75","Custom":"","UseGlobal:eval":"true","OpaqueOnly:eval":"true","OpaqueErrorMargin:num":"5","ChangeTone:eval":"false","HoverTone:eval":"[0, 0, 0, 0]","BlendMode:num":"0"}]},{"code":657,"indent":0,"parameters":["Picture ID(s) = [\"2\"]"]},{"code":657,"indent":0,"parameters":["Common Event ID = 75"]},{"code":657,"indent":0,"parameters":["Custom = "]},{"code":657,"indent":0,"parameters":["Use Global? = true"]},{"code":657,"indent":0,"parameters":["Opaque Only? = true"]},{"code":657,"indent":0,"parameters":["Error Margin = 5"]},{"code":657,"indent":0,"parameters":["Change Tone on Hover? = false"]},{"code":657,"indent":0,"parameters":["Hover Tone = [0, 0, 0, 0]"]},{"code":657,"indent":0,"parameters":["Blend Mode on Hover = 0"]},{"code":357,"indent":0,"parameters":["VisuMZ_4_PictureCmnEvts","ChangePictureCommonEvent","System: Change Picture Common Event",{"PictureIDs:arraynum":"[\"3\"]","CommonEventID:num":"76","Custom":"","UseGlobal:eval":"true","OpaqueOnly:eval":"true","OpaqueErrorMargin:num":"5","ChangeTone:eval":"false","HoverTone:eval":"[0, 0, 0, 0]","BlendMode:num":"0"}]},{"code":657,"indent":0,"parameters":["Picture ID(s) = [\"3\"]"]},{"code":657,"indent":0,"parameters":["Common Event ID = 76"]},{"code":657,"indent":0,"parameters":["Custom = "]},{"code":657,"indent":0,"parameters":["Use Global? = true"]},{"code":657,"indent":0,"parameters":["Opaque Only? = true"]},{"code":657,"indent":0,"parameters":["Error Margin = 5"]},{"code":657,"indent":0,"parameters":["Change Tone on Hover? = false"]},{"code":657,"indent":0,"parameters":["Hover Tone = [0, 0, 0, 0]"]},{"code":657,"indent":0,"parameters":["Blend Mode on Hover = 0"]},{"code":214,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"moveFrequency":3,"moveRoute":{"list":[{"code":0,"parameters":[]}],"repeat":true,"skippable":false,"wait":false},"moveSpeed":4,"moveType":1,"priorityType":0,"stepAnime":false,"through":false,"trigger":3,"walkAnime":true}],"x":0,"y":0},
-null
-]
+  "autoplayBgm": true,
+  "autoplayBgs": false,
+  "battleback1Name": "",
+  "battleback2Name": "",
+  "bgm": { "name": "wormohedron", "pan": 0, "pitch": 100, "volume": 75 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
+  "disableDashing": false,
+  "displayName": "",
+  "encounterList": [],
+  "encounterStep": 30,
+  "height": 8,
+  "note": "",
+  "parallaxLoopX": false,
+  "parallaxLoopY": false,
+  "parallaxName": "sewer",
+  "parallaxShow": true,
+  "parallaxSx": 0,
+  "parallaxSy": 0,
+  "scrollType": 0,
+  "specifyBattleback": false,
+  "tilesetId": 1,
+  "width": 11,
+  "data": [
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0
+  ],
+  "events": [
+    null,
+    {
+      "id": 1,
+      "name": "sewer",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "VisuMZ_4_PictureCmnEvts",
+                "ClearAllPictureCommonEvents",
+                "System: Clear All Picture Common Events",
+                {}
+              ]
+            },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            {
+              "code": 231,
+              "indent": 0,
+              "parameters": [1, "sewer", 0, 0, 0, 0, 100, 100, 255, 0]
+            },
+            {
+              "code": 231,
+              "indent": 0,
+              "parameters": [2, "sewerfroggy", 0, 0, 0, 0, 100, 100, 255, 0]
+            },
+            {
+              "code": 231,
+              "indent": 0,
+              "parameters": [3, "sewermel", 0, 0, 0, 0, 100, 100, 255, 0]
+            },
+            { "code": 222, "indent": 0, "parameters": [] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "Mimosa_MouseCursorPlus",
+                "set_picture_cursor",
+                "Set Picture Cursor Image",
+                { "picture_id": "2", "cursor_name": "look" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Picture ID = 2"] },
+            { "code": 657, "indent": 0, "parameters": ["Cursor Name = look"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "Mimosa_MouseCursorPlus",
+                "set_picture_cursor",
+                "Set Picture Cursor Image",
+                { "picture_id": "3", "cursor_name": "look" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Picture ID = 3"] },
+            { "code": 657, "indent": 0, "parameters": ["Cursor Name = look"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "VisuMZ_4_PictureCmnEvts",
+                "ChangePictureCommonEvent",
+                "System: Change Picture Common Event",
+                {
+                  "PictureIDs:arraynum": "[\"2\"]",
+                  "CommonEventID:num": "75",
+                  "Custom": "",
+                  "UseGlobal:eval": "true",
+                  "OpaqueOnly:eval": "true",
+                  "OpaqueErrorMargin:num": "5",
+                  "ChangeTone:eval": "false",
+                  "HoverTone:eval": "[0, 0, 0, 0]",
+                  "BlendMode:num": "0"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": ["Picture ID(s) = [\"2\"]"]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": ["Common Event ID = 75"]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Custom = "] },
+            { "code": 657, "indent": 0, "parameters": ["Use Global? = true"] },
+            { "code": 657, "indent": 0, "parameters": ["Opaque Only? = true"] },
+            { "code": 657, "indent": 0, "parameters": ["Error Margin = 5"] },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": ["Change Tone on Hover? = false"]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": ["Hover Tone = [0, 0, 0, 0]"]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": ["Blend Mode on Hover = 0"]
+            },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "VisuMZ_4_PictureCmnEvts",
+                "ChangePictureCommonEvent",
+                "System: Change Picture Common Event",
+                {
+                  "PictureIDs:arraynum": "[\"3\"]",
+                  "CommonEventID:num": "76",
+                  "Custom": "",
+                  "UseGlobal:eval": "true",
+                  "OpaqueOnly:eval": "true",
+                  "OpaqueErrorMargin:num": "5",
+                  "ChangeTone:eval": "false",
+                  "HoverTone:eval": "[0, 0, 0, 0]",
+                  "BlendMode:num": "0"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": ["Picture ID(s) = [\"3\"]"]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": ["Common Event ID = 76"]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Custom = "] },
+            { "code": 657, "indent": 0, "parameters": ["Use Global? = true"] },
+            { "code": 657, "indent": 0, "parameters": ["Opaque Only? = true"] },
+            { "code": 657, "indent": 0, "parameters": ["Error Margin = 5"] },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": ["Change Tone on Hover? = false"]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": ["Hover Tone = [0, 0, 0, 0]"]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": ["Blend Mode on Hover = 0"]
+            },
+            { "code": 214, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [{ "code": 0, "parameters": [] }],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 1,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 3,
+          "walkAnime": true
+        }
+      ],
+      "x": 0,
+      "y": 0
+    },
+    null
+  ]
 }
