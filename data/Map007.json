@@ -111,32 +111,32 @@
               "code": 401,
               "indent": 0,
               "parameters": [
-                "Memories are a funny thing, \\.you'll find em quite often"
+                "Воспоминания - это забавная штука, \\.и ты тоже будешь находить их"
               ]
             },
-            { "code": 401, "indent": 0, "parameters": ["too. "] },
+            { "code": 401, "indent": 0, "parameters": ["довольно часто."] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Ya see, these spaces are limited, \\."]
+              "parameters": ["Видишь ли, здесь место ограничено, \\."]
             },
             {
               "code": 401,
               "indent": 0,
-              "parameters": [" you can't run about willy nilly so "]
+              "parameters": ["ты не можешь бегать туда-сюда, так что"]
             },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "ya gotta use your noggin and analyze the scene a bit. \\."
+                "тебе придётся напрячь извилины и проанализировать обстановку.\\."
               ]
             },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Go ahead, give it a go."]
+              "parameters": ["Давай, сделай это."]
             },
             {
               "code": 357,
