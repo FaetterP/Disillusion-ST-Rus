@@ -1418,26 +1418,26 @@
               "code": 401,
               "indent": 0,
               "parameters": [
-                "Oh, \\.hey again! \\.The train will be here soon."
+                "Ой, \\.привет снова! \\.Поезд скоро будет здесь."
               ]
             },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["A train?", "Where does it go?"], 1, 0, 2, 1]
+              "parameters": [["Поезд?", "Куда он отправляется?"], 1, 0, 2, 1]
             },
-            { "code": 402, "indent": 0, "parameters": [0, "A train?"] },
+            { "code": 402, "indent": 0, "parameters": [0, "Поезд?"] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["Can you see the rails down there,\\. dimwit?"]
+              "parameters": ["Ты не видишь рельсы там внизу,\\. придурок?"]
             },
             { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
-              "parameters": [1, "Where does it go?"]
+              "parameters": [1, "Куда он отправляется?"]
             },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 404, "indent": 0, "parameters": [] },
@@ -1446,21 +1446,21 @@
               "code": 401,
               "indent": 0,
               "parameters": [
-                "It leads to the memory of the processed word. \\."
+                "это приводит к запоминанию обработанного слова. \\."
               ]
             },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "If you decide to go there, \\.keep your wits about you"
+                "Если ты решишь отправиться туда, \\.держи себя в руках и"
               ]
             },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "and don't make any deals with shady folks, \\.okay?"
+                "не совершай сделок с подозрительными парнями, \\.ладно?"
               ]
             },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
@@ -1468,21 +1468,21 @@
               "code": 401,
               "indent": 0,
               "parameters": [
-                "Are you going to go or not? \\. train will be here soon."
+                "Ты собираешься идти или нет? \\. Поезд скоро будет здесь."
               ]
             },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["Yes", "No"], 1, 0, 2, 1]
+              "parameters": [["Да", "Нет"], 1, 0, 2, 1]
             },
-            { "code": 402, "indent": 0, "parameters": [0, "Yes"] },
+            { "code": 402, "indent": 0, "parameters": [0, "Да"] },
             { "code": 122, "indent": 1, "parameters": [129, 129, 0, 0, 1] },
             { "code": 221, "indent": 1, "parameters": [] },
             { "code": 201, "indent": 1, "parameters": [0, 113, 3, 8, 0, 0] },
             { "code": 222, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 1, "parameters": [] },
-            { "code": 402, "indent": 0, "parameters": [1, "No"] },
+            { "code": 402, "indent": 0, "parameters": [1, "Нет"] },
             { "code": 117, "indent": 1, "parameters": [38] },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 404, "indent": 0, "parameters": [] },
@@ -1728,21 +1728,21 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Trains comin'. \\.you gettin on?"]
+              "parameters": ["Поезд подъезжает. \\.Ты встаёшь?"]
             },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["A train?", "Where does it go?"], 1, 0, 2, 1]
+              "parameters": [["Поезд?", "Куда он отправляется?"], 1, 0, 2, 1]
             },
-            { "code": 402, "indent": 0, "parameters": [0, "A train?"] },
+            { "code": 402, "indent": 0, "parameters": [0, "Поезд?"] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["You dumb?"] },
+            { "code": 401, "indent": 1, "parameters": ["Ты тупой?"] },
             { "code": 0, "indent": 1, "parameters": [] },
             {
               "code": 402,
               "indent": 0,
-              "parameters": [1, "Where does it go?"]
+              "parameters": [1, "Куда он отправляется?"]
             },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 404, "indent": 0, "parameters": [] },
@@ -1750,27 +1750,27 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Didn't someone tell you this already? \\."]
+              "parameters": ["Разве никто не говорил тебе об этом? \\."]
             },
-            { "code": 401, "indent": 0, "parameters": ["you a goldfish?"] },
+            { "code": 401, "indent": 0, "parameters": ["Ты что, золотая рыбка?"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Are you going to go or not?"]
+              "parameters": ["Ты собираешься идти или нет?"]
             },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["Yes", "No"], 1, 0, 2, 1]
+              "parameters": [["Да", "Нет"], 1, 0, 2, 1]
             },
-            { "code": 402, "indent": 0, "parameters": [0, "Yes"] },
+            { "code": 402, "indent": 0, "parameters": [0, "Да"] },
             { "code": 122, "indent": 1, "parameters": [133, 133, 0, 0, 2] },
             { "code": 221, "indent": 1, "parameters": [] },
             { "code": 201, "indent": 1, "parameters": [0, 115, 6, 12, 0, 0] },
             { "code": 222, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 1, "parameters": [] },
-            { "code": 402, "indent": 0, "parameters": [1, "No"] },
+            { "code": 402, "indent": 0, "parameters": [1, "Нет"] },
             { "code": 117, "indent": 1, "parameters": [38] },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 404, "indent": 0, "parameters": [] },
@@ -1920,24 +1920,24 @@
           "list": [
             { "code": 111, "indent": 0, "parameters": [1, 133, 0, 1, 1] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["Trains comin'!"] },
+            { "code": 401, "indent": 1, "parameters": ["Поезд прибывает!"] },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["A train?", "Where does it go?"], 1, 0, 2, 1]
+              "parameters": [["Поезд?", "Куда он отправляется?"], 1, 0, 2, 1]
             },
-            { "code": 402, "indent": 1, "parameters": [0, "A train?"] },
+            { "code": 402, "indent": 1, "parameters": [0, "Поезд?"] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Can you see the rails down there,\\. silly guy?"]
+              "parameters": ["Ты не видишь рельсы там внизу,\\. дурак?"]
             },
             { "code": 0, "indent": 2, "parameters": [] },
             {
               "code": 402,
               "indent": 1,
-              "parameters": [1, "Where does it go?"]
+              "parameters": [1, "Куда он отправляется?"]
             },
             { "code": 0, "indent": 2, "parameters": [] },
             { "code": 404, "indent": 1, "parameters": [] },
@@ -1945,28 +1945,28 @@
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["dunno, just go and find out!"]
+              "parameters": ["Хз, просто уйди и выясни это сам!"]
             },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "Are you going to go or not? \\. train will be here soon."
+                "Ты собираешься идти или нет? \\. Поезд скоро будет здесь."
               ]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["Yes", "No"], 1, 0, 2, 1]
+              "parameters": [["Да", "Нет"], 1, 0, 2, 1]
             },
-            { "code": 402, "indent": 1, "parameters": [0, "Yes"] },
+            { "code": 402, "indent": 1, "parameters": [0, "Да"] },
             { "code": 221, "indent": 2, "parameters": [] },
             { "code": 201, "indent": 2, "parameters": [0, 73, 6, 5, 0, 0] },
             { "code": 117, "indent": 2, "parameters": [87] },
             { "code": 222, "indent": 2, "parameters": [] },
             { "code": 0, "indent": 2, "parameters": [] },
-            { "code": 402, "indent": 1, "parameters": [1, "No"] },
+            { "code": 402, "indent": 1, "parameters": [1, "Нет"] },
             { "code": 117, "indent": 2, "parameters": [38] },
             { "code": 0, "indent": 2, "parameters": [] },
             { "code": 404, "indent": 1, "parameters": [] },
@@ -1976,7 +1976,7 @@
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["I feel like I have been waiting forever..."]
+              "parameters": ["Такое чувство, что я жду уже целую вечность...."]
             },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 412, "indent": 0, "parameters": [] },
@@ -2104,90 +2104,90 @@
               "code": 401,
               "indent": 0,
               "parameters": [
-                "Ya like games kid? \\.I'm somethin of a card game fan. \\."
+                "Тебе нравятся игры, малыш? \\.Я в некотором роде фанат карточных игр. \\."
               ]
             },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["I make cute cards of fellas I've met!"]
+              "parameters": ["Я делаю милые карточки с теми, кого встречаю!"]
             },
-            { "code": 401, "indent": 0, "parameters": ["Interested?"] },
+            { "code": 401, "indent": 0, "parameters": ["Интересует?"] },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["Yes", "No"], 1, 0, 2, 1]
+              "parameters": [["Да", "Нет"], 1, 0, 2, 1]
             },
-            { "code": 402, "indent": 0, "parameters": [0, "Yes"] },
+            { "code": 402, "indent": 0, "parameters": [0, "Да"] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["here's the rules, \\. real simple like. "]
+              "parameters": ["Вот правила, \\.они реально простые. "]
             },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["Game Board is A 3x3 grid...."]
+              "parameters": ["Игровое поле - это сетка 3x3...."]
             },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "Each player has a deck of five cards, \\.each with numbers "
+                "У каждого игрока есть колода из пяти карт, \\.каждая содержит"
               ]
             },
-            { "code": 401, "indent": 1, "parameters": ["on all four sides."] },
+            { "code": 401, "indent": 1, "parameters": ["цифры на всех четырёх сторонах."] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "Players take turns placing one card on the board. \\."
+                "Игроки по очереди кладут по одной карте на доску. \\."
               ]
             },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "A card can capture adjacent cards by having a... "
+                "Карта может захватывать соседние карты, если у неё..."
               ]
             },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "higher number on the shared side. \\.Players gain "
+                "большее число на показанной стороне. \\.Игроки получают"
               ]
             },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["points for captured cards."]
+              "parameters": ["очки за захваченные карты."]
             },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["The game ends when the board is full, \\."]
+              "parameters": ["Игра заканчивается, когда вся доска заполнена, \\."]
             },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["and the player with the most points wins! "]
+              "parameters": ["и выигрывает игрок с большим числом очков! "]
             },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["I'll even give ya some cards to start out! "]
+              "parameters": ["Я даже дам тебе несколько карт для начала! "]
             },
-            { "code": 401, "indent": 1, "parameters": ["want to play?"] },
+            { "code": 401, "indent": 1, "parameters": ["Хочешь сыграть?"] },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["Yes", "No"], 1, 0, 2, 1]
+              "parameters": [["Да", "Нет"], 1, 0, 2, 1]
             },
-            { "code": 402, "indent": 1, "parameters": [0, "Yes"] },
+            { "code": 402, "indent": 1, "parameters": [0, "Да"] },
             {
               "code": 357,
               "indent": 2,
@@ -2219,12 +2219,12 @@
             { "code": 126, "indent": 2, "parameters": [67, 0, 0, 1] },
             { "code": 122, "indent": 2, "parameters": [164, 164, 0, 0, 1] },
             { "code": 0, "indent": 2, "parameters": [] },
-            { "code": 402, "indent": 1, "parameters": [1, "No"] },
+            { "code": 402, "indent": 1, "parameters": [1, "Нет"] },
             { "code": 115, "indent": 2, "parameters": [] },
             { "code": 0, "indent": 2, "parameters": [] },
             { "code": 404, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 1, "parameters": [] },
-            { "code": 402, "indent": 0, "parameters": [1, "No"] },
+            { "code": 402, "indent": 0, "parameters": [1, "Нет"] },
             { "code": 115, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 404, "indent": 0, "parameters": [] },
@@ -2302,7 +2302,7 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Hope ya been having fun!"]
+              "parameters": ["Надеюсь, тебе было весело!"]
             },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
