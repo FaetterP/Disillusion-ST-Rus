@@ -1133,14 +1133,14 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["           That was a very spiteful glare..."]
+              "parameters": ["           Это был очень злобный взгляд..."]
             },
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
             {
               "code": 401,
               "indent": 0,
               "parameters": [
-                "       I take it he found his craft without our help."
+                "       Я понимаю, он нашел свое ремесло без нашей помощи."
               ]
             },
             { "code": 0, "indent": 0, "parameters": [] }
