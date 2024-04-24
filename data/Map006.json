@@ -1088,47 +1088,47 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["you are here. \\. This is nice to see."]
+              "parameters": ["Ты здесь. \\. Рад тебя видеть."]
             },
             {
               "code": 102,
               "indent": 0,
-              "parameters": [["Where am I?"], -1, 0, 0, 1]
+              "parameters": [["Где я?"], -1, 0, 0, 1]
             },
-            { "code": 402, "indent": 0, "parameters": [0, "Where am I?"] },
+            { "code": 402, "indent": 0, "parameters": [0, "Где я?"] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "A vast underground labyrinth, \\. an in-between for us all"
+                "В огромном подземном лабиринте, \\. промежуток для всех."
               ]
             },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["Many doors lead to different surfaces, \\."]
+              "parameters": ["Множество дверей ведут на разные поверхности, \\."]
             },
             {
               "code": 401,
               "indent": 1,
               "parameters": [
-                "but at present a single door leads to a false exit."
+                "но сейчас единственная дверь ведет к ложному выходу."
               ]
             },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["You are here to correct this."]
+              "parameters": ["Ты здесь, чтобы исправить это."]
             },
             {
               "code": 102,
               "indent": 1,
-              "parameters": [["Do you know me?", "Who are you?"], 1, 0, 0, 1]
+              "parameters": [["Ты меня знаешь?", "Кто ты?"], 1, 0, 0, 1]
             },
-            { "code": 402, "indent": 1, "parameters": [0, "Do you know me?"] },
+            { "code": 402, "indent": 1, "parameters": [0, "Ты меня знаешь?"] },
             { "code": 221, "indent": 2, "parameters": [] },
             {
               "code": 231,
@@ -1141,7 +1141,7 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "You are here to aid in the erection of a great tower."
+                "Ты здесь для того, чтобы помочь возводить великую башню."
               ]
             },
             { "code": 401, "indent": 2, "parameters": [" "] },
@@ -1150,20 +1150,20 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "a tower that will bring us all closer to the edge of"
+                "Башню, которая приблизит нас всех к краю"
               ]
             },
-            { "code": 401, "indent": 2, "parameters": ["a long journey."] },
+            { "code": 401, "indent": 2, "parameters": ["долгого путешествия."] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 2,
               "parameters": [
-                "Please seek Melpomene. \\. She was tasked with aiding you."
+                "Пожалуйста, найди Мельпомену. \\. Ей было поручено помочь тебе."
               ]
             },
             { "code": 0, "indent": 2, "parameters": [] },
-            { "code": 402, "indent": 1, "parameters": [1, "Who are you?"] },
+            { "code": 402, "indent": 1, "parameters": [1, "Кто ты?"] },
             { "code": 221, "indent": 2, "parameters": [] },
             {
               "code": 231,
@@ -1175,14 +1175,14 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Only a messenger, \\.nothing more."]
+              "parameters": ["Всего лишь посыльный, \\.не более того."]
             },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 2,
               "parameters": [
-                "You are here to aid in the erection of a great tower."
+                "Ты здесь для того, чтобы помочь возводить великую башню."
               ]
             },
             { "code": 401, "indent": 2, "parameters": [" "] },
@@ -1191,16 +1191,16 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "a tower that will bring us all closer to the edge of"
+                "Башню, которая приблизит нас всех к краю"
               ]
             },
-            { "code": 401, "indent": 2, "parameters": ["a long journey."] },
+            { "code": 401, "indent": 2, "parameters": ["долгого путешествия."] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 2,
               "parameters": [
-                "Please seek Melpomene. \\. She was tasked with aiding you."
+                "Пожалуйста, найди Мельпомену. \\. Ей было поручено помочь тебе."
               ]
             },
             { "code": 0, "indent": 2, "parameters": [] },
@@ -1286,7 +1286,7 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["We will surely meet again soon."]
+              "parameters": ["Мы обязательно скоро встретимся снова."]
             },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
@@ -2424,12 +2424,12 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Take that door up there to move on to a new "]
+              "parameters": ["Подойди к этой двери, чтобы отправиться в новое"]
             },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["location. just use space."]
+              "parameters": ["место. Просто используй пробел."]
             },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
