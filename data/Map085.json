@@ -1187,7 +1187,7 @@
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["DISTRESSING THING SLAIN \\^"]
+              "parameters": ["ТРЕВОЖНАЯ ШТУЧКА ПОБЕЖДЕНА \\^"]
             },
             { "code": 214, "indent": 1, "parameters": [] },
             { "code": 222, "indent": 1, "parameters": [] },
@@ -1289,7 +1289,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1306,7 +1306,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1372,7 +1372,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1390,7 +1390,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1458,7 +1458,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1481,7 +1481,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1551,7 +1551,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1574,7 +1574,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1644,7 +1644,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1735,7 +1735,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1828,7 +1828,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1895,7 +1895,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1913,7 +1913,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1980,7 +1980,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2070,7 +2070,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2138,7 +2138,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2223,7 +2223,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2308,7 +2308,7 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "you struck the distressing thing  ........................... \\^"
+                "Вы ударили тревожную штучку........................... \\^"
               ]
             },
             {
@@ -2325,7 +2325,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["DISTRESSING THING SLAIN \\^"]
+              "parameters": ["ТРЕВОЖНАЯ ШТУЧКА ПОБЕЖДЕНА \\^"]
             },
             { "code": 214, "indent": 6, "parameters": [] },
             { "code": 222, "indent": 6, "parameters": [] },
@@ -2395,7 +2395,7 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "Distressing thing makes you feel weird ................... \\^"
+                "Тревожная штучка заставляет вас чувствовать себя странно................... \\^"
               ]
             },
             {
@@ -2476,7 +2476,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Distressing thing missed................ \\^"]
+              "parameters": ["Тревожная штучка промахнулась................ \\^"]
             },
             { "code": 0, "indent": 3, "parameters": [] },
             { "code": 411, "indent": 2, "parameters": [] },
@@ -2485,7 +2485,7 @@
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["Distressing thing missed................ \\^"]
+              "parameters": ["Тревожная штучка промахнулась................ \\^"]
             },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 411, "indent": 3, "parameters": [] },
@@ -2495,7 +2495,7 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "Distressing thing lands a hit ................... \\^"
+                "Тревожная штучка наносит удар................... \\^"
               ]
             },
             {
@@ -2576,7 +2576,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["Distressing thing missed................ \\^"]
+              "parameters": ["Тревожная штучка промахнулась................ \\^"]
             },
             { "code": 0, "indent": 6, "parameters": [] },
             { "code": 411, "indent": 5, "parameters": [] },
@@ -2585,7 +2585,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["Distressing thing missed................ \\^"]
+              "parameters": ["Тревожная штучка промахнулась................ \\^"]
             },
             { "code": 0, "indent": 7, "parameters": [] },
             { "code": 411, "indent": 6, "parameters": [] },

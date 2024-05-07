@@ -1326,7 +1326,7 @@
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["CUTE THING SLAIN \\^"]
+              "parameters": ["МИЛАЯ ШТУЧКА ПОБЕЖДЕНА \\^"]
             },
             { "code": 214, "indent": 1, "parameters": [] },
             { "code": 222, "indent": 1, "parameters": [] },
@@ -1428,7 +1428,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1446,7 +1446,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1513,7 +1513,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1531,7 +1531,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1599,7 +1599,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1622,7 +1622,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1692,7 +1692,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1715,7 +1715,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1785,7 +1785,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1876,7 +1876,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -1969,7 +1969,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2036,7 +2036,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2054,7 +2054,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2121,7 +2121,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2206,7 +2206,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2274,7 +2274,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2359,7 +2359,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -2439,7 +2439,7 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "you struck the cute lil thing  ........................... \\^"
+                "Вы ударили милую маленькую штучку........................... \\^"
               ]
             },
             {
@@ -2456,7 +2456,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["CUTE THING SLAIN \\^"]
+              "parameters": ["МИЛАЯ ШТУЧКА ПОБЕЖДЕНА \\^"]
             },
             { "code": 214, "indent": 6, "parameters": [] },
             { "code": 222, "indent": 6, "parameters": [] },
@@ -2528,7 +2528,7 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["cute thing lands a hit ................... \\^"]
+              "parameters": ["Милая штучка наносит удар................... \\^"]
             },
             {
               "code": 357,
@@ -2608,7 +2608,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["cute thing missed................ \\^"]
+              "parameters": ["Милая штучка промахнулась................ \\^"]
             },
             { "code": 0, "indent": 3, "parameters": [] },
             { "code": 411, "indent": 2, "parameters": [] },
@@ -2617,7 +2617,7 @@
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["cute thing missed................ \\^"]
+              "parameters": ["Милая штучка промахнулась................ \\^"]
             },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 411, "indent": 3, "parameters": [] },
@@ -2627,7 +2627,7 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "Cute thing doesn't feel like doing anything. ................... \\^"
+                "Милая штучка не хочет ничего делать.................... \\^"
               ]
             },
             { "code": 0, "indent": 5, "parameters": [] },
@@ -2637,7 +2637,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["cute thing missed................ \\^"]
+              "parameters": ["Милая штучка промахнулась................ \\^"]
             },
             { "code": 0, "indent": 6, "parameters": [] },
             { "code": 411, "indent": 5, "parameters": [] },
@@ -2646,7 +2646,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["cute thing missed................ \\^"]
+              "parameters": ["Милая штучка промахнулась................ \\^"]
             },
             { "code": 0, "indent": 7, "parameters": [] },
             { "code": 411, "indent": 6, "parameters": [] },
@@ -2918,7 +2918,7 @@
             { "code": 221, "indent": 1, "parameters": [] },
             { "code": 125, "indent": 1, "parameters": [0, 0, 1] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 0, ""] },
-            { "code": 401, "indent": 1, "parameters": ["MUSHROOM SLAIN \\^"] },
+            { "code": 401, "indent": 1, "parameters": ["ГРИБ ПОБЕЖДЁН \\^"] },
             { "code": 214, "indent": 1, "parameters": [] },
             { "code": 222, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 1, "parameters": [] },
@@ -3024,7 +3024,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3042,7 +3042,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3109,7 +3109,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3127,7 +3127,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3195,7 +3195,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3218,7 +3218,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3288,7 +3288,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3311,7 +3311,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3381,7 +3381,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3472,7 +3472,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3565,7 +3565,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3632,7 +3632,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3650,7 +3650,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3717,7 +3717,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3802,7 +3802,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3870,7 +3870,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -3955,7 +3955,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -4040,7 +4040,7 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "you struck the mushroom  ........................... \\^"
+                "Вы ударили по грибу........................... \\^"
               ]
             },
             {
@@ -4054,7 +4054,7 @@
             { "code": 111, "indent": 5, "parameters": [1, 185, 0, 0, 2] },
             { "code": 221, "indent": 6, "parameters": [] },
             { "code": 101, "indent": 6, "parameters": ["", 0, 1, 0, ""] },
-            { "code": 401, "indent": 6, "parameters": ["MUSHROOM SLAIN \\^"] },
+            { "code": 401, "indent": 6, "parameters": ["ГРИБ ПОБЕЖДЁН \\^"] },
             { "code": 214, "indent": 6, "parameters": [] },
             { "code": 222, "indent": 6, "parameters": [] },
             { "code": 0, "indent": 6, "parameters": [] },
@@ -4125,7 +4125,7 @@
             {
               "code": 401,
               "indent": 2,
-              "parameters": ["Mushroom lands a hit ................... \\^"]
+              "parameters": ["Гриб наносит удар................... \\^"]
             },
             {
               "code": 357,
@@ -4205,7 +4205,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Mushroom missed................ \\^"]
+              "parameters": ["Гриб промахнулся................ \\^"]
             },
             { "code": 0, "indent": 3, "parameters": [] },
             { "code": 411, "indent": 2, "parameters": [] },
@@ -4214,7 +4214,7 @@
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["Mushroom missed................ \\^"]
+              "parameters": ["Гриб промахнулся................ \\^"]
             },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 411, "indent": 3, "parameters": [] },
@@ -4223,7 +4223,7 @@
             {
               "code": 401,
               "indent": 5,
-              "parameters": ["Mushroom lands a hit ................... \\^"]
+              "parameters": ["Гриб наносит удар................... \\^"]
             },
             {
               "code": 357,
@@ -4303,7 +4303,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["Mushroom missed................ \\^"]
+              "parameters": ["Гриб промахнулся................ \\^"]
             },
             { "code": 0, "indent": 6, "parameters": [] },
             { "code": 411, "indent": 5, "parameters": [] },
@@ -4312,7 +4312,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["Mushroom missed................ \\^"]
+              "parameters": ["Гриб промахнулся................ \\^"]
             },
             { "code": 0, "indent": 7, "parameters": [] },
             { "code": 411, "indent": 6, "parameters": [] },
@@ -4704,7 +4704,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -4722,7 +4722,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -4789,7 +4789,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -4807,7 +4807,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -4875,7 +4875,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -4898,7 +4898,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -4968,7 +4968,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -4991,7 +4991,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -5061,7 +5061,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -5152,7 +5152,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -5240,7 +5240,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -5307,7 +5307,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -5325,7 +5325,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -5392,7 +5392,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -5477,7 +5477,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -5546,7 +5546,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -5631,7 +5631,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,

@@ -5831,7 +5831,7 @@
             {
               "code": 401,
               "indent": 1,
-              "parameters": ["CRAWLING SKELETON SLAIN \\^"]
+              "parameters": ["ПОЛЗАЮЩИЙ СКЕЛЕТ ПОБЕЖДЁН \\^"]
             },
             { "code": 214, "indent": 1, "parameters": [] },
             { "code": 222, "indent": 1, "parameters": [] },
@@ -5938,7 +5938,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -5956,7 +5956,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6023,7 +6023,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6041,7 +6041,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6109,7 +6109,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6132,7 +6132,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6202,7 +6202,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6225,7 +6225,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6295,7 +6295,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6381,7 +6381,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6474,7 +6474,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6541,7 +6541,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6559,7 +6559,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6626,7 +6626,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6711,7 +6711,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6779,7 +6779,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6864,7 +6864,7 @@
             {
               "code": 401,
               "indent": 8,
-              "parameters": ["A miss.......... \\^"]
+              "parameters": ["Промах.......... \\^"]
             },
             {
               "code": 250,
@@ -6944,7 +6944,7 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "you struck the Crawling skeleton  ........................... \\^"
+                "Вы ударили Ползающего скелета........................... \\^"
               ]
             },
             {
@@ -6961,7 +6961,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["CRAWLING SKELETON SLAIN \\^"]
+              "parameters": ["ПОЛЗАЮЩИЙ СКЕЛЕТ ПОБЕЖДЁН \\^"]
             },
             { "code": 214, "indent": 6, "parameters": [] },
             { "code": 222, "indent": 6, "parameters": [] },
@@ -7034,7 +7034,7 @@
               "code": 401,
               "indent": 2,
               "parameters": [
-                "Crawling Skeleton takes a deffensive position................... \\^"
+                "Ползающий скелет занимает оборонительную позицию................... \\^"
               ]
             },
             {
@@ -7115,7 +7115,7 @@
             {
               "code": 401,
               "indent": 3,
-              "parameters": ["Crawling Skeleton missed................ \\^"]
+              "parameters": ["Ползающий скелет промахнулся................ \\^"]
             },
             { "code": 0, "indent": 3, "parameters": [] },
             { "code": 411, "indent": 2, "parameters": [] },
@@ -7124,7 +7124,7 @@
             {
               "code": 401,
               "indent": 4,
-              "parameters": ["Crawling Skeleton missed................ \\^"]
+              "parameters": ["Ползающий скелет промахнулся................ \\^"]
             },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 411, "indent": 3, "parameters": [] },
@@ -7134,7 +7134,7 @@
               "code": 401,
               "indent": 5,
               "parameters": [
-                "Crawling Skeleton takes a bite................... \\^"
+                "Ползающий скелет делает укус................... \\^"
               ]
             },
             {
@@ -7215,7 +7215,7 @@
             {
               "code": 401,
               "indent": 6,
-              "parameters": ["Crawling Skeleton missed................ \\^"]
+              "parameters": ["Ползающий скелет промахнулся................ \\^"]
             },
             { "code": 0, "indent": 6, "parameters": [] },
             { "code": 411, "indent": 5, "parameters": [] },
@@ -7224,7 +7224,7 @@
             {
               "code": 401,
               "indent": 7,
-              "parameters": ["Crawling Skeleton missed................ \\^"]
+              "parameters": ["Ползающий скелет промахнулся................ \\^"]
             },
             { "code": 0, "indent": 7, "parameters": [] },
             { "code": 411, "indent": 6, "parameters": [] },
