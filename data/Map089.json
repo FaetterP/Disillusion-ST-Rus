@@ -5865,7 +5865,7 @@
             { "code": 0, "indent": 6, "parameters": [] },
             { "code": 412, "indent": 5, "parameters": [] },
             { "code": 101, "indent": 5, "parameters": ["", 0, 1, 0, ""] },
-            { "code": 401, "indent": 5, "parameters": ["you struck the mushroom  ........................... \\^"] },
+            { "code": 401, "indent": 5, "parameters": ["Вы ударили гриб ........................... \\^"] },
             { "code": 250, "indent": 5, "parameters": [{ "name": "bsfxsword1", "volume": 100, "pitch": 70, "pan": 0 }] },
             { "code": 230, "indent": 5, "parameters": [60] },
             { "code": 111, "indent": 5, "parameters": [1, 185, 0, 0, 2] },
