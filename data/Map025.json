@@ -255,9 +255,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -299,9 +299,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -573,9 +573,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -617,9 +617,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -661,9 +661,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -743,9 +743,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon3", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -787,9 +787,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon3", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -888,9 +888,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -932,9 +932,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -976,9 +976,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -1020,9 +1020,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -1064,9 +1064,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -1108,9 +1108,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -1152,9 +1152,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -1196,9 +1196,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -1240,9 +1240,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -1284,9 +1284,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2009,7 +2009,7 @@
             { "code": 0, "indent": 6, "parameters": [] },
             { "code": 412, "indent": 5, "parameters": [] },
             { "code": 101, "indent": 5, "parameters": ["", 0, 1, 0, ""] },
-            { "code": 401, "indent": 5, "parameters": ["you struck the Crawling skeleton  ........................... \\^"] },
+            { "code": 401, "indent": 5, "parameters": ["Вы ударили ползающего скелета........................... \\^"] },
             { "code": 250, "indent": 5, "parameters": [{ "name": "bsfxsword1", "volume": 100, "pitch": 70, "pan": 0 }] },
             { "code": 230, "indent": 5, "parameters": [60] },
             { "code": 111, "indent": 5, "parameters": [1, 209, 0, 0, 2] },
@@ -2220,9 +2220,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2264,9 +2264,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2308,9 +2308,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2352,9 +2352,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2396,9 +2396,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2481,9 +2481,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2571,9 +2571,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2615,9 +2615,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2659,9 +2659,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2703,9 +2703,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2747,9 +2747,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2791,9 +2791,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2835,9 +2835,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2879,9 +2879,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2923,9 +2923,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2967,9 +2967,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3011,9 +3011,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3055,9 +3055,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3099,9 +3099,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3143,9 +3143,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3187,9 +3187,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3231,9 +3231,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3275,9 +3275,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3319,9 +3319,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3363,9 +3363,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3407,9 +3407,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3451,9 +3451,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3541,9 +3541,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3585,9 +3585,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3629,9 +3629,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3673,9 +3673,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3717,9 +3717,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3761,9 +3761,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3805,9 +3805,9 @@
           "image": { "tileId": 0, "characterName": "!$meatdemon2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is the fog so dense in this valley? "] },
-            { "code": 401, "indent": 0, "parameters": ["What about interuniversal law, if that is even a thing yet,"] },
-            { "code": 401, "indent": 0, "parameters": ["because if it isn't then I am going to patent it."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему туман в этой долине такой густой? "] },
+            { "code": 401, "indent": 0, "parameters": ["Что насчёт межвселенского закона, если он вообще уже есть,"] },
+            { "code": 401, "indent": 0, "parameters": ["потому что если нет, я собираюсь его запатентовать."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
