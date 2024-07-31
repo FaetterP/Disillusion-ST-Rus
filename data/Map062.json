@@ -916,10 +916,10 @@
             { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
             { "code": 250, "indent": 0, "parameters": [{ "name": "avoice10", "volume": 75, "pitch": 60, "pan": 0 }] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["they say dogs are the blue collared mans best friend, \\. "] },
-            { "code": 401, "indent": 0, "parameters": ["yet poodles get some sorta' stigma like they ain't cool."] },
+            { "code": 401, "indent": 0, "parameters": ["Они говорят, что собаки - лучшие друзья людей в синих ошейниках. \\. "] },
+            { "code": 401, "indent": 0, "parameters": ["Но на пуделях поставили своего рода клеймо, будто они не крутые."] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["I think they are cool, bastards don't even shed."] },
+            { "code": 401, "indent": 0, "parameters": ["Я думаю, они крутые. Эти ублюдки даже не линяют."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
