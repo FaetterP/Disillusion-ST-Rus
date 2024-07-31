@@ -562,7 +562,7 @@
           },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["The door is locked."] },
+            { "code": 401, "indent": 0, "parameters": ["Дверь заперта."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -3162,75 +3162,75 @@
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["behind me lies a dangerous foe! \\.not to worry though, \\."]
+              "parameters": ["Позади меня скрывается опасный враг! \\.Не беспокойся, \\."]
             },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["These foes will only move and act in rhythm with you."]
+              "parameters": ["эти враги будут двигаться и действовать только в ритм с тобой."]
             },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["If you take a step, \\.so will the foe. Consider your "]
+              "parameters": ["Если ты сделаешь шаг, \\.враг сделает тоже. Расценивай свои "]
             },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["movements an exchange of turns!"]
-            },
-            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["You may also meet others who will provide you with "]
-            },
-            { "code": 401, "indent": 0, "parameters": ["helpful bells."] },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["ringing these will call forth the memory of said friend,"]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\\.aiding you in combat. \\.They lie within your inventory."]
+              "parameters": ["движения как обмен ходами!"]
             },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Lastly, \"F\" key is a light attack, \\. \"G\" key is a"]
+              "parameters": ["Ты также можешь встретить других, которые предоставят "]
+            },
+            { "code": 401, "indent": 0, "parameters": ["тебе полезные колокольчики."] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": ["Звонок которых пробудит память о названном друге"]
             },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["heavy attack. These only work if an enemy is next to you. "]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\"I\" will open your inventory, \\. and please don't forget, \\."]
-            },
-            {
-              "code": 401,
-              "indent": 0,
-              "parameters": ["\"TAB\" is your back button."]
+              "parameters": ["\\.помогая тебе в бою. \\.Они находятся в твоём инвентаре."]
             },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["<i> obtained Sal's aid. "]
+              "parameters": ["Наконец, клавиша \"F\" - это лёгкая атака, \\. клавиша \"G\" - "]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": ["тяжёлая атака. Эти атаки работают, только если враг рядом с тобой."]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": ["\"I\" откроет твой инвентарь, \\. и, пожалуйста, не забывай, \\."]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": ["\"TAB\" - это кнопка возврата."]
+            },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": ["<i> Получил помощь Сала."]
             },
             { "code": 126, "indent": 0, "parameters": [80, 0, 0, 1] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             {
               "code": 401,
               "indent": 0,
-              "parameters": ["Why don't you try usin' my aid? \\.It's like casting "]
+              "parameters": ["Почему бы тебе не попробовать использовать мою помощь? \\. "]
             },
-            { "code": 401, "indent": 0, "parameters": ["a powerful spell!"] },
+            { "code": 401, "indent": 0, "parameters": ["Это как наложение мощного заклинания!"] },
             { "code": 221, "indent": 0, "parameters": [] },
             { "code": 214, "indent": 0, "parameters": [] },
             { "code": 222, "indent": 0, "parameters": [] },
