@@ -1,16 +1,16 @@
 {
-  "autoplayBgm": false,
+  "autoplayBgm": true,
   "autoplayBgs": false,
   "battleback1Name": "",
   "battleback2Name": "",
-  "bgm": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
+  "bgm": { "name": "metaslendro", "pan": 0, "pitch": 100, "volume": 90 },
   "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "disableDashing": false,
   "displayName": "",
   "encounterList": [],
   "encounterStep": 30,
   "height": 13,
-  "note": "<mz3d>\nedge(true)\nceiling(A4,0,0|backface:false)\n</mz3d>",
+  "note": "<mz3d>\nlight(white)\nedge(clamp)\nfog(black|1,11)\nedge(true)\nceiling(A4,0,0|backface:false)\n</mz3d>",
   "parallaxLoopX": false,
   "parallaxLoopY": false,
   "parallaxName": "",
@@ -54,11 +54,11 @@
     0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5,
     0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 5, 0,
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 9, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0,
+    0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
   ],
   "events": [
     null,
@@ -277,14 +277,14 @@
     },
     {
       "id": 5,
-      "name": "pirate",
-      "note": "<mv3d:scale(0.2)shape(board)>",
+      "name": "Flash Light.",
+      "note": "",
       "pages": [
         {
           "conditions": {
             "actorId": 1,
             "actorValid": false,
-            "itemId": 1,
+            "itemId": 4,
             "itemValid": false,
             "selfSwitchCh": "A",
             "selfSwitchValid": false,
@@ -296,42 +296,59 @@
             "variableValid": false,
             "variableValue": 0
           },
-          "directionFix": true,
-          "image": { "tileId": 0, "characterName": "!$breadmen12", "direction": 2, "pattern": 1, "characterIndex": 0 },
+          "directionFix": false,
+          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
           "list": [
             {
               "code": 357,
               "indent": 0,
               "parameters": [
-                "VisuMZ_1_MessageCore",
-                "MessageWindowProperties",
-                "Message: Properties",
-                { "Rows:num": "2", "Width:num": "816", "WordWrap:str": "No Change" }
+                "mz3d",
+                "flashlight",
+                "Flashlight",
+                {
+                  "target": "player",
+                  "color": "white",
+                  "intensity": "3.000",
+                  "dist": "10.000",
+                  "angle": "180",
+                  "yaw": "0",
+                  "pitch": "0",
+                  "time": "1",
+                  "shadow": "true"
+                }
               ]
             },
-            { "code": 657, "indent": 0, "parameters": ["Rows = 2"] },
-            { "code": 657, "indent": 0, "parameters": ["Width = 816"] },
-            { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
+            { "code": 657, "indent": 0, "parameters": ["Target = player"] },
+            { "code": 657, "indent": 0, "parameters": ["Color = white"] },
+            { "code": 657, "indent": 0, "parameters": ["Intensity = 3.000"] },
+            { "code": 657, "indent": 0, "parameters": ["Distance = 10.000"] },
+            { "code": 657, "indent": 0, "parameters": ["Beam Width = 180"] },
+            { "code": 657, "indent": 0, "parameters": ["Yaw = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Pitch = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Time = 1"] },
+            { "code": 657, "indent": 0, "parameters": ["Casts Shadows = true"] },
+            { "code": 214, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
           "moveSpeed": 3,
           "moveType": 0,
-          "priorityType": 1,
+          "priorityType": 0,
           "stepAnime": false,
           "through": false,
-          "trigger": 0,
-          "walkAnime": false
+          "trigger": 3,
+          "walkAnime": true
         }
       ],
-      "x": 15,
-      "y": 4
+      "x": 8,
+      "y": 12
     },
     {
       "id": 6,
-      "name": "pirate",
-      "note": "<mv3d:scale(0.2)shape(board)>",
+      "name": "Door placer",
+      "note": "",
       "pages": [
         {
           "conditions": {
@@ -345,41 +362,51 @@
             "switch1Valid": false,
             "switch2Id": 1,
             "switch2Valid": false,
-            "variableId": 1,
+            "variableId": 15,
             "variableValid": false,
-            "variableValue": 0
+            "variableValue": 1
           },
-          "directionFix": true,
-          "image": { "tileId": 0, "characterName": "!$breadmen12", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "directionFix": false,
+          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
           "list": [
+            { "code": 108, "indent": 0, "parameters": ["use this to spawns doors (floor must have a region 9)"] },
             {
               "code": 357,
               "indent": 0,
               "parameters": [
-                "VisuMZ_1_MessageCore",
-                "MessageWindowProperties",
-                "Message: Properties",
-                { "Rows:num": "2", "Width:num": "816", "WordWrap:str": "No Change" }
+                "GALV_EventSpawnerMZ",
+                "spawnEvent",
+                "Spawn Event",
+                {
+                  "eventId": "013",
+                  "locationType": "regions",
+                  "locationData": "9",
+                  "overlapType": "terrain",
+                  "saveEvent": "false"
+                }
               ]
             },
-            { "code": 657, "indent": 0, "parameters": ["Rows = 2"] },
-            { "code": 657, "indent": 0, "parameters": ["Width = 816"] },
-            { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
+            { "code": 657, "indent": 0, "parameters": ["Event ID = 013"] },
+            { "code": 657, "indent": 0, "parameters": ["Spawn Location Type = regions"] },
+            { "code": 657, "indent": 0, "parameters": ["Location Data = 9"] },
+            { "code": 657, "indent": 0, "parameters": ["Spawn Overlap Type = terrain"] },
+            { "code": 657, "indent": 0, "parameters": ["Save Event = false"] },
+            { "code": 214, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
           "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
           "moveSpeed": 3,
           "moveType": 0,
-          "priorityType": 1,
+          "priorityType": 0,
           "stepAnime": false,
           "through": false,
-          "trigger": 0,
-          "walkAnime": false
+          "trigger": 3,
+          "walkAnime": true
         }
       ],
-      "x": 11,
-      "y": 4
+      "x": 5,
+      "y": 12
     },
     {
       "id": 7,
@@ -459,262 +486,8 @@
     },
     {
       "id": 9,
-      "name": "pirate",
-      "note": "<mv3d:scale(0.2)shape(board)>",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": true,
-          "image": { "tileId": 0, "characterName": "!$women", "direction": 2, "pattern": 0, "characterIndex": 0 },
-          "list": [
-            {
-              "code": 357,
-              "indent": 0,
-              "parameters": [
-                "VisuMZ_1_MessageCore",
-                "MessageWindowProperties",
-                "Message: Properties",
-                { "Rows:num": "2", "Width:num": "816", "WordWrap:str": "No Change" }
-              ]
-            },
-            { "code": 657, "indent": 0, "parameters": ["Rows = 2"] },
-            { "code": 657, "indent": 0, "parameters": ["Width = 816"] },
-            { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
-            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Yes? You look like a wet piece of paper. "] },
-            { "code": 102, "indent": 0, "parameters": [["What?"], 1, 0, 2, 0] },
-            { "code": 402, "indent": 0, "parameters": [0, "What?"] },
-            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["I am saying you are weak! Don't worry though, I can help."] },
-            { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["I am something of an expert when it comes to developing "] },
-            { "code": 401, "indent": 1, "parameters": ["talent. If you have the dust, I will convert it to meals "] },
-            { "code": 401, "indent": 1, "parameters": ["for you to grow stronger. It is important to develop "] },
-            { "code": 401, "indent": 1, "parameters": ["your abilities so do visit me often, okay? "] },
-            { "code": 122, "indent": 1, "parameters": [21, 21, 0, 0, 1] },
-            { "code": 0, "indent": 1, "parameters": [] },
-            { "code": 404, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": false
-        },
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": true,
-          "image": { "tileId": 0, "characterName": "!$women", "direction": 2, "pattern": 0, "characterIndex": 0 },
-          "list": [
-            {
-              "code": 357,
-              "indent": 0,
-              "parameters": [
-                "VisuMZ_1_MessageCore",
-                "MessageWindowProperties",
-                "Message: Properties",
-                { "Rows:num": "2", "Width:num": "816", "WordWrap:str": "No Change" }
-              ]
-            },
-            { "code": 657, "indent": 0, "parameters": ["Rows = 2"] },
-            { "code": 657, "indent": 0, "parameters": ["Width = 816"] },
-            { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
-            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Hello, Golem."] },
-            { "code": 102, "indent": 0, "parameters": [["Buy stats", "Talk"], 1, 0, 2, 0] },
-            { "code": 402, "indent": 0, "parameters": [0, "Buy stats"] },
-            { "code": 302, "indent": 1, "parameters": [0, 23, 0, 0, true] },
-            { "code": 605, "indent": 1, "parameters": [0, 24, 0, 0] },
-            { "code": 605, "indent": 1, "parameters": [0, 25, 0, 0] },
-            { "code": 605, "indent": 1, "parameters": [0, 26, 0, 0] },
-            { "code": 605, "indent": 1, "parameters": [0, 27, 0, 0] },
-            { "code": 605, "indent": 1, "parameters": [0, 28, 0, 0] },
-            { "code": 605, "indent": 1, "parameters": [0, 29, 0, 0] },
-            { "code": 605, "indent": 1, "parameters": [0, 30, 0, 0] },
-            { "code": 0, "indent": 1, "parameters": [] },
-            { "code": 402, "indent": 0, "parameters": [1, "Talk"] },
-            { "code": 102, "indent": 1, "parameters": [["who are you?", "what is this place?"], 1, 0, 2, 0] },
-            { "code": 402, "indent": 1, "parameters": [0, "who are you?"] },
-            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 2, "parameters": ["I'm something of a care taker for the weak, that's all."] },
-            { "code": 401, "indent": 2, "parameters": ["Lot's of folks come to see me as this is once of the "] },
-            { "code": 401, "indent": 2, "parameters": ["safest places to stay this side of the realm."] },
-            { "code": 0, "indent": 2, "parameters": [] },
-            { "code": 402, "indent": 1, "parameters": [1, "what is this place?"] },
-            { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 2, "parameters": ["This is my home, nothing special but you are welcome to "] },
-            { "code": 401, "indent": 2, "parameters": ["stay here long as you like. "] },
-            { "code": 0, "indent": 2, "parameters": [] },
-            { "code": 404, "indent": 1, "parameters": [] },
-            { "code": 0, "indent": 1, "parameters": [] },
-            { "code": 404, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": false
-        }
-      ],
-      "x": 12,
-      "y": 5
-    },
-    {
-      "id": 10,
-      "name": "pirate",
-      "note": "<mv3d:scale(0.2)shape(board)>",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": true,
-          "image": { "tileId": 0, "characterName": "!$women", "direction": 2, "pattern": 1, "characterIndex": 0 },
-          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": false
-        }
-      ],
-      "x": 15,
-      "y": 3
-    },
-    {
-      "id": 11,
-      "name": "pirate",
-      "note": "<mv3d:scale(0.2)shape(board)>",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": true,
-          "image": { "tileId": 0, "characterName": "!$women", "direction": 2, "pattern": 1, "characterIndex": 0 },
-          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": false
-        }
-      ],
-      "x": 11,
-      "y": 2
-    },
-    {
-      "id": 12,
-      "name": "pirate",
-      "note": "<mv3d:scale(0.2)shape(board)>",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": true,
-          "image": { "tileId": 0, "characterName": "!$women", "direction": 2, "pattern": 1, "characterIndex": 0 },
-          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": false
-        }
-      ],
-      "x": 14,
-      "y": 1
-    },
-    {
-      "id": 13,
-      "name": "fridge",
-      "note": "<mv3d:model(dinner.obj)scale(1)yaw(90)>",
+      "name": "event common caller",
+      "note": "",
       "pages": [
         {
           "conditions": {
@@ -733,22 +506,189 @@
             "variableValue": 0
           },
           "directionFix": false,
-          "image": { "tileId": 0, "characterName": "!$mazeocean", "direction": 4, "pattern": 1, "characterIndex": 0 },
-          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
+          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
+          "list": [
+            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 214, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
           "moveFrequency": 3,
           "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
           "moveSpeed": 3,
           "moveType": 0,
-          "priorityType": 1,
+          "priorityType": 0,
           "stepAnime": false,
           "through": false,
-          "trigger": 1,
-          "walkAnime": false
+          "trigger": 4,
+          "walkAnime": true
         }
       ],
-      "x": 13,
-      "y": 7
+      "x": 12,
+      "y": 12
     },
+    {
+      "id": 10,
+      "name": "item menu",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
+          "list": [
+            { "code": 111, "indent": 0, "parameters": [11, "shift", 1] },
+            { "code": 121, "indent": 1, "parameters": [2, 2, 0] },
+            {
+              "code": 205,
+              "indent": 1,
+              "parameters": [-1, { "list": [{ "code": 0 }], "repeat": true, "skippable": false, "wait": false }]
+            },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 231, "indent": 1, "parameters": [50, "Itemmenu", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 222, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 39] },
+            { "code": 231, "indent": 2, "parameters": [97, "a1menu", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 40] },
+            { "code": 231, "indent": 2, "parameters": [96, "a2menu", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 41] },
+            { "code": 231, "indent": 2, "parameters": [95, "a3menu", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 42] },
+            { "code": 231, "indent": 2, "parameters": [94, "a4menu", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 43] },
+            { "code": 231, "indent": 2, "parameters": [93, "a5menu", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 44] },
+            { "code": 231, "indent": 2, "parameters": [92, "a6menu", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 45] },
+            { "code": 231, "indent": 2, "parameters": [91, "a7menu", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 46] },
+            { "code": 231, "indent": 2, "parameters": [90, "a8menu", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 47] },
+            { "code": 231, "indent": 2, "parameters": [89, "amenu9", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 48] },
+            { "code": 231, "indent": 2, "parameters": [88, "amenu10", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 49] },
+            { "code": 231, "indent": 2, "parameters": [87, "amenu11", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 50] },
+            { "code": 231, "indent": 2, "parameters": [86, "amenu12", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 51] },
+            { "code": 231, "indent": 2, "parameters": [85, "amenu13", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 52] },
+            { "code": 231, "indent": 2, "parameters": [84, "amenu14", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 53] },
+            { "code": 231, "indent": 2, "parameters": [83, "amenu15", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 54] },
+            { "code": 231, "indent": 2, "parameters": [82, "amenu16", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 55] },
+            { "code": 231, "indent": 2, "parameters": [81, "amenu17", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 111, "indent": 1, "parameters": [8, 56] },
+            { "code": 231, "indent": 2, "parameters": [80, "amenu18", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 111, "indent": 0, "parameters": [0, 2, 0] },
+            { "code": 111, "indent": 1, "parameters": [11, "cancel", 1] },
+            {
+              "code": 205,
+              "indent": 2,
+              "parameters": [-1, { "list": [{ "code": 0 }], "repeat": false, "skippable": false, "wait": false }]
+            },
+            { "code": 121, "indent": 2, "parameters": [2, 2, 1] },
+            { "code": 221, "indent": 2, "parameters": [] },
+            { "code": 235, "indent": 2, "parameters": [50] },
+            { "code": 235, "indent": 2, "parameters": [97] },
+            { "code": 235, "indent": 2, "parameters": [96] },
+            { "code": 235, "indent": 2, "parameters": [95] },
+            { "code": 235, "indent": 2, "parameters": [94] },
+            { "code": 235, "indent": 2, "parameters": [93] },
+            { "code": 235, "indent": 2, "parameters": [92] },
+            { "code": 235, "indent": 2, "parameters": [91] },
+            { "code": 235, "indent": 2, "parameters": [90] },
+            { "code": 235, "indent": 2, "parameters": [89] },
+            { "code": 235, "indent": 2, "parameters": [88] },
+            { "code": 235, "indent": 2, "parameters": [87] },
+            { "code": 235, "indent": 2, "parameters": [86] },
+            { "code": 235, "indent": 2, "parameters": [85] },
+            { "code": 235, "indent": 2, "parameters": [84] },
+            { "code": 235, "indent": 2, "parameters": [83] },
+            { "code": 235, "indent": 2, "parameters": [82] },
+            { "code": 235, "indent": 2, "parameters": [81] },
+            { "code": 235, "indent": 2, "parameters": [80] },
+            { "code": 222, "indent": 2, "parameters": [] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 412, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 14,
+      "y": 12
+    },
+    null,
+    null,
+    null,
     {
       "id": 14,
       "name": "filter 1 on",
@@ -790,118 +730,8 @@
       "x": 3,
       "y": 12
     },
-    {
-      "id": 15,
-      "name": "EV015",
-      "note": "<mv3d:scale(0.2)shape(board)lamp(white,5,10)>",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": true,
-          "image": { "tileId": 0, "characterName": "!$breadmen8", "direction": 2, "pattern": 1, "characterIndex": 0 },
-          "list": [
-            {
-              "code": 357,
-              "indent": 0,
-              "parameters": [
-                "VisuMZ_1_MessageCore",
-                "MessageWindowProperties",
-                "Message: Properties",
-                { "Rows:num": "2", "Width:num": "816", "WordWrap:str": "No Change" }
-              ]
-            },
-            { "code": 657, "indent": 0, "parameters": ["Rows = 2"] },
-            { "code": 657, "indent": 0, "parameters": ["Width = 816"] },
-            { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
-            { "code": 250, "indent": 0, "parameters": [{ "name": "avoice13", "volume": 75, "pitch": 80, "pan": 0 }] },
-            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["ready to leave? Alrighty."] },
-            { "code": 201, "indent": 0, "parameters": [0, 17, 53, 15, 0, 0] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": false
-        }
-      ],
-      "x": 7,
-      "y": 6
-    },
-    {
-      "id": 16,
-      "name": "pirate",
-      "note": "<mv3d:scale(0.2)shape(board)>",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": true,
-          "image": { "tileId": 0, "characterName": "!$breadmen4", "direction": 2, "pattern": 0, "characterIndex": 0 },
-          "list": [
-            {
-              "code": 357,
-              "indent": 0,
-              "parameters": [
-                "VisuMZ_1_MessageCore",
-                "MessageWindowProperties",
-                "Message: Properties",
-                { "Rows:num": "2", "Width:num": "816", "WordWrap:str": "No Change" }
-              ]
-            },
-            { "code": 657, "indent": 0, "parameters": ["Rows = 2"] },
-            { "code": 657, "indent": 0, "parameters": ["Width = 816"] },
-            { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
-            { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Yo. add me on bitblox, my user is alwaysBloxxin"] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": false
-        }
-      ],
-      "x": 10,
-      "y": 7
-    },
+    null,
+    null,
     null,
     null,
     null,

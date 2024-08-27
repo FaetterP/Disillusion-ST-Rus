@@ -1004,51 +1004,7 @@
       "x": 38,
       "y": 33
     },
-    {
-      "id": 16,
-      "name": "item chest",
-      "note": "<mv3d:model(tiny_medieval_chest.obj)scale(0.5)>",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": true,
-          "image": { "tileId": 0, "characterName": "!$1ANIME", "direction": 4, "pattern": 2, "characterIndex": 0 },
-          "list": [
-            { "code": 357, "indent": 0, "parameters": ["KoTC Advanced Minimap", "DisableKoTCMinimap", "Disable Minimap", {}] },
-            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> a small chest for managing items you've found."] },
-            { "code": 355, "indent": 0, "parameters": ["SceneManager.push(Scene_Item)"] },
-            { "code": 357, "indent": 0, "parameters": ["KoTC Advanced Minimap", "EnableKoTCMinimap", "Enable Minimap", {}] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 1,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 0,
-          "walkAnime": true
-        }
-      ],
-      "x": 18,
-      "y": 3
-    },
+    null,
     {
       "id": 17,
       "name": "steps",

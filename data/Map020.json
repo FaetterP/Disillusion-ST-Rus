@@ -267,6 +267,7 @@
             { "code": 355, "indent": 1, "parameters": ["Isiah.TBM.setMoveFree(false)"] },
             { "code": 121, "indent": 1, "parameters": [27, 27, 0] },
             { "code": 126, "indent": 1, "parameters": [68, 0, 0, 1] },
+            { "code": 126, "indent": 1, "parameters": [96, 0, 0, 1] },
             { "code": 121, "indent": 1, "parameters": [14, 14, 0] },
             { "code": 121, "indent": 1, "parameters": [15, 15, 1] },
             { "code": 121, "indent": 1, "parameters": [16, 16, 1] },

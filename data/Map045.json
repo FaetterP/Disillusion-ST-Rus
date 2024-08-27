@@ -63,6 +63,7 @@
           "directionFix": false,
           "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
           "list": [
+            { "code": 121, "indent": 0, "parameters": [29, 29, 1] },
             {
               "code": 241,
               "indent": 0,

@@ -1141,7 +1141,10 @@
           },
           "directionFix": true,
           "image": { "tileId": 0, "characterName": "!$couch", "direction": 2, "pattern": 1, "characterIndex": 0 },
-          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
+          "list": [
+            { "code": 357, "indent": 0, "parameters": ["MapFilter", "toggleMapFilter4", "Toggle Map Filter 4", {}] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
           "moveFrequency": 3,
           "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
           "moveSpeed": 3,

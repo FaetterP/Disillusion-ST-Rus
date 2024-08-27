@@ -1,0 +1,215 @@
+{
+  "autoplayBgm": true,
+  "autoplayBgs": false,
+  "battleback1Name": "",
+  "battleback2Name": "",
+  "bgm": { "name": "Dancing_with_glass", "pan": 0, "pitch": 80, "volume": 80 },
+  "bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
+  "disableDashing": false,
+  "displayName": "",
+  "encounterList": [],
+  "encounterStep": 30,
+  "height": 8,
+  "note": "",
+  "parallaxLoopX": false,
+  "parallaxLoopY": false,
+  "parallaxName": "room",
+  "parallaxShow": true,
+  "parallaxSx": 0,
+  "parallaxSy": 0,
+  "scrollType": 0,
+  "specifyBattleback": false,
+  "tilesetId": 1,
+  "width": 11,
+  "data": [
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+  ],
+  "events": [
+    null,
+    null,
+    {
+      "id": 2,
+      "name": "EV002",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
+          "list": [
+            { "code": 121, "indent": 0, "parameters": [29, 29, 1] },
+            { "code": 117, "indent": 0, "parameters": [40] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 231, "indent": 0, "parameters": [1, "room1", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 231, "indent": 0, "parameters": [2, "room2", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 231, "indent": 0, "parameters": [3, "room3", 0, 0, 0, 0, 100, 100, 255, 0] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "Mimosa_MouseCursorPlus",
+                "set_picture_cursor",
+                "Set Picture Cursor Image",
+                { "picture_id": "1", "cursor_name": "look" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Picture ID = 1"] },
+            { "code": 657, "indent": 0, "parameters": ["Cursor Name = look"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "Mimosa_MouseCursorPlus",
+                "set_picture_cursor",
+                "Set Picture Cursor Image",
+                { "picture_id": "2", "cursor_name": "look" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Picture ID = 2"] },
+            { "code": 657, "indent": 0, "parameters": ["Cursor Name = look"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "Mimosa_MouseCursorPlus",
+                "set_picture_cursor",
+                "Set Picture Cursor Image",
+                { "picture_id": "3", "cursor_name": "look" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Picture ID = 3"] },
+            { "code": 657, "indent": 0, "parameters": ["Cursor Name = look"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "VisuMZ_4_PictureCmnEvts",
+                "ChangePictureCommonEvent",
+                "System: Change Picture Common Event",
+                {
+                  "PictureIDs:arraynum": "[\"1\"]",
+                  "CommonEventID:num": "146",
+                  "Custom": "",
+                  "UseGlobal:eval": "true",
+                  "OpaqueOnly:eval": "true",
+                  "OpaqueErrorMargin:num": "5",
+                  "ChangeTone:eval": "false",
+                  "HoverTone:eval": "[0, 0, 0, 0]",
+                  "BlendMode:num": "0"
+                }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Picture ID(s) = [\"1\"]"] },
+            { "code": 657, "indent": 0, "parameters": ["Common Event ID = 146"] },
+            { "code": 657, "indent": 0, "parameters": ["Custom = "] },
+            { "code": 657, "indent": 0, "parameters": ["Use Global? = true"] },
+            { "code": 657, "indent": 0, "parameters": ["Opaque Only? = true"] },
+            { "code": 657, "indent": 0, "parameters": ["Error Margin = 5"] },
+            { "code": 657, "indent": 0, "parameters": ["Change Tone on Hover? = false"] },
+            { "code": 657, "indent": 0, "parameters": ["Hover Tone = [0, 0, 0, 0]"] },
+            { "code": 657, "indent": 0, "parameters": ["Blend Mode on Hover = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "VisuMZ_4_PictureCmnEvts",
+                "ChangePictureCommonEvent",
+                "System: Change Picture Common Event",
+                {
+                  "PictureIDs:arraynum": "[\"2\"]",
+                  "CommonEventID:num": "147",
+                  "Custom": "",
+                  "UseGlobal:eval": "true",
+                  "OpaqueOnly:eval": "true",
+                  "OpaqueErrorMargin:num": "5",
+                  "ChangeTone:eval": "false",
+                  "HoverTone:eval": "[0, 0, 0, 0]",
+                  "BlendMode:num": "0"
+                }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Picture ID(s) = [\"2\"]"] },
+            { "code": 657, "indent": 0, "parameters": ["Common Event ID = 147"] },
+            { "code": 657, "indent": 0, "parameters": ["Custom = "] },
+            { "code": 657, "indent": 0, "parameters": ["Use Global? = true"] },
+            { "code": 657, "indent": 0, "parameters": ["Opaque Only? = true"] },
+            { "code": 657, "indent": 0, "parameters": ["Error Margin = 5"] },
+            { "code": 657, "indent": 0, "parameters": ["Change Tone on Hover? = false"] },
+            { "code": 657, "indent": 0, "parameters": ["Hover Tone = [0, 0, 0, 0]"] },
+            { "code": 657, "indent": 0, "parameters": ["Blend Mode on Hover = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "VisuMZ_4_PictureCmnEvts",
+                "ChangePictureCommonEvent",
+                "System: Change Picture Common Event",
+                {
+                  "PictureIDs:arraynum": "[\"3\"]",
+                  "CommonEventID:num": "148",
+                  "Custom": "",
+                  "UseGlobal:eval": "true",
+                  "OpaqueOnly:eval": "true",
+                  "OpaqueErrorMargin:num": "5",
+                  "ChangeTone:eval": "false",
+                  "HoverTone:eval": "[0, 0, 0, 0]",
+                  "BlendMode:num": "0"
+                }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Picture ID(s) = [\"3\"]"] },
+            { "code": 657, "indent": 0, "parameters": ["Common Event ID = 148"] },
+            { "code": 657, "indent": 0, "parameters": ["Custom = "] },
+            { "code": 657, "indent": 0, "parameters": ["Use Global? = true"] },
+            { "code": 657, "indent": 0, "parameters": ["Opaque Only? = true"] },
+            { "code": 657, "indent": 0, "parameters": ["Error Margin = 5"] },
+            { "code": 657, "indent": 0, "parameters": ["Change Tone on Hover? = false"] },
+            { "code": 657, "indent": 0, "parameters": ["Hover Tone = [0, 0, 0, 0]"] },
+            { "code": 657, "indent": 0, "parameters": ["Blend Mode on Hover = 0"] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 214, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 3,
+          "walkAnime": true
+        }
+      ],
+      "x": 1,
+      "y": 1
+    }
+  ]
+}

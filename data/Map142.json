@@ -331,7 +331,7 @@
             { "code": 231, "indent": 6, "parameters": [7, "love=20", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 0, "indent": 6, "parameters": [] },
             { "code": 411, "indent": 5, "parameters": [] },
-            { "code": 111, "indent": 6, "parameters": [1, 144, 0, 39, 2] },
+            { "code": 111, "indent": 6, "parameters": [1, 144, 0, 39, 1] },
             { "code": 231, "indent": 7, "parameters": [8, "love=30", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 0, "indent": 7, "parameters": [] },
             { "code": 411, "indent": 6, "parameters": [] },
