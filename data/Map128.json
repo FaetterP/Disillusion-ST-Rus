@@ -4763,7 +4763,7 @@
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["..."] },
             { "code": 401, "indent": 0, "parameters": [""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> Выглядит как изображение одного из "] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Похоже на картину с изображением одного из "] },
             { "code": 401, "indent": 0, "parameters": ["воспоминаний Мел. "] },
             { "code": 221, "indent": 0, "parameters": [] },
             { "code": 235, "indent": 0, "parameters": [1] },
