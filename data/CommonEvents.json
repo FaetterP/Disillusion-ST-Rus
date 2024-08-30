@@ -916,7 +916,7 @@
       { "code": 408, "indent": 0, "parameters": ["bottom right when clicking on an event. "] },
       { "code": 408, "indent": 0, "parameters": ["use region 9 to indicate where events may spawn"] },
       { "code": 108, "indent": 0, "parameters": ["please skip 13 (013) or a duplicate door will be added. "] },
-      { "code": 122, "indent": 0, "parameters": [30, 30, 0, 2, 1, 162] },
+      { "code": 122, "indent": 0, "parameters": [30, 30, 0, 2, 1, 164] },
       { "code": 111, "indent": 0, "parameters": [1, 30, 0, 1, 0] },
       {
         "code": 357,
@@ -3834,6 +3834,42 @@
       { "code": 657, "indent": 1, "parameters": ["Save Event = false"] },
       { "code": 0, "indent": 1, "parameters": [] },
       { "code": 412, "indent": 0, "parameters": [] },
+      { "code": 111, "indent": 0, "parameters": [1, 30, 0, 163, 0] },
+      {
+        "code": 357,
+        "indent": 1,
+        "parameters": [
+          "GALV_EventSpawnerMZ",
+          "spawnEvent",
+          "Spawn Event",
+          { "eventId": "175", "locationType": "regions", "locationData": "9", "overlapType": "none", "saveEvent": "false" }
+        ]
+      },
+      { "code": 657, "indent": 1, "parameters": ["Event ID = 175"] },
+      { "code": 657, "indent": 1, "parameters": ["Spawn Location Type = regions"] },
+      { "code": 657, "indent": 1, "parameters": ["Location Data = 9"] },
+      { "code": 657, "indent": 1, "parameters": ["Spawn Overlap Type = none"] },
+      { "code": 657, "indent": 1, "parameters": ["Save Event = false"] },
+      { "code": 0, "indent": 1, "parameters": [] },
+      { "code": 412, "indent": 0, "parameters": [] },
+      { "code": 111, "indent": 0, "parameters": [1, 30, 0, 164, 0] },
+      {
+        "code": 357,
+        "indent": 1,
+        "parameters": [
+          "GALV_EventSpawnerMZ",
+          "spawnEvent",
+          "Spawn Event",
+          { "eventId": "176", "locationType": "regions", "locationData": "9", "overlapType": "none", "saveEvent": "false" }
+        ]
+      },
+      { "code": 657, "indent": 1, "parameters": ["Event ID = 176"] },
+      { "code": 657, "indent": 1, "parameters": ["Spawn Location Type = regions"] },
+      { "code": 657, "indent": 1, "parameters": ["Location Data = 9"] },
+      { "code": 657, "indent": 1, "parameters": ["Spawn Overlap Type = none"] },
+      { "code": 657, "indent": 1, "parameters": ["Save Event = false"] },
+      { "code": 0, "indent": 1, "parameters": [] },
+      { "code": 412, "indent": 0, "parameters": [] },
       { "code": 115, "indent": 0, "parameters": [] },
       { "code": 0, "indent": 0, "parameters": [] }
     ],
@@ -4295,6 +4331,7 @@
     "id": 38,
     "list": [
       { "code": 221, "indent": 0, "parameters": [] },
+      { "code": 122, "indent": 0, "parameters": [275, 275, 0, 0, 1] },
       { "code": 121, "indent": 0, "parameters": [29, 29, 0] },
       { "code": 355, "indent": 0, "parameters": ["Isiah.TBM.setMoveFree(true)"] },
       { "code": 117, "indent": 0, "parameters": [94] },

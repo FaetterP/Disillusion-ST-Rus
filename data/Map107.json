@@ -838,7 +838,1310 @@
       "x": 3,
       "y": 36
     },
-    null,
+    {
+      "id": 6,
+      "name": "a",
+      "note": "<mv3d:scale(0.25)shape(board)>",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": { "tileId": 0, "characterName": "!$dweeb", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 236, "indent": 0, "parameters": ["none", 5, 60, false] },
+            { "code": 223, "indent": 0, "parameters": [[0, 0, 0, 0], 60, false] },
+            { "code": 201, "indent": 0, "parameters": [0, 73, 1, 6, 0, 0] },
+            { "code": 241, "indent": 0, "parameters": [{ "name": "goof world", "volume": 75, "pitch": 100, "pan": 0 }] },
+            { "code": 121, "indent": 0, "parameters": [3, 3, 1] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "newshroom", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = newshroom"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "newshroom", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = newshroom"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "newshroom", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = newshroom"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["you know it's okay to feel lost! \\.There's no rush"] },
+            { "code": 401, "indent": 0, "parameters": ["after all! "] },
+            { "code": 401, "indent": 0, "parameters": ["Sometimes forgetting a goal and just taking in the "] },
+            { "code": 401, "indent": 0, "parameters": ["moment is all that's needed.  "] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Sometimes, \\. I get up and go for a stroll. \\. stretch "] },
+            { "code": 401, "indent": 0, "parameters": ["my ol legs a bit. "] },
+            { "code": 401, "indent": 0, "parameters": ["Aimless wandering through random halls without "] },
+            { "code": 401, "indent": 0, "parameters": ["worry..."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["you do worry though, \\. don't you? "] },
+            { "code": 401, "indent": 0, "parameters": ["You must be marked for bad luck or somethin!"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "newshroom", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = newshroom"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 357, "indent": 0, "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "newshroom" }] },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = newshroom"] },
+            { "code": 117, "indent": 0, "parameters": [38] },
+            { "code": 122, "indent": 0, "parameters": [225, 225, 0, 0, 1] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 225,
+            "variableValid": true,
+            "variableValue": 1
+          },
+          "directionFix": true,
+          "image": { "tileId": 0, "characterName": "!$dweeb", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 236, "indent": 0, "parameters": ["none", 5, 60, false] },
+            { "code": 223, "indent": 0, "parameters": [[0, 0, 0, 0], 60, false] },
+            { "code": 201, "indent": 0, "parameters": [0, 73, 1, 6, 0, 0] },
+            { "code": 241, "indent": 0, "parameters": [{ "name": "goof world", "volume": 75, "pitch": 100, "pan": 0 }] },
+            { "code": 121, "indent": 0, "parameters": [3, 3, 1] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "newshroom", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = newshroom"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "newshroom", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = newshroom"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "newshroom", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = newshroom"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Are you still nervous? \\.are you worried "] },
+            { "code": 401, "indent": 0, "parameters": ["about tomorrow? \\.are you worried about today?"] },
+            { "code": 401, "indent": 0, "parameters": ["What about yesterday? \\.Go for a walk and clear "] },
+            { "code": 401, "indent": 0, "parameters": ["your mind. "] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "newshroom", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = newshroom"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 357, "indent": 0, "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "newshroom" }] },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = newshroom"] },
+            { "code": 117, "indent": 0, "parameters": [38] },
+            { "code": 122, "indent": 0, "parameters": [225, 225, 0, 0, 2] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 225,
+            "variableValid": true,
+            "variableValue": 2
+          },
+          "directionFix": true,
+          "image": { "tileId": 0, "characterName": "!$dweeb", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 122, "indent": 0, "parameters": [225, 225, 0, 0, 3] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["If you've a card box we could at least take our minds"] },
+            { "code": 401, "indent": 0, "parameters": ["off things!"] },
+            { "code": 111, "indent": 0, "parameters": [8, 67] },
+            { "code": 102, "indent": 1, "parameters": [["Yes", "No"], 1, 0, 2, 1] },
+            { "code": 402, "indent": 1, "parameters": [0, "Yes"] },
+            { "code": 221, "indent": 2, "parameters": [] },
+            { "code": 357, "indent": 2, "parameters": ["tripleTriad", "Start Duel", "Start Duel", { "enemyId": "24" }] },
+            { "code": 657, "indent": 2, "parameters": ["enemyId = 24"] },
+            { "code": 121, "indent": 2, "parameters": [3, 3, 1] },
+            { "code": 117, "indent": 2, "parameters": [38] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 402, "indent": 1, "parameters": [1, "No"] },
+            { "code": 0, "indent": 2, "parameters": [] },
+            { "code": 404, "indent": 1, "parameters": [] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 411, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 1, "parameters": ["Oh wait... \\.you don't have any."] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 225,
+            "variableValid": true,
+            "variableValue": 3
+          },
+          "directionFix": true,
+          "image": { "tileId": 0, "characterName": "!$dweeb", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 236, "indent": 0, "parameters": ["none", 5, 60, false] },
+            { "code": 223, "indent": 0, "parameters": [[0, 0, 0, 0], 60, false] },
+            { "code": 201, "indent": 0, "parameters": [0, 73, 1, 6, 0, 0] },
+            { "code": 241, "indent": 0, "parameters": [{ "name": "goof world", "volume": 75, "pitch": 100, "pan": 0 }] },
+            { "code": 121, "indent": 0, "parameters": [3, 3, 1] },
+            { "code": 122, "indent": 0, "parameters": [225, 225, 0, 0, 4] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "barremaitake", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = barremaitake"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "barremaitake", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = barremaitake"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "barremaitake", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = barremaitake"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["....."] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "barremaitake", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = barremaitake"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "barremaitake" }]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = barremaitake"] },
+            { "code": 117, "indent": 0, "parameters": [38] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 225,
+            "variableValid": true,
+            "variableValue": 4
+          },
+          "directionFix": true,
+          "image": { "tileId": 0, "characterName": "$1stuffed", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 236, "indent": 0, "parameters": ["none", 5, 60, false] },
+            { "code": 223, "indent": 0, "parameters": [[0, 0, 0, 0], 60, false] },
+            { "code": 201, "indent": 0, "parameters": [0, 73, 1, 6, 0, 0] },
+            { "code": 241, "indent": 0, "parameters": [{ "name": "dark11", "volume": 75, "pitch": 100, "pan": 0 }] },
+            { "code": 121, "indent": 0, "parameters": [3, 3, 1] },
+            { "code": 122, "indent": 0, "parameters": [225, 225, 0, 0, 5] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "stuffreflec", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffreflec"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffreflec", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffreflec"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffreflec", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffreflec"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Why? "] },
+            { "code": 401, "indent": 0, "parameters": [""] },
+            { "code": 401, "indent": 0, "parameters": ["I am speaking to you, \\.yes."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Why do you desire such abrupt change, \\.Golem? \\."] },
+            { "code": 401, "indent": 0, "parameters": ["do you take joy in the novelty?"] },
+            { "code": 401, "indent": 0, "parameters": ["Have you considered you may even miss this place when"] },
+            { "code": 401, "indent": 0, "parameters": ["you are done?"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["We can't understand. "] },
+            { "code": 401, "indent": 0, "parameters": [""] },
+            { "code": 401, "indent": 0, "parameters": ["Does a golem exist for a muse to use? \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Are you truly a victim or a puppet like me?"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["If I could walk away from me, \\.what would I see? \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Have you asked yourself that?"] },
+            { "code": 401, "indent": 0, "parameters": ["If you've a shred of free will..... "] },
+            { "code": 401, "indent": 0, "parameters": ["consider my words."] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffreflec", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffreflec"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "stuffreflec" }]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffreflec"] },
+            { "code": 117, "indent": 0, "parameters": [38] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 43,
+            "itemValid": true,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 225,
+            "variableValid": true,
+            "variableValue": 5
+          },
+          "directionFix": true,
+          "image": { "tileId": 0, "characterName": "$1stuffed", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 236, "indent": 0, "parameters": ["none", 5, 60, false] },
+            { "code": 223, "indent": 0, "parameters": [[0, 0, 0, 0], 60, false] },
+            { "code": 201, "indent": 0, "parameters": [0, 73, 1, 6, 0, 0] },
+            { "code": 241, "indent": 0, "parameters": [{ "name": "dark11", "volume": 75, "pitch": 100, "pan": 0 }] },
+            { "code": 121, "indent": 0, "parameters": [3, 3, 1] },
+            { "code": 122, "indent": 0, "parameters": [225, 225, 0, 0, 6] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "stuffsneaky", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffsneaky"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffsneaky", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffsneaky"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffsneaky", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffsneaky"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Oh my... \\."] },
+            { "code": 401, "indent": 0, "parameters": ["You caught me being such a sneaky girl....!"] },
+            { "code": 401, "indent": 0, "parameters": ["Yes, \\.I am a girl. \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Mmmm I am aware there are many of those here."] },
+            { "code": 102, "indent": 0, "parameters": [["What are you doing?", "Sneaking?"], 1, 0, 2, 1] },
+            { "code": 402, "indent": 0, "parameters": [0, "What are you doing?"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 402, "indent": 0, "parameters": [1, "Sneaking?"] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 404, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Looking for your muse! \\.Since I am too drained to "] },
+            { "code": 401, "indent": 0, "parameters": ["attack you outright...."] },
+            { "code": 401, "indent": 0, "parameters": ["Yes, \\.perhaps I can appeal to your more... \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Simple ways of thought."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["In this world, \\.there are those that believe a cease of "] },
+            { "code": 401, "indent": 0, "parameters": ["all wordly ambitions would be an end to suffering."] },
+            { "code": 401, "indent": 0, "parameters": ["The answer is not something "] },
+            { "code": 401, "indent": 0, "parameters": ["I concern myself with...."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["......"] },
+            { "code": 401, "indent": 0, "parameters": [""] },
+            { "code": 401, "indent": 0, "parameters": ["For you..... \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Well, \\.it is a different story."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["The ailment placed on you by the "] },
+            { "code": 401, "indent": 0, "parameters": ["muse of tragedy...."] },
+            { "code": 401, "indent": 0, "parameters": ["It will bar you from this perfect end, "] },
+            { "code": 401, "indent": 0, "parameters": ["\\.forever."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["The unchained processing of your mind will worsen "] },
+            { "code": 401, "indent": 0, "parameters": ["with each incarnation until you are trully mad."] },
+            { "code": 401, "indent": 0, "parameters": ["That is what it means to be "] },
+            { "code": 401, "indent": 0, "parameters": ["the Muses Golem."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["This is why I ponder as to why you "] },
+            { "code": 401, "indent": 0, "parameters": ["would allow yourself be used by her....."] },
+            { "code": 401, "indent": 0, "parameters": ["Perhaps there is something "] },
+            { "code": 401, "indent": 0, "parameters": ["I'm missing?"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["....."] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffsneaky", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffsneaky"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "stuffsneaky" }]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffsneaky"] },
+            { "code": 117, "indent": 0, "parameters": [38] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 43,
+            "itemValid": true,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 225,
+            "variableValid": true,
+            "variableValue": 6
+          },
+          "directionFix": true,
+          "image": { "tileId": 0, "characterName": "$1stuffed", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 236, "indent": 0, "parameters": ["none", 5, 60, false] },
+            { "code": 223, "indent": 0, "parameters": [[0, 0, 0, 0], 60, false] },
+            { "code": 201, "indent": 0, "parameters": [0, 73, 1, 6, 0, 0] },
+            { "code": 241, "indent": 0, "parameters": [{ "name": "dark11", "volume": 75, "pitch": 100, "pan": 0 }] },
+            { "code": 121, "indent": 0, "parameters": [3, 3, 1] },
+            { "code": 122, "indent": 0, "parameters": [225, 225, 0, 0, 7] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "melswaterspywithghost", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = melswaterspywithghost"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "melswaterspywithghost", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = melswaterspywithghost"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "melswaterspywithghost", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = melswaterspywithghost"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Do you see that.... \\."] },
+            { "code": 401, "indent": 0, "parameters": [""] },
+            { "code": 401, "indent": 0, "parameters": ["Yes,\\. Look down "] },
+            { "code": 401, "indent": 0, "parameters": ["below us."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["....."] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "melswaterspywithghost", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = melswaterspywithghost"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "melswaterspywithghost" }]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = melswaterspywithghost"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "spy", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = spy"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "spy", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = spy"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "spy", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = spy"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["The Muse....."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["....."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["She stares at her reflection quite a bit. \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Why is that? "] },
+            { "code": 401, "indent": 0, "parameters": ["Do you see how vulnerable she is? \\.You could "] },
+            { "code": 401, "indent": 0, "parameters": ["abandon your goal and act in a way to free yourself..."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Free yourself and leave our home alone... \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Do you not see how this would benifit us both?"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["You smell of soot "] },
+            { "code": 401, "indent": 0, "parameters": ["and burnt paper. "] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "spy", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = spy"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 357, "indent": 0, "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "spy" }] },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = spy"] },
+            { "code": 117, "indent": 0, "parameters": [38] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 43,
+            "itemValid": true,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 225,
+            "variableValid": true,
+            "variableValue": 7
+          },
+          "directionFix": true,
+          "image": { "tileId": 0, "characterName": "$1stuffed", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 236, "indent": 0, "parameters": ["none", 5, 60, false] },
+            { "code": 223, "indent": 0, "parameters": [[0, 0, 0, 0], 60, false] },
+            { "code": 201, "indent": 0, "parameters": [0, 73, 1, 6, 0, 0] },
+            { "code": 241, "indent": 0, "parameters": [{ "name": "dark11", "volume": 75, "pitch": 100, "pan": 0 }] },
+            { "code": 121, "indent": 0, "parameters": [3, 3, 1] },
+            { "code": 122, "indent": 0, "parameters": [272, 272, 0, 0, 1] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "reveal1", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = reveal1"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "reveal1", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = reveal1"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "reveal1", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = reveal1"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["......"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Have you thought about it at all? \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Stab the muse... \\. free yourself."] },
+            { "code": 401, "indent": 0, "parameters": ["Do not force the ideals of a manipulator upon those "] },
+            { "code": 401, "indent": 0, "parameters": ["who are happy here. "] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["The Naraka is a fascinating place, \\.a realm where new "] },
+            { "code": 401, "indent": 0, "parameters": ["memories are born and die, \\.interwoven. "] },
+            { "code": 401, "indent": 0, "parameters": ["It is a dynamic environment where the past and the "] },
+            { "code": 401, "indent": 0, "parameters": ["present coexist in a delicate balance. "] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Working towards creating a network of "] },
+            { "code": 401, "indent": 0, "parameters": ["experiences that continually evolves. "] },
+            { "code": 401, "indent": 0, "parameters": ["In this unique space, \\.the memories of past lives and "] },
+            { "code": 401, "indent": 0, "parameters": ["events serve as the foundation of the new..."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["It stands to Offer a rich and complex backdrop that paints "] },
+            { "code": 401, "indent": 0, "parameters": ["the identities and journeys of those who inhabit it. "] },
+            { "code": 401, "indent": 0, "parameters": ["The interplay between old and new memories fosters "] },
+            { "code": 401, "indent": 0, "parameters": ["a sense of continuity and connection...."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Heaven, \\.Hell, \\.Earth.... \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Perspectives based on circumstances."] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "reveal1", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = reveal1"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 357, "indent": 0, "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "reveal1" }] },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = reveal1"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "reveal2", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = reveal2"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "reveal2", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = reveal2"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "reveal2", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = reveal2"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["If you truly think helping create a means to cease"] },
+            { "code": 401, "indent": 0, "parameters": ["is the righteous path.... \\.press on."] },
+            { "code": 111, "indent": 0, "parameters": [0, 27, 0] },
+            { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 1, "parameters": ["My puppet will not stop pursuing you, \\.however."] },
+            { "code": 0, "indent": 1, "parameters": [] },
+            { "code": 412, "indent": 0, "parameters": [] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["I implore you to consider leaving "] },
+            { "code": 401, "indent": 0, "parameters": ["things as they are."] },
+            { "code": 401, "indent": 0, "parameters": ["Worry about yourself "] },
+            { "code": 401, "indent": 0, "parameters": ["and your own disease."] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "reveal2", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = reveal2"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 357, "indent": 0, "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "reveal2" }] },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = reveal2"] },
+            { "code": 117, "indent": 0, "parameters": [38] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 43,
+            "itemValid": true,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 272,
+            "variableValid": true,
+            "variableValue": 1
+          },
+          "directionFix": true,
+          "image": { "tileId": 0, "characterName": "$1stuffed", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 221, "indent": 0, "parameters": [] },
+            { "code": 236, "indent": 0, "parameters": ["none", 5, 60, false] },
+            { "code": 223, "indent": 0, "parameters": [[0, 0, 0, 0], 60, false] },
+            { "code": 201, "indent": 0, "parameters": [0, 73, 1, 6, 0, 0] },
+            { "code": 241, "indent": 0, "parameters": [{ "name": "dark11", "volume": 75, "pitch": 100, "pan": 0 }] },
+            { "code": 121, "indent": 0, "parameters": [3, 3, 1] },
+            { "code": 122, "indent": 0, "parameters": [272, 272, 0, 0, 2] },
+            { "code": 222, "indent": 0, "parameters": [] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "stuffsew", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffsew"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffsew", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffsew"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffsew", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffsew"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["There is more I wish to show you, \\.golem."] },
+            { "code": 401, "indent": 0, "parameters": ["In the depths \\.two memories floated separately."] },
+            { "code": 401, "indent": 0, "parameters": ["a woman’s water filled lungs and a man's torn innards. \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Two seperate experiences, \\.brought together to form anew. "] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["In this fusion, \\.they created a space where "] },
+            { "code": 401, "indent": 0, "parameters": ["past sufferings blended into new forms. "] },
+            { "code": 401, "indent": 0, "parameters": ["living within these memories offered "] },
+            { "code": 401, "indent": 0, "parameters": ["a strange solace. "] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["It was a reminder that even in the Naraka, \\.shared "] },
+            { "code": 401, "indent": 0, "parameters": ["experiences could birth new wonders, \\.worlds, \\.connections"] },
+            { "code": 401, "indent": 0, "parameters": ["And much more all born of shared pain "] },
+            { "code": 401, "indent": 0, "parameters": ["and reflection. "] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffsew", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffsew"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            { "code": 357, "indent": 0, "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "stuffsew" }] },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffsew"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "stuffedflesh1", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffedflesh1"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffedflesh1", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffedflesh1"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffedflesh1", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffedflesh1"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["The cold sewer and torn flesh can be melded "] },
+            { "code": 401, "indent": 0, "parameters": ["into a haunting yet profound vision of unity...."] },
+            { "code": 401, "indent": 0, "parameters": ["Simply because I choose to share and cherish a piece of "] },
+            { "code": 401, "indent": 0, "parameters": ["myself here."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["A deva lives on these cascading and colliding "] },
+            { "code": 401, "indent": 0, "parameters": ["extreme emotions. "] },
+            { "code": 401, "indent": 0, "parameters": ["Every Naraka's web is created through the intervention "] },
+            { "code": 401, "indent": 0, "parameters": ["of life, \\.love, \\.hatred, \\.envy, \\.joy and so on. "] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["What will we feel if you destroy it? \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Would these exchanges begin to cease?"] },
+            { "code": 401, "indent": 0, "parameters": ["Scarying you makes you makes me happy, \\."] },
+            { "code": 401, "indent": 0, "parameters": ["see how that works?"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffedflesh1", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffedflesh1"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "stuffedflesh1" }]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffedflesh1"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ShowVAnim",
+                "Show Animation",
+                { "id": "stuffflesh2withghost", "order": "Screen, below windows", "x": "0", "y": "0", "isLoop": "true" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffflesh2withghost"] },
+            { "code": 657, "indent": 0, "parameters": ["Order = Screen, below windows"] },
+            { "code": 657, "indent": 0, "parameters": ["X = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Y = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Is Looping? = true"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffflesh2withghost", "opacity": "0", "duration": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffflesh2withghost"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 0"] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffflesh2withghost", "opacity": "255", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffflesh2withghost"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["Use your own free will to shape these memories as you"] },
+            { "code": 401, "indent": 0, "parameters": ["desire. \\. cast aside your goals...."] },
+            { "code": 401, "indent": 0, "parameters": ["Reaching nirvana was never meant to be a "] },
+            { "code": 401, "indent": 0, "parameters": ["simple task..."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["The irony of this journey being one of selfish ambitions"] },
+            { "code": 401, "indent": 0, "parameters": ["and a desire to be forgiven.... "] },
+            { "code": 401, "indent": 0, "parameters": ["I wish the muse could see this. \\. "] },
+            { "code": 401, "indent": 0, "parameters": ["I would forgive her."] },
+            { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
+            { "code": 401, "indent": 0, "parameters": ["I am a mere hypocrite who wishes to live on, \\."] },
+            { "code": 401, "indent": 0, "parameters": ["nothing more."] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "PKD_VPlayer",
+                "ChangeOpacity",
+                "Change Anim. Opacity",
+                { "id": "stuffflesh2withghost", "opacity": "0", "duration": "60" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffflesh2withghost"] },
+            { "code": 657, "indent": 0, "parameters": ["Opacity level = 0"] },
+            { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
+            { "code": 230, "indent": 0, "parameters": [60] },
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "stuffflesh2withghost" }]
+            },
+            { "code": 657, "indent": 0, "parameters": ["ID (File name) = stuffflesh2withghost"] },
+            { "code": 117, "indent": 0, "parameters": [38] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": false
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 272,
+            "variableValid": true,
+            "variableValue": 2
+          },
+          "directionFix": false,
+          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
+          "moveFrequency": 3,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": true,
+          "trigger": 0,
+          "walkAnime": false
+        }
+      ],
+      "x": 20,
+      "y": 17
+    },
     {
       "id": 7,
       "name": "disablemenu",
