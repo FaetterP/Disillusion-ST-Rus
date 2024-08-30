@@ -421,7 +421,7 @@
           "image": { "tileId": 0, "characterName": "!$door01", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["The door is locked."] },
+            { "code": 401, "indent": 0, "parameters": ["Дверь заперта."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -507,7 +507,7 @@
             { "code": 111, "indent": 0, "parameters": [1, 217, 0, 0, 2] },
             { "code": 221, "indent": 1, "parameters": [] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 0, ""] },
-            { "code": 401, "indent": 1, "parameters": ["MUSHROOM SLAIN \\^"] },
+            { "code": 401, "indent": 1, "parameters": ["ГРИБ ПОБЕЖДЁН \\^"] },
             { "code": 214, "indent": 1, "parameters": [] },
             { "code": 222, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 1, "parameters": [] },
