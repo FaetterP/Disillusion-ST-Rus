@@ -8008,7 +8008,7 @@
       { "code": 242, "indent": 0, "parameters": [3] },
       { "code": 241, "indent": 0, "parameters": [{ "name": "Locomotive emd", "volume": 90, "pitch": 90, "pan": 0 }] },
       { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-      { "code": 401, "indent": 0, "parameters": ["<i> В воздухе витает отчётливый химический запах."] },
+      { "code": 401, "indent": 0, "parameters": ["<i> В воздухе ощущается явный химический запах."] },
       { "code": 221, "indent": 0, "parameters": [] },
       { "code": 201, "indent": 0, "parameters": [0, 159, 4, 4, 0, 0] },
       { "code": 0, "indent": 0, "parameters": [] }
