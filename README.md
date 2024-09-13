@@ -1,6 +1,6 @@
 # Disillusion-ST-Rus
 
-Русификатор для игры [Disillusion ST](https://disillusionst.itch.io/disillusion-st). Версия **0.19.1**.  
+Русификатор для игры [Disillusion ST](https://disillusionst.itch.io/disillusion-st). Версия **0.20**.  
 Буду рад *звёздочке ⭐* на этом репозитории.
 
 ⚠️ Русификатор в разработке.
