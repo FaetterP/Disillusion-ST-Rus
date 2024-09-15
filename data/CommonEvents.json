@@ -6708,7 +6708,7 @@
       { "code": 0, "indent": 1, "parameters": [] },
       { "code": 411, "indent": 0, "parameters": [] },
       { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
-      { "code": 401, "indent": 1, "parameters": ["<i>Неожиданно железная дева начинает говорить с тобой."] },
+      { "code": 401, "indent": 1, "parameters": ["<i>Неожиданно железная дева начинает говорить с вами."] },
       { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
       { "code": 401, "indent": 1, "parameters": ["С ключом ты можешь войти в моё тело."] },
       { "code": 102, "indent": 1, "parameters": [["Что внутри тебя?", "Я ухожу."], 1, 0, 2, 1] },
