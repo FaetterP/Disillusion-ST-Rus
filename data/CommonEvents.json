@@ -11007,9 +11007,9 @@
     "list": [
       { "code": 250, "indent": 0, "parameters": [{ "name": "Shot2", "volume": 50, "pitch": 50, "pan": 0 }] },
       { "code": 101, "indent": 0, "parameters": ["", 0, 1, 1, ""] },
-      { "code": 401, "indent": 0, "parameters": ["Крепкий, но не особо сильный."] },
+      { "code": 401, "indent": 0, "parameters": ["Крепкое, но не особо сильное."] },
       { "code": 401, "indent": 0, "parameters": ["Наносит 4-6 урона. "] },
-      { "code": 401, "indent": 0, "parameters": ["<i> Экипирован Обычный клинок."] },
+      { "code": 401, "indent": 0, "parameters": ["<i> Экипирован Обычное лезвие."] },
       { "code": 121, "indent": 0, "parameters": [14, 14, 0] },
       { "code": 121, "indent": 0, "parameters": [15, 15, 1] },
       { "code": 121, "indent": 0, "parameters": [16, 16, 1] },
