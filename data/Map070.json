@@ -1318,24 +1318,7 @@
           },
           "directionFix": true,
           "image": { "tileId": 0, "characterName": "!$couch", "direction": 2, "pattern": 1, "characterIndex": 0 },
-          "list": [
-            { "code": 126, "indent": 0, "parameters": [67, 0, 0, 1] },
-            {
-              "code": 357,
-              "indent": 0,
-              "parameters": ["tripleTriad", "Add Card", "Add Card", { "cardId": "[\"1\",\"1\",\"1\",\"1\",\"1\",\"1\",\"1\"]" }]
-            },
-            { "code": 657, "indent": 0, "parameters": ["cardId = [\"1\",\"1\",\"1\",\"1\",\"1\",\"1\",\"1\"]"] },
-            {
-              "code": 357,
-              "indent": 0,
-              "parameters": ["tripleTriad", "Add Card", "Add Card", { "cardId": "[\"1\",\"1\",\"1\",\"1\",\"1\",\"1\",\"1\"]" }]
-            },
-            { "code": 657, "indent": 0, "parameters": ["cardId = [\"1\",\"1\",\"1\",\"1\",\"1\",\"1\",\"1\"]"] },
-            { "code": 357, "indent": 0, "parameters": ["tripleTriad", "Start Duel", "Start Duel", { "enemyId": "45" }] },
-            { "code": 657, "indent": 0, "parameters": ["enemyId = 45"] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
           "moveSpeed": 3,
@@ -4240,24 +4223,7 @@
           },
           "directionFix": true,
           "image": { "tileId": 0, "characterName": "!$couch", "direction": 2, "pattern": 1, "characterIndex": 0 },
-          "list": [
-            { "code": 126, "indent": 0, "parameters": [67, 0, 0, 1] },
-            {
-              "code": 357,
-              "indent": 0,
-              "parameters": ["tripleTriad", "Add Card", "Add Card", { "cardId": "[\"1\",\"1\",\"1\",\"1\",\"1\",\"1\",\"1\"]" }]
-            },
-            { "code": 657, "indent": 0, "parameters": ["cardId = [\"1\",\"1\",\"1\",\"1\",\"1\",\"1\",\"1\"]"] },
-            {
-              "code": 357,
-              "indent": 0,
-              "parameters": ["tripleTriad", "Add Card", "Add Card", { "cardId": "[\"1\",\"1\",\"1\",\"1\",\"1\",\"1\",\"1\"]" }]
-            },
-            { "code": 657, "indent": 0, "parameters": ["cardId = [\"1\",\"1\",\"1\",\"1\",\"1\",\"1\",\"1\"]"] },
-            { "code": 357, "indent": 0, "parameters": ["tripleTriad", "Start Duel", "Start Duel", { "enemyId": "45" }] },
-            { "code": 657, "indent": 0, "parameters": ["enemyId = 45"] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
           "moveFrequency": 3,
           "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
           "moveSpeed": 3,

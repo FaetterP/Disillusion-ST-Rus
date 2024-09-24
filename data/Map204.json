@@ -5705,7 +5705,7 @@
     },
     {
       "id": 133,
-      "name": "EV133",
+      "name": "truss",
       "note": "<mv3d:shape(cross),yaw(45)>",
       "pages": [
         {

@@ -52,10 +52,10 @@
   },
   "currencyUnit": "Dust",
   "defeatMe": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
-  "editMapId": 32,
+  "editMapId": 20,
   "elements": ["", "Physical", "Fire", "Ice", "Thunder", "Water", "Earth", "Wind", "Light", "Darkness"],
   "equipTypes": ["", "Weapon", "Shield", "Head", "Body", "Accessory"],
-  "gameTitle": "DST v0.20",
+  "gameTitle": "DST v0.21",
   "gameoverMe": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "itemCategories": [true, false, false, true],
   "locale": "en_US",
@@ -108,8 +108,8 @@
     { "name": "", "pan": 0, "pitch": 100, "volume": 90 }
   ],
   "startMapId": 20,
-  "startX": 10,
-  "startY": 11,
+  "startX": 6,
+  "startY": 12,
   "switches": [
     "",
     "steps",
@@ -744,10 +744,11 @@
     "",
     ""
   ],
-  "versionId": 71108825,
+  "versionId": 29768033,
   "victoryMe": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "weaponTypes": ["", "Dagger", "Sword", "Flail", "Axe", "Whip", "Staff", "Bow", "Crossbow", "Gun", "Claw", "Glove", "Spear"],
   "windowTone": [0, 0, 0, 0],
   "tileSize": 48,
-  "optSplashScreen": false
+  "optSplashScreen": false,
+  "optMessageSkip": true
 }
