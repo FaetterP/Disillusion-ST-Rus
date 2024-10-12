@@ -2660,7 +2660,7 @@
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Возьми это с собой и не возвращайся."] },
             { "code": 401, "indent": 0, "parameters": [""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> Получена цветочная сфера телепортации."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Получена цветочная сфера перемещения."] },
             { "code": 126, "indent": 0, "parameters": [58, 0, 0, 1] },
             { "code": 122, "indent": 0, "parameters": [148, 148, 0, 0, 1] },
             { "code": 117, "indent": 0, "parameters": [38] },

@@ -1498,7 +1498,7 @@
             { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
             { "code": 250, "indent": 0, "parameters": [{ "name": "avoice9", "volume": 75, "pitch": 70, "pan": 0 }] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Тебе нравятся игры, пацан? \\.Я в некотором роде фанат карточных игр. \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Тебе нравятся игры, пацан? \\.Я типа фанат карточных игр. \\."] },
             { "code": 401, "indent": 0, "parameters": ["Я делаю милые карточки с теми, кого встречаю!"] },
             { "code": 401, "indent": 0, "parameters": ["Интересует?"] },
             { "code": 102, "indent": 0, "parameters": [["Да", "Нет"], 1, 0, 2, 1] },

@@ -1093,7 +1093,7 @@
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 411, "indent": 0, "parameters": [] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["Oh wait... \\.you don't have any."] },
+            { "code": 401, "indent": 1, "parameters": ["О, погоди... \\.У тебя же нет карт."] },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 412, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
