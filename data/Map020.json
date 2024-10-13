@@ -257,7 +257,7 @@
             { "code": 657, "indent": 0, "parameters": ["Pan = "] },
             { "code": 657, "indent": 0, "parameters": ["Time = 1"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Прежде, чем мы начнём, \\. хотите ли вы играть в"] },
+            { "code": 401, "indent": 0, "parameters": ["Прежде, чем мы начнём, \\.хотите ли вы играть в"] },
             { "code": 401, "indent": 0, "parameters": ["мирном режиме?"] },
             { "code": 102, "indent": 0, "parameters": [["Мирный режим", "Боевой режим"], 1, 0, 2, 1] },
             { "code": 402, "indent": 0, "parameters": [0, "Мирный режим"] },

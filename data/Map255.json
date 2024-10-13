@@ -312,11 +312,11 @@
             { "code": 401, "indent": 0, "parameters": ["ты бы помог мне снова?"] },
             { "code": 401, "indent": 0, "parameters": ["......"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Не отвечай на это, \\. "] },
+            { "code": 401, "indent": 0, "parameters": ["Не отвечай на это, \\."] },
             { "code": 401, "indent": 0, "parameters": ["Я не хочу знать."] },
             { "code": 401, "indent": 0, "parameters": ["........"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Я собрал всех, кто хочет присоединиться к нам.... \\. "] },
+            { "code": 401, "indent": 0, "parameters": ["Я собрал всех, кто хочет присоединиться к нам.... \\."] },
             { "code": 401, "indent": 0, "parameters": ["Тебе стоит увидеть их. "] },
             {
               "code": 357,

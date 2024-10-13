@@ -9187,7 +9187,7 @@
             { "code": 111, "indent": 0, "parameters": [1, 239, 0, 0, 2] },
             { "code": 221, "indent": 1, "parameters": [] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 0, ""] },
-            { "code": 401, "indent": 1, "parameters": ["ВАЗАВАЙ ПОБЕЖДЁН\\^"] },
+            { "code": 401, "indent": 1, "parameters": ["ВАЗАВАЙ ПОБЕЖДЁН \\^"] },
             { "code": 214, "indent": 1, "parameters": [] },
             { "code": 222, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 1, "parameters": [] },
