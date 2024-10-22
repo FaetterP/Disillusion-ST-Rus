@@ -45133,7 +45133,7 @@
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 1, "parameters": ["... \\.Да, я помню это... \\.... \\."] },
             { "code": 401, "indent": 1, "parameters": ["Нет, спасибо, \\.я лучше подожду до- \\."] },
-            { "code": 401, "indent": 1, "parameters": ["Ооо, \\.сработало! Т\\.это... \\.о... \\."] },
+            { "code": 401, "indent": 1, "parameters": ["Ооо, \\.сработало! Э\\.то... \\.о... \\."] },
             { "code": 401, "indent": 1, "parameters": ["ну, \\.меньшего и не ожидал."] },
             { "code": 221, "indent": 1, "parameters": [] },
             { "code": 235, "indent": 1, "parameters": [1] },
