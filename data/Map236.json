@@ -1130,7 +1130,7 @@
             { "code": 111, "indent": 1, "parameters": [1, 270, 0, 1, 0] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 2, "parameters": ["Ахахах, я соврала.... \\."] },
-            { "code": 401, "indent": 2, "parameters": ["Меня толкнули."] },            
+            { "code": 401, "indent": 2, "parameters": ["Меня толкнули."] },
             { "code": 0, "indent": 2, "parameters": [] },
             { "code": 412, "indent": 1, "parameters": [] },
             { "code": 122, "indent": 1, "parameters": [270, 270, 0, 0, 1] },
@@ -1169,7 +1169,7 @@
             { "code": 401, "indent": 1, "parameters": ["Ну да ладно...."] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 1, "parameters": ["Ой, \\.ты уходишь... \\."] },
-            { "code": 401, "indent": 1, "parameters": ["Пока-пока!"] },         
+            { "code": 401, "indent": 1, "parameters": ["Пока-пока!"] },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 404, "indent": 0, "parameters": [] },
             {
@@ -9069,7 +9069,7 @@
             { "code": 401, "indent": 0, "parameters": [""] },
             { "code": 401, "indent": 0, "parameters": ["Мы много раз говорили....."] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Я знаю, что она хорошая...."] },            
+            { "code": 401, "indent": 0, "parameters": ["Я знаю, что она хорошая...."] },
             { "code": 401, "indent": 0, "parameters": [""] },
             { "code": 401, "indent": 0, "parameters": ["Я люблю её."] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
@@ -9480,7 +9480,6 @@
             { "code": 401, "indent": 0, "parameters": ["....."] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Наверняка, это должно быть оно."] },
-            
             { "code": 118, "indent": 0, "parameters": ["1"] },
             {
               "code": 102,
@@ -9626,7 +9625,7 @@
             { "code": 401, "indent": 0, "parameters": ["Мне страшно... \\.но по крайней мере...."] },
             { "code": 401, "indent": 0, "parameters": [""] },
             { "code": 401, "indent": 0, "parameters": ["тот день всё ещё очень далеко, \\.В этом"] },
-            { "code": 401, "indent": 0, "parameters": ["я уверена."] },        
+            { "code": 401, "indent": 0, "parameters": ["я уверена."] },
             {
               "code": 357,
               "indent": 0,
@@ -11217,7 +11216,7 @@
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Чии мог бы знать. \\.Хотя я редко с ним разговариваю. \\."] },
             { "code": 401, "indent": 0, "parameters": ["Тебе придётся спросить его, \\.Голем."] },
-            { "code": 401, "indent": 0, "parameters": ["Я могу только помочь тебе добраться до него... \\. "] },
+            { "code": 401, "indent": 0, "parameters": ["Я могу только помочь тебе добраться до него... \\."] },
             { "code": 401, "indent": 0, "parameters": ["Нам следует побеспокоиться об этом в другой раз."] },
             { "code": 221, "indent": 0, "parameters": [] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },

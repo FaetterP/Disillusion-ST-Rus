@@ -1425,7 +1425,6 @@
             { "code": 401, "indent": 0, "parameters": ["....."] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Наверняка, это должно быть оно."] },
-            
             { "code": 118, "indent": 0, "parameters": ["1"] },
             {
               "code": 102,
@@ -1571,7 +1570,7 @@
             { "code": 401, "indent": 0, "parameters": ["Мне страшно... \\.но по крайней мере...."] },
             { "code": 401, "indent": 0, "parameters": [""] },
             { "code": 401, "indent": 0, "parameters": ["тот день всё ещё очень далеко, \\.В этом"] },
-            { "code": 401, "indent": 0, "parameters": ["я уверена."] },         
+            { "code": 401, "indent": 0, "parameters": ["я уверена."] },
             {
               "code": 357,
               "indent": 0,
