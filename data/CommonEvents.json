@@ -11336,7 +11336,7 @@
       { "code": 401, "indent": 0, "parameters": ["Нанесено 5 урона всем врагам!.............. \\^"] },
       { "code": 0, "indent": 0, "parameters": [] }
     ],
-    "name": "Meri Aid",
+    "name": "Помощь Мэри",
     "switchId": 1,
     "trigger": 0
   },
