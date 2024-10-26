@@ -1386,7 +1386,7 @@
             { "code": 412, "indent": 4, "parameters": [] },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 412, "indent": 3, "parameters": [] },
-            { "code": 111, "indent": 3, "parameters": [0, 15, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 15, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1432,7 +1432,7 @@
             { "code": 412, "indent": 4, "parameters": [] },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 412, "indent": 3, "parameters": [] },
-            { "code": 111, "indent": 3, "parameters": [0, 16, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 16, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1486,7 +1486,7 @@
             { "code": 412, "indent": 4, "parameters": [] },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 412, "indent": 3, "parameters": [] },
-            { "code": 111, "indent": 3, "parameters": [0, 17, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 17, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1540,7 +1540,7 @@
             { "code": 412, "indent": 4, "parameters": [] },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 412, "indent": 3, "parameters": [] },
-            { "code": 111, "indent": 3, "parameters": [0, 18, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 18, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1592,7 +1592,7 @@
             { "code": 412, "indent": 4, "parameters": [] },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 412, "indent": 3, "parameters": [] },
-            { "code": 111, "indent": 3, "parameters": [0, 19, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 19, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1624,7 +1624,7 @@
             { "code": 121, "indent": 7, "parameters": [12, 12, 0] },
             { "code": 121, "indent": 7, "parameters": [13, 13, 0] },
             { "code": 0, "indent": 7, "parameters": [] },
-            { "code": 411, "indent": 6, "parameters": [], "collapsed": true },
+            { "code": 411, "indent": 6, "parameters": [] },
             { "code": 111, "indent": 7, "parameters": [1, 188, 0, 4, 0] },
             { "code": 101, "indent": 8, "parameters": ["", 0, 1, 0, ""] },
             { "code": 401, "indent": 8, "parameters": ["A miss.......... \\^"] },
@@ -1654,7 +1654,7 @@
             { "code": 0, "indent": 3, "parameters": [] },
             { "code": 412, "indent": 2, "parameters": [] },
             { "code": 111, "indent": 2, "parameters": [12, "Input.isTriggered(\"f\")"] },
-            { "code": 111, "indent": 3, "parameters": [0, 14, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 14, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1672,7 +1672,7 @@
             { "code": 657, "indent": 4, "parameters": ["Is Looping? = false"] },
             { "code": 121, "indent": 4, "parameters": [10, 10, 0] },
             { "code": 122, "indent": 4, "parameters": [188, 188, 0, 2, 1, 3] },
-            { "code": 111, "indent": 4, "parameters": [1, 188, 0, 1, 0], "collapsed": true },
+            { "code": 111, "indent": 4, "parameters": [1, 188, 0, 1, 0] },
             { "code": 121, "indent": 5, "parameters": [12, 12, 0] },
             { "code": 0, "indent": 5, "parameters": [] },
             { "code": 411, "indent": 4, "parameters": [] },
@@ -1696,7 +1696,7 @@
             { "code": 412, "indent": 4, "parameters": [] },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 412, "indent": 3, "parameters": [] },
-            { "code": 111, "indent": 3, "parameters": [0, 15, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 15, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1742,7 +1742,7 @@
             { "code": 412, "indent": 4, "parameters": [] },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 412, "indent": 3, "parameters": [] },
-            { "code": 111, "indent": 3, "parameters": [0, 16, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 16, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1790,7 +1790,7 @@
             { "code": 412, "indent": 4, "parameters": [] },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 412, "indent": 3, "parameters": [] },
-            { "code": 111, "indent": 3, "parameters": [0, 17, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 17, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1837,7 +1837,7 @@
             { "code": 412, "indent": 4, "parameters": [] },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 412, "indent": 3, "parameters": [] },
-            { "code": 111, "indent": 3, "parameters": [0, 18, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 18, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1885,7 +1885,7 @@
             { "code": 412, "indent": 4, "parameters": [] },
             { "code": 0, "indent": 4, "parameters": [] },
             { "code": 412, "indent": 3, "parameters": [] },
-            { "code": 111, "indent": 3, "parameters": [0, 19, 0], "collapsed": true },
+            { "code": 111, "indent": 3, "parameters": [0, 19, 0] },
             {
               "code": 357,
               "indent": 4,
@@ -1914,7 +1914,7 @@
             { "code": 111, "indent": 6, "parameters": [1, 188, 0, 3, 0] },
             { "code": 121, "indent": 7, "parameters": [12, 12, 0] },
             { "code": 0, "indent": 7, "parameters": [] },
-            { "code": 411, "indent": 6, "parameters": [], "collapsed": true },
+            { "code": 411, "indent": 6, "parameters": [] },
             { "code": 111, "indent": 7, "parameters": [1, 188, 0, 4, 0] },
             { "code": 101, "indent": 8, "parameters": ["", 0, 1, 0, ""] },
             { "code": 401, "indent": 8, "parameters": ["A miss.......... \\^"] },
@@ -2008,26 +2008,26 @@
             { "code": 0, "indent": 3, "parameters": [] },
             { "code": 412, "indent": 2, "parameters": [] },
             { "code": 0, "indent": 2, "parameters": [] },
-            { "code": 411, "indent": 1, "parameters": [], "collapsed": true },
+            { "code": 411, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 2, "parameters": [] },
             { "code": 412, "indent": 1, "parameters": [] },
             { "code": 111, "indent": 1, "parameters": [12, "Input.isTriggered(\"i\")"] },
             { "code": 119, "indent": 2, "parameters": ["1"] },
             { "code": 0, "indent": 2, "parameters": [] },
             { "code": 412, "indent": 1, "parameters": [] },
-            { "code": 111, "indent": 1, "parameters": [12, "Input.isTriggered(\"g\")"], "collapsed": true },
+            { "code": 111, "indent": 1, "parameters": [12, "Input.isTriggered(\"g\")"] },
             { "code": 119, "indent": 2, "parameters": ["1"] },
             { "code": 0, "indent": 2, "parameters": [] },
             { "code": 412, "indent": 1, "parameters": [] },
-            { "code": 111, "indent": 1, "parameters": [12, "Input.isTriggered(\"f\")"], "collapsed": true },
+            { "code": 111, "indent": 1, "parameters": [12, "Input.isTriggered(\"f\")"] },
             { "code": 119, "indent": 2, "parameters": ["1"] },
             { "code": 0, "indent": 2, "parameters": [] },
             { "code": 412, "indent": 1, "parameters": [] },
-            { "code": 111, "indent": 1, "parameters": [11, "up", 1], "collapsed": true },
+            { "code": 111, "indent": 1, "parameters": [11, "up", 1] },
             { "code": 119, "indent": 2, "parameters": ["1"] },
             { "code": 0, "indent": 2, "parameters": [] },
             { "code": 412, "indent": 1, "parameters": [] },
-            { "code": 111, "indent": 1, "parameters": [11, "down", 1], "collapsed": true },
+            { "code": 111, "indent": 1, "parameters": [11, "down", 1] },
             { "code": 119, "indent": 2, "parameters": ["1"] },
             { "code": 0, "indent": 2, "parameters": [] },
             { "code": 412, "indent": 1, "parameters": [] },
@@ -2243,6 +2243,43 @@
       "x": 25,
       "y": 16
     },
-    null
+    {
+      "id": 27,
+      "name": "chains",
+      "note": "<mv3d:model(Plank.glb)scale(1)z(-1)>",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": true,
+          "image": { "tileId": 0, "characterName": "!$1ANIME", "direction": 4, "pattern": 2, "characterIndex": 0 },
+          "list": [{ "code": 0, "indent": 0, "parameters": [] }],
+          "moveFrequency": 5,
+          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 14,
+      "y": 21
+    }
   ]
 }
