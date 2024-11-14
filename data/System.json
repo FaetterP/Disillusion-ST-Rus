@@ -52,10 +52,10 @@
   },
   "currencyUnit": "Dust",
   "defeatMe": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
-  "editMapId": 60,
+  "editMapId": 20,
   "elements": ["", "Physical", "Fire", "Ice", "Thunder", "Water", "Earth", "Wind", "Light", "Darkness"],
   "equipTypes": ["", "Weapon", "Shield", "Head", "Body", "Accessory"],
-  "gameTitle": "DST V. 1.1",
+  "gameTitle": "DST V. 1.3",
   "gameoverMe": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "itemCategories": [true, false, false, true],
   "locale": "en_US",
@@ -108,8 +108,8 @@
     { "name": "", "pan": 0, "pitch": 100, "volume": 90 }
   ],
   "startMapId": 20,
-  "startX": 2,
-  "startY": 11,
+  "startX": 11,
+  "startY": 12,
   "switches": [
     "",
     "steps",
@@ -141,7 +141,7 @@
     "pacifist off",
     "V",
     "item toggle",
-    ""
+    "map"
   ],
   "terms": {
     "basic": ["Level", "", "Meat", "", "Wisdom", "", "", "", "", ""],
@@ -744,7 +744,7 @@
     "",
     ""
   ],
-  "versionId": 82629545,
+  "versionId": 50378643,
   "victoryMe": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
   "weaponTypes": ["", "Dagger", "Sword", "Flail", "Axe", "Whip", "Staff", "Bow", "Crossbow", "Gun", "Claw", "Glove", "Spear"],
   "windowTone": [0, 0, 0, 0],

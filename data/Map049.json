@@ -1862,7 +1862,110 @@
       "x": 7,
       "y": 31
     },
-    null,
+    {
+      "id": 10,
+      "name": "cutie",
+      "note": "<mv3d:scale(0.25)shape(board)>",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 27,
+            "switch2Valid": true,
+            "variableId": 194,
+            "variableValid": false,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": { "tileId": 0, "characterName": "$1lilcutie", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "r88_ProximitySensor",
+                "Basic",
+                "All Directions",
+                { "Operator": "less than or equal to", "Distance": "5", "Self-Switch": "A", "Switch": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Operator = less than or equal to"] },
+            { "code": 657, "indent": 0, "parameters": ["Distance = 5"] },
+            { "code": 657, "indent": 0, "parameters": ["Self-Switch = A"] },
+            { "code": 657, "indent": 0, "parameters": ["Switch = 0"] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              { "code": 10, "indent": null },
+              { "code": 25, "indent": null },
+              { "code": 0, "parameters": [] }
+            ],
+            "repeat": true,
+            "skippable": true,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 1,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 27,
+            "switch2Valid": true,
+            "variableId": 194,
+            "variableValid": false,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": { "tileId": 0, "characterName": "$1lilcutie", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 117, "indent": 0, "parameters": [167] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              { "code": 10, "indent": null },
+              { "code": 25, "indent": null },
+              { "code": 0, "parameters": [] }
+            ],
+            "repeat": true,
+            "skippable": true,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 34,
+      "y": 13
+    },
     {
       "id": 11,
       "name": "event common caller",
@@ -1949,8 +2052,214 @@
       "x": 0,
       "y": 43
     },
-    null,
-    null,
+    {
+      "id": 13,
+      "name": "sickly",
+      "note": "<mv3d:scale(0.25)shape(board)>",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 27,
+            "switch2Valid": true,
+            "variableId": 195,
+            "variableValid": false,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": { "tileId": 0, "characterName": "$1sick", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "r88_ProximitySensor",
+                "Basic",
+                "All Directions",
+                { "Operator": "less than or equal to", "Distance": "5", "Self-Switch": "A", "Switch": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Operator = less than or equal to"] },
+            { "code": 657, "indent": 0, "parameters": ["Distance = 5"] },
+            { "code": 657, "indent": 0, "parameters": ["Self-Switch = A"] },
+            { "code": 657, "indent": 0, "parameters": ["Switch = 0"] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              { "code": 10, "indent": null },
+              { "code": 25, "indent": null },
+              { "code": 0, "parameters": [] }
+            ],
+            "repeat": true,
+            "skippable": true,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 1,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 27,
+            "switch2Valid": true,
+            "variableId": 195,
+            "variableValid": false,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": { "tileId": 0, "characterName": "$1sick", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 117, "indent": 0, "parameters": [170] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              { "code": 10, "indent": null },
+              { "code": 25, "indent": null },
+              { "code": 0, "parameters": [] }
+            ],
+            "repeat": true,
+            "skippable": true,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 27,
+      "y": 23
+    },
+    {
+      "id": 14,
+      "name": "star",
+      "note": "<mv3d:scale(0.25)shape(board)>",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 27,
+            "switch2Valid": true,
+            "variableId": 265,
+            "variableValid": false,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": { "tileId": 0, "characterName": "$1star", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "r88_ProximitySensor",
+                "Basic",
+                "All Directions",
+                { "Operator": "less than or equal to", "Distance": "5", "Self-Switch": "A", "Switch": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Operator = less than or equal to"] },
+            { "code": 657, "indent": 0, "parameters": ["Distance = 5"] },
+            { "code": 657, "indent": 0, "parameters": ["Self-Switch = A"] },
+            { "code": 657, "indent": 0, "parameters": ["Switch = 0"] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              { "code": 10, "indent": null },
+              { "code": 25, "indent": null },
+              { "code": 0, "parameters": [] }
+            ],
+            "repeat": true,
+            "skippable": true,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 1,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 27,
+            "switch2Valid": true,
+            "variableId": 265,
+            "variableValid": false,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": { "tileId": 0, "characterName": "$1star", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 117, "indent": 0, "parameters": [169] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              { "code": 10, "indent": null },
+              { "code": 25, "indent": null },
+              { "code": 0, "parameters": [] }
+            ],
+            "repeat": true,
+            "skippable": true,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 5,
+      "y": 8
+    },
     null,
     null,
     null,

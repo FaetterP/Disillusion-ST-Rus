@@ -1128,7 +1128,110 @@
       "x": 23,
       "y": 32
     },
-    null,
+    {
+      "id": 12,
+      "name": "skele",
+      "note": "<mv3d:scale(0.25)shape(board)>",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 27,
+            "switch2Valid": true,
+            "variableId": 210,
+            "variableValid": false,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": { "tileId": 0, "characterName": "$1skele", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "r88_ProximitySensor",
+                "Basic",
+                "All Directions",
+                { "Operator": "less than or equal to", "Distance": "5", "Self-Switch": "A", "Switch": "0" }
+              ]
+            },
+            { "code": 657, "indent": 0, "parameters": ["Operator = less than or equal to"] },
+            { "code": 657, "indent": 0, "parameters": ["Distance = 5"] },
+            { "code": 657, "indent": 0, "parameters": ["Self-Switch = A"] },
+            { "code": 657, "indent": 0, "parameters": ["Switch = 0"] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              { "code": 10, "indent": null },
+              { "code": 25, "indent": null },
+              { "code": 0, "parameters": [] }
+            ],
+            "repeat": true,
+            "skippable": true,
+            "wait": false
+          },
+          "moveSpeed": 2,
+          "moveType": 1,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 27,
+            "switch2Valid": true,
+            "variableId": 210,
+            "variableValid": false,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": { "tileId": 0, "characterName": "$1skele", "direction": 2, "pattern": 0, "characterIndex": 0 },
+          "list": [
+            { "code": 117, "indent": 0, "parameters": [171] },
+            { "code": 0, "indent": 0, "parameters": [] }
+          ],
+          "moveFrequency": 5,
+          "moveRoute": {
+            "list": [
+              { "code": 10, "indent": null },
+              { "code": 25, "indent": null },
+              { "code": 0, "parameters": [] }
+            ],
+            "repeat": true,
+            "skippable": true,
+            "wait": false
+          },
+          "moveSpeed": 4,
+          "moveType": 3,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 25,
+      "y": 48
+    },
     {
       "id": 13,
       "name": "filter 1 on",

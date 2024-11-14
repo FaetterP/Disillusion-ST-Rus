@@ -13682,6 +13682,9 @@
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 1, "parameters": ["<i> obtained himiko's aid. "] },
             { "code": 126, "indent": 1, "parameters": [102, 0, 0, 1] },
+            { "code": 221, "indent": 1, "parameters": [] },
+            { "code": 214, "indent": 1, "parameters": [] },
+            { "code": 222, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 412, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
