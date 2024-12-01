@@ -2716,13 +2716,13 @@ Scene_After_Match_TT.prototype.initialize_afterMatch_windows = function () {
     switch (this.win_case) {
         case 0:
         case 1:
-            this._rulesWindow.drawTextEx("One - Winners pick! use directional keys to choose", 0, 0);
+            this._rulesWindow.drawTextEx("Победитель выбирает одну карту! \n(используйте кнопки ходьбы)", 0, 0);
             break;
         case 2:
-            this._rulesWindow.drawTextEx("Direct - \nEach player gets its cards color!", 0, 0);
+            this._rulesWindow.drawTextEx("Каждый игрок забирает карты своего цвета!", 0, 0);
             break;
         case 3:
-            this._rulesWindow.drawTextEx("All - Winner wins it all!!", 0, 0);
+            this._rulesWindow.drawTextEx("Победитель выигрывает всё!!", 0, 0);
             break;
     }
     this.addWindow(this._rulesWindow);
