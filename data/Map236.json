@@ -13642,6 +13642,7 @@
             { "code": 242, "indent": 0, "parameters": [3] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["And I loved her too."] },
+            { "code": 355, "indent": 0, "parameters": ["OrangeGreenworks.activateAchievement('NEW_ACHIEVEMENT_2_6');"] },
             { "code": 117, "indent": 0, "parameters": [38] },
             { "code": 122, "indent": 0, "parameters": [153, 153, 0, 0, 6] },
             { "code": 122, "indent": 0, "parameters": [254, 254, 0, 0, 1] },
