@@ -1355,6 +1355,7 @@
           "directionFix": true,
           "image": { "tileId": 0, "characterName": "!$portal", "direction": 4, "pattern": 2, "characterIndex": 0 },
           "list": [
+            { "code": 355, "indent": 0, "parameters": ["OrangeGreenworks.activateAchievement('NEW_ACHIEVEMENT_2_0');"] },
             { "code": 221, "indent": 0, "parameters": [] },
             { "code": 122, "indent": 0, "parameters": [15, 15, 0, 0, 1] },
             { "code": 242, "indent": 0, "parameters": [3] },
@@ -1478,6 +1479,7 @@
           "directionFix": true,
           "image": { "tileId": 0, "characterName": "!$MONEY", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
+            { "code": 355, "indent": 0, "parameters": ["OrangeGreenworks.activateAchievement('NEW_ACHIEVEMENT_2_1');"] },
             { "code": 121, "indent": 0, "parameters": [29, 29, 0] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Позади меня скрывается опасный враг! \\.Но не переживай, \\."] },

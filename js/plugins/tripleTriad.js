@@ -594,10 +594,9 @@ PluginManager.registerCommand(pluginName, "Start Duel", args => {
 
 PluginManager.registerCommand(pluginName, "Add Card", args => {
     const cardList = JSON.parse(args['cardId']);
-    for (const card of cardList){
+    for (const card of cardList) {
         $dataTripleTriad.all_cards.push(parseInt(card));
     }
-        
 });
 PluginManager.registerCommand(pluginName, "Remove Card", args => {
     const cardList = JSON.parse(args['cardId']);

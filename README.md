@@ -1,6 +1,6 @@
 # Disillusion-ST-Rus
 
-Русификатор для игры [Disillusion ST](https://store.steampowered.com/app/2775370). Версия **v1.3**.  
+Русификатор для игры [Disillusion ST](https://store.steampowered.com/app/2775370). Версия **v1.4**.  
 Буду рад *звёздочке ⭐* на этом репозитории.
 
 ⚠️ Русификатор будет обновляться по мере обновления игры.

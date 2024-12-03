@@ -4485,6 +4485,7 @@
               "indent": 0,
               "parameters": [{ "name": "glistening jasmine pearls", "volume": 75, "pitch": 100, "pan": 0 }]
             },
+            { "code": 355, "indent": 0, "parameters": ["OrangeGreenworks.activateAchievement('NEW_ACHIEVEMENT_2_7');"] },
             { "code": 105, "indent": 0, "parameters": [2, false] },
             { "code": 405, "indent": 0, "parameters": ["Спасибо за игру."] },
             { "code": 405, "indent": 0, "parameters": [""] },
@@ -4600,6 +4601,7 @@
                 { "name": "opt-out-Three-Glimpses-into-an-Opal-06-Shores-of-Purusha", "volume": 75, "pitch": 100, "pan": 0 }
               ]
             },
+            { "code": 355, "indent": 2, "parameters": ["OrangeGreenworks.activateAchievement('NEW_ACHIEVEMENT_2_8');"] },
             { "code": 105, "indent": 2, "parameters": [2, false] },
             { "code": 405, "indent": 2, "parameters": ["Спасибо за игру."] },
             { "code": 405, "indent": 2, "parameters": [""] },

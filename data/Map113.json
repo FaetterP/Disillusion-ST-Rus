@@ -138,6 +138,7 @@
             { "code": 122, "indent": 1, "parameters": [17, 17, 1, 0, 1] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 1, "parameters": ["Ты угадал! \\.ты умнее, чем кажешься, \\.Голем."] },
+            { "code": 355, "indent": 1, "parameters": ["OrangeGreenworks.activateAchievement('NEW_ACHIEVEMENT_2_17');"] },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 402, "indent": 0, "parameters": [2, "Час перед часом пик?"] },
             { "code": 0, "indent": 1, "parameters": [] },
