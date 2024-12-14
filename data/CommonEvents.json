@@ -8310,7 +8310,7 @@
       { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
       { "code": 401, "indent": 0, "parameters": ["В твоей жизни на Земле \\.всё было совсем наоборот. \\."] },
       { "code": 401, "indent": 0, "parameters": ["Ты был гораздо более невротичным."] },
-      { "code": 401, "indent": 0, "parameters": ["Я бы с удовольствием посмотрел на солнце, \\.Голем."] },
+      { "code": 401, "indent": 0, "parameters": ["Я бы с удовольствием посмотрела на солнце, \\.Голем."] },
       { "code": 357, "indent": 0, "parameters": ["PKD_VPlayer", "DeleteVAnim", "Delete Animation", { "id": "lyssa" }] },
       { "code": 657, "indent": 0, "parameters": ["ID (File name) = lyssa"] },
       { "code": 117, "indent": 0, "parameters": [38] },
@@ -19542,7 +19542,8 @@
       { "code": 122, "indent": 1, "parameters": [189, 189, 0, 2, 1, 4] },
       { "code": 111, "indent": 1, "parameters": [1, 189, 0, 1, 0] },
       { "code": 101, "indent": 2, "parameters": ["", 0, 1, 0, ""] },
-      { "code": 401, "indent": 2, "parameters": ["Тревожная штука заставляет вас чувствовать себя странно.................... \\^"] },
+      { "code": 401, "indent": 5, "parameters": ["Пристальный взгляд СКОТСКИХ ОТБРОСОВ заставляет "] },
+      { "code": 401, "indent": 5, "parameters": ["вас чувствовать слабость.................. \\^"] },
       {
         "code": 357,
         "indent": 2,
