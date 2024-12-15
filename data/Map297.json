@@ -5114,7 +5114,7 @@
           "image": { "tileId": 0, "characterName": "!$MONEY", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Хайя, \\.друган. \\.Нашла отличное местечко, \\.чтобы "] },
+            { "code": 401, "indent": 0, "parameters": ["Хайя, \\.друган. \\.Нашёл отличное местечко, \\.чтобы "] },
             { "code": 401, "indent": 0, "parameters": ["расслабиться, \\.хочешь посмотреть?"] },
             { "code": 102, "indent": 0, "parameters": [["Конечно", "Нет, спасибо"], 1, 0, 2, 0] },
             { "code": 402, "indent": 0, "parameters": [0, "Конечно"] },
@@ -5207,7 +5207,7 @@
           "image": { "tileId": 0, "characterName": "!$MONEY", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Хайя, \\.друган. \\.Нашла отличное местечко, \\.чтобы "] },
+            { "code": 401, "indent": 0, "parameters": ["Хайя, \\.друган. \\.Нашёл отличное местечко, \\.чтобы "] },
             { "code": 401, "indent": 0, "parameters": ["расслабиться, \\.хочешь посмотреть?"] },
             { "code": 102, "indent": 0, "parameters": [["Конечно", "Нет, спасибо"], 1, 0, 2, 0] },
             { "code": 402, "indent": 0, "parameters": [0, "Конечно"] },
