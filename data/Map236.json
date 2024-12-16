@@ -3409,7 +3409,7 @@
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Пожалуйста.... \\.вернись."] },
             { "code": 401, "indent": 0, "parameters": [""] },
-            { "code": 401, "indent": 0, "parameters": ["Я собрала вас всех снова вместе...."] },
+            { "code": 401, "indent": 0, "parameters": ["Я собрала всё снова вместе...."] },
             {
               "code": 357,
               "indent": 0,
