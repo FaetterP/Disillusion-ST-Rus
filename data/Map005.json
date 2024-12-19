@@ -774,9 +774,9 @@
             { "code": 657, "indent": 0, "parameters": ["Width = 816"] },
             { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["           That was a very spiteful glare..."] },
+            { "code": 401, "indent": 0, "parameters": ["           Это был очень злобный взгляд..."] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["       I take it he found his craft without our help."] },
+            { "code": 401, "indent": 0, "parameters": ["       Я понимаю, он нашел своё ремесло без нашей помощи."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,

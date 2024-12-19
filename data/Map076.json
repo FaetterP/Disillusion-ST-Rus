@@ -67,6 +67,7 @@
             { "code": 231, "indent": 0, "parameters": [1, "rustedrealm1", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 231, "indent": 0, "parameters": [2, "rustedrealm2", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 222, "indent": 0, "parameters": [] },
+            { "code": 355, "indent": 0, "parameters": ["OrangeGreenworks.activateAchievement('NEW_ACHIEVEMENT_2_18');"] },
             {
               "code": 357,
               "indent": 0,
