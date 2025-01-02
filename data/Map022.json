@@ -764,7 +764,7 @@
             { "code": 222, "indent": 0, "parameters": [] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Колокольчики содержат сущность тех, кто живёт здесь,\\."] },
-            { "code": 401, "indent": 0, "parameters": ["но призывать их может привести к смешанным последствиям."] },
+            { "code": 401, "indent": 0, "parameters": ["но их призыв может привести к смешанным последствиям."] },
             { "code": 401, "indent": 0, "parameters": ["Я дам тебе ещё пару на начало!"] },
             { "code": 221, "indent": 0, "parameters": [] },
             { "code": 235, "indent": 0, "parameters": [1] },

@@ -811,7 +811,7 @@
           "list": [
             { "code": 250, "indent": 0, "parameters": [{ "name": "avoice5", "volume": 90, "pitch": 150, "pan": 0 }] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Гродиумы вроде тебя заставляют меня думать о счастливых временах."] },
+            { "code": 401, "indent": 0, "parameters": ["Мерзавцы вроде тебя заставляют меня думать о счастливых временах."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
