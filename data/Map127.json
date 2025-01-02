@@ -1750,7 +1750,7 @@
           "image": { "tileId": 0, "characterName": "", "direction": 2, "pattern": 2, "characterIndex": 2 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> You stepped on a trap."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Вы наступили в ловушку."] },
             { "code": 250, "indent": 0, "parameters": [{ "name": "bsfx6", "volume": 100, "pitch": 100, "pan": 0 }] },
             { "code": 311, "indent": 0, "parameters": [0, 0, 1, 0, 8, true] },
             { "code": 223, "indent": 0, "parameters": [[255, -255, -255, 0], 60, true] },

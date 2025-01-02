@@ -585,8 +585,8 @@
           "image": { "tileId": 0, "characterName": "!$SKELETONS", "direction": 2, "pattern": 2, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["You need a flash light if you are gonna make it anywhere "] },
-            { "code": 401, "indent": 0, "parameters": ["in here."] },
+            { "code": 401, "indent": 0, "parameters": ["Тебе нужен фонарик, если ты собираешься хоть где-то пройти"] },
+            { "code": 401, "indent": 0, "parameters": ["внутри."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -692,7 +692,7 @@
           "image": { "tileId": 0, "characterName": "!$breadmen2", "direction": 2, "pattern": 0, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["muckin' about in the dark are ya?"] },
+            { "code": 401, "indent": 0, "parameters": ["Шляешься тут в темноте, да?"] },
             { "code": 132, "indent": 0, "parameters": [{ "name": "twilight gongs", "volume": 75, "pitch": 100, "pan": 0 }] },
             { "code": 301, "indent": 0, "parameters": [0, 1, true, false] },
             { "code": 601, "indent": 0, "parameters": [] },
