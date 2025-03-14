@@ -35,5 +35,7 @@ var $plugins =
         { "name": "GALV_EventStartTypesMZ", "status": true, "description": "(v.1.0) Allows different event commands to be run depending how the event was activated", "parameters": {} },
         { "name": "McKathlin_GameOver", "status": true, "description": "MZ v1.3.1 Change what happens when the party dies or Game Over is called.", "parameters": { "Party Death Common Event ID": "111", "Show Game Over Scene": "false", "After Game Over Common Event ID": "0" } },
         { "name": "Art_RandomTitleBackground", "status": true, "description": "[Version 1.00] Random Title Backgrounds", "parameters": { "---Title1 Images---": "", "useRandomTitle1": "true", "title1Images": "[\"groupphotosomehaze\",\"groupphotosomehaze\",\"groupphotosomehaze\",\"groupphotosomehaze\",\"froggy\",\"2\",\"MANNWORLD544\",\"meldressnew2\",\"ppltower\",\"FOREST\",\"groupphotosomehaze\",\"groupphotosomehaze\",\"groupphotosomehaze\"]", "---Title2 Images---": "", "useRandomTitle2": "false", "title2Images": "[]" } },
-        { "name": "fps", "status": false, "description": "Caps the FPS to 20 frames per second.", "parameters": {} }
+        { "name": "fps", "status": false, "description": "Caps the FPS to 20 frames per second.", "parameters": {} },
+        { "name": "r88_ProximitySensor", "status": true, "description": "Calculates proximity and line of sight.", "parameters": { "Obstacle Region ID": "1", "Obstacle Terrain Tag": "1" } },
+        { "name": "OrangeGreenworks", "status": true, "description": "Steamworks Integration <OrangeGreenworks>", "parameters": {} }
     ];
