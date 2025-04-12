@@ -1036,7 +1036,7 @@
             { "code": 241, "indent": 0, "parameters": [{ "name": "starman", "volume": 75, "pitch": 100, "pan": 0 }] },
             { "code": 261, "indent": 0, "parameters": ["ufo2"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> Похоже, нашёл это он..."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Похоже, он сам всё нашёл..."] },
             { "code": 122, "indent": 0, "parameters": [56, 56, 0, 0, 2] },
             { "code": 117, "indent": 0, "parameters": [38] },
             { "code": 0, "indent": 0, "parameters": [] }
@@ -1729,7 +1729,7 @@
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Мой ключ... "] },
             { "code": 401, "indent": 0, "parameters": [""] },
-            { "code": 401, "indent": 0, "parameters": ["Кажется, он сломался, когда я заводил его."] },
+            { "code": 401, "indent": 0, "parameters": ["Кажется, она сломалась, когда я заводил её."] },
             {
               "code": 357,
               "indent": 0,
@@ -10261,7 +10261,7 @@
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["....."] },
             { "code": 401, "indent": 0, "parameters": [""] },
-            { "code": 401, "indent": 0, "parameters": ["Что я тут делаю? \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Что я делаю внизу? \\."] },
             { "code": 401, "indent": 0, "parameters": ["Я странная."] },
             {
               "code": 357,
@@ -11453,7 +11453,7 @@
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 2, "parameters": ["Хммм."] },
             { "code": 401, "indent": 2, "parameters": [""] },
-            { "code": 401, "indent": 2, "parameters": ["Что ж, \\.я уже давно не видел"] },
+            { "code": 401, "indent": 2, "parameters": ["Что ж, \\.я уже давно не видела"] },
             { "code": 401, "indent": 2, "parameters": ["этого пьяного кота."] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 2, "parameters": ["Это твоих рук дело? \\.Полагаю, мне стоит тебя"] },
@@ -11465,7 +11465,7 @@
             { "code": 401, "indent": 2, "parameters": ["Ты всё ещё здесь."] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 2, "parameters": ["Не позволяй моей благодарности затуманить тебе"] },
-            { "code": 401, "indent": 2, "parameters": ["голову, \\.я всё ещё хочу побыть один."] },
+            { "code": 401, "indent": 2, "parameters": ["голову, \\.я всё ещё хочу побыть одной."] },
             {
               "code": 357,
               "indent": 2,
@@ -11615,7 +11615,7 @@
             { "code": 401, "indent": 0, "parameters": ["Меня преследуют одни и те же сны. Они отравлены "] },
             { "code": 401, "indent": 0, "parameters": ["видами трагедий и отчаяния\\. "] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["войн и мора, что опустошают земли\\. Я вижу, как"] },
+            { "code": 401, "indent": 0, "parameters": ["войн и мора, что опустошают земли. \\.Я вижу, как"] },
             { "code": 401, "indent": 0, "parameters": ["люди плачут, их сердца полны скорби,\\."] },
             { "code": 401, "indent": 0, "parameters": ["и я чувствую их боль, как свою собственную. "] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
@@ -13440,7 +13440,7 @@
             { "code": 657, "indent": 1, "parameters": ["Opacity level = 255"] },
             { "code": 657, "indent": 1, "parameters": ["Duration = 60"] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["Я знаю, мы договорились погулять, \\.но здесь тоже"] },
+            { "code": 401, "indent": 1, "parameters": ["Я знаю, мы договорились погулять в парке, \\.но здесь тоже"] },
             { "code": 401, "indent": 1, "parameters": ["приятно. \\.Ты в порядке, \\.Голем? Выглядишь подавленным."] },
             {
               "code": 102,
