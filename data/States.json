@@ -85,7 +85,7 @@
     "message1": "%1 is poisoned!",
     "message2": "%1 is poisoned!",
     "message3": "",
-    "message4": "%1 is no longer poisoned!",
+    "message4": "%1 больше не отравлен!",
     "minTurns": 1,
     "motion": 1,
     "overlay": 1,

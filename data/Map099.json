@@ -2172,9 +2172,12 @@
           "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
           "list": [
             { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 117, "indent": 0, "parameters": [200] },
+            { "code": 117, "indent": 0, "parameters": [197] },
+            { "code": 117, "indent": 0, "parameters": [196] },
+            { "code": 117, "indent": 0, "parameters": [195] },
+            { "code": 117, "indent": 0, "parameters": [199] },
+            { "code": 117, "indent": 0, "parameters": [198] },
             { "code": 214, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
@@ -2190,7 +2193,7 @@
         }
       ],
       "x": 1,
-      "y": 36
+      "y": 20
     },
     {
       "id": 3,
@@ -2650,17 +2653,17 @@
             { "code": 231, "indent": 0, "parameters": [1, "womeninwhite2", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 222, "indent": 0, "parameters": [] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Why is an individual like you delving into memories "] },
-            { "code": 401, "indent": 0, "parameters": ["in such a careless manner? "] },
-            { "code": 401, "indent": 0, "parameters": ["I have no interest in being bothered, \\."] },
-            { "code": 401, "indent": 0, "parameters": ["so please continue on your way."] },
+            { "code": 401, "indent": 0, "parameters": ["Почему такой человек, как ты, копается в воспоминаниях "] },
+            { "code": 401, "indent": 0, "parameters": ["так небрежно? "] },
+            { "code": 401, "indent": 0, "parameters": ["Мне не интересно, чтобы меня беспокоили, \\."] },
+            { "code": 401, "indent": 0, "parameters": ["так что, пожалуйста, продолжай свой путь."] },
             { "code": 221, "indent": 0, "parameters": [] },
             { "code": 231, "indent": 0, "parameters": [2, "womeninwhite", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 222, "indent": 0, "parameters": [] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["take this with you and do not comeback."] },
+            { "code": 401, "indent": 0, "parameters": ["Возьми это с собой и не возвращайся."] },
             { "code": 401, "indent": 0, "parameters": [""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> obtained a flower warp orb."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Получена цветочная сфера перемещения."] },
             { "code": 126, "indent": 0, "parameters": [58, 0, 0, 1] },
             { "code": 122, "indent": 0, "parameters": [148, 148, 0, 0, 1] },
             { "code": 117, "indent": 0, "parameters": [38] },
@@ -2696,7 +2699,7 @@
           "image": { "tileId": 0, "characterName": "!Hexagram", "direction": 6, "pattern": 1, "characterIndex": 5 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> Locked."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Закрыто."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -2786,96 +2789,8 @@
       "x": 4,
       "y": 32
     },
-    {
-      "id": 11,
-      "name": "event common caller",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-          "list": [
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 214, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 3,
-      "y": 20
-    },
-    {
-      "id": 12,
-      "name": "event common caller",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-          "list": [
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 214, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 1,
-      "y": 20
-    },
+    null,
+    null,
     {
       "id": 13,
       "name": "filter 1 on",
