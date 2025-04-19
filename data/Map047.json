@@ -64,7 +64,7 @@
           "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> a strange reflective fellow is eagerly staring at you."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Странный отражающий парень жадно смотрит на вас."] },
             { "code": 231, "indent": 0, "parameters": [1, "CHROMEMANcutout2", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 231, "indent": 0, "parameters": [2, "CHROMEMANcutout3", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 357, "indent": 0, "parameters": ["Mimosa_MouseCursorPlus", "enable_cursor", "Enable Cursor", {}] },
