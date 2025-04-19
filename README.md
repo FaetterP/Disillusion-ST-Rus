@@ -3,7 +3,10 @@
 Русификатор для игры [Disillusion ST](https://store.steampowered.com/app/2775370). Версия **v1.5**.  
 Буду рад *звёздочке ⭐* на этом репозитории.
 
-⚠️ Русификатор будет обновляться по мере обновления игры.
+Поддержать автора перевода можно здесь:  
+https://boosty.to/faetterp
+
+---
 
 ![image](https://github.com/FaetterP/Disillusion-ST-Rus/assets/56697273/ed518220-a240-4c11-ac1c-2b785b11ebbf)
 ![image](https://github.com/user-attachments/assets/b16e5d1a-3112-48dc-ae49-41e6187b04bb)
