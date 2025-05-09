@@ -952,9 +952,12 @@
           "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
           "list": [
             { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 117, "indent": 0, "parameters": [200] },
+            { "code": 117, "indent": 0, "parameters": [197] },
+            { "code": 117, "indent": 0, "parameters": [196] },
+            { "code": 117, "indent": 0, "parameters": [195] },
+            { "code": 117, "indent": 0, "parameters": [199] },
+            { "code": 117, "indent": 0, "parameters": [198] },
             { "code": 214, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
@@ -1079,7 +1082,7 @@
           "image": { "tileId": 0, "characterName": "!$MONEY", "direction": 2, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["You can leave through these doors next to me. "] },
+            { "code": 401, "indent": 0, "parameters": ["Ты можешь выйти через эти двери рядом со мной. "] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,

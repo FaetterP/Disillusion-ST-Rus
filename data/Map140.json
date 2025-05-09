@@ -624,10 +624,12 @@
           "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
           "list": [
             { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 117, "indent": 0, "parameters": [200] },
+            { "code": 117, "indent": 0, "parameters": [197] },
+            { "code": 117, "indent": 0, "parameters": [196] },
+            { "code": 117, "indent": 0, "parameters": [195] },
+            { "code": 117, "indent": 0, "parameters": [199] },
+            { "code": 117, "indent": 0, "parameters": [198] },
             { "code": 214, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
@@ -642,8 +644,8 @@
           "walkAnime": true
         }
       ],
-      "x": 3,
-      "y": 31
+      "x": 4,
+      "y": 21
     },
     {
       "id": 3,
@@ -1008,51 +1010,7 @@
       "x": 10,
       "y": 20
     },
-    {
-      "id": 11,
-      "name": "event common caller",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-          "list": [
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 214, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 4,
-      "y": 25
-    },
+    null,
     {
       "id": 12,
       "name": "filter 1 on",
@@ -1776,14 +1734,14 @@
             { "code": 221, "indent": 1, "parameters": [] },
             { "code": 250, "indent": 1, "parameters": [{ "name": "Blow6", "volume": 45, "pitch": 50, "pan": 0 }] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["<i> You demolish the fragile wall with your drill."] },
+            { "code": 401, "indent": 1, "parameters": ["<i> Вы пробиваете хрупкую стену своей дрелью."] },
             { "code": 214, "indent": 1, "parameters": [] },
             { "code": 222, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 411, "indent": 0, "parameters": [] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["<i> You could probably destroy this with some sort of "] },
-            { "code": 401, "indent": 1, "parameters": ["drill."] },
+            { "code": 401, "indent": 1, "parameters": ["<i> Похоже, это можно сломать чем-то вроде "] },
+            { "code": 401, "indent": 1, "parameters": ["дрели."] },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 412, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
@@ -1865,7 +1823,7 @@
           "image": { "tileId": 0, "characterName": "!$1ANIME", "direction": 4, "pattern": 2, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i>you found a Zweihander."] },
+            { "code": 401, "indent": 0, "parameters": ["<i>Вы нашли Цвайхендер."] },
             { "code": 126, "indent": 0, "parameters": [71, 0, 0, 1] },
             { "code": 221, "indent": 0, "parameters": [] },
             { "code": 214, "indent": 0, "parameters": [] },
