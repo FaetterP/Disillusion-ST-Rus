@@ -678,7 +678,7 @@ function Scene_TripleTriad() {
     this.initialize_variables();
     this.initialize.apply(this, arguments);
     this.createWindowLayer();
-    this.initialize_rules_windows();
+    // this.initialize_rules_windows();
 }
 
 Scene_TripleTriad.prototype = Object.create(Scene_Base.prototype);
@@ -1201,12 +1201,8 @@ Scene_TripleTriad.prototype.move_cards_initial_position = function () {
 // Function : show_rules - Shows the rules of the duel
 //-----------------------------------------------------------------------------
 Scene_TripleTriad.prototype.show_rules = function () {
-    if (Input.isTriggered('cancel') || Input.isTriggered('ok') || TouchInput.isTriggered()) {
-        this._rulesWindow.close();
-        AudioManager.playBgm({ name: JSON.parse(this.enemy_configuration[$dataTripleTriad.enemy_id])['bgm_music'], pan: 0, pitch: 100, volume: 100 });
-        this.phase = 3;
-
-    }
+    AudioManager.playBgm({ name: JSON.parse(this.enemy_configuration[$dataTripleTriad.enemy_id])['bgm_music'], pan: 0, pitch: 100, volume: 100 });
+    this.phase = 3;
 };
 //////////////////////////// PHASE 3 //////////////////////////////////////
 //-----------------------------------------------------------------------------
