@@ -914,7 +914,7 @@
             { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
             { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["знаешь, это нормально чувствовать себя потерянным! \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Знаешь, это нормально чувствовать себя потерянным! \\."] },
             { "code": 401, "indent": 0, "parameters": ["В конце концов, спешить некуда! "] },
             { "code": 401, "indent": 0, "parameters": ["Иногда нужно просто забыть о цели и насладиться "] },
             { "code": 401, "indent": 0, "parameters": ["моментом, этого вполне достаточно.  "] },
