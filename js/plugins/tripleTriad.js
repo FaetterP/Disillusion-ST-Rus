@@ -3239,7 +3239,7 @@ Scene_Album_TT.prototype.load_plugin_parameters = function () {
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.initialize_cardList_windows = function () {
 
-    this._cardListWindow = new Window_TripleTriad_CardList(200, 200, 200, Graphics.height - 200);
+    this._cardListWindow = new Window_TripleTriad_CardList(200, 175, 200, Graphics.height - 175);
     for (var n = 0; n < this.card_list.length; n++)
         this._cardListWindow.setHandler(JSON.parse(this.card_list[n])['Name'], this.addCard.bind(this));
     this.addWindow(this._cardListWindow);
@@ -3270,7 +3270,7 @@ Scene_Album_TT.prototype.initialize_hand_windows = function () {
 // Function : initialize_cardDetails_windows - Initiates card Details
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.initialize_cardDetails_windows = function () {
-    this._cardDetailsWindow = new Window_TripleTriad_CardDetails(200, 200, Graphics.width - 200, Graphics.height - 200);
+    this._cardDetailsWindow = new Window_TripleTriad_CardDetails(200, 175, Graphics.width - 200, Graphics.height - 175);
     this.addWindow(this._cardDetailsWindow);
     if (!this.use_window)
         this._cardDetailsWindow.opacity = 0;
