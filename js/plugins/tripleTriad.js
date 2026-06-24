@@ -3213,7 +3213,7 @@ Scene_Album_TT.prototype.createBackground = function () {
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.load_variables = function () {
     this.index = 0;
-    this.old_index = 0;
+    this.old_index = -1;
     this.triple_triad_frame_count = 0;
     this.card_start_position = [];
     this.card_end_position = [];
@@ -3422,10 +3422,11 @@ Scene_Album_TT.prototype.update = function () {
     }
     switch (this.phase) {
         case 0:
-            this.index = this._cardListWindow.index();
-            if (this.index != this.old_index) {
+            var listIndex = this._cardListWindow.index();
+            this.index = this._cardListWindow.cardIdAtIndex(listIndex);
+            if (listIndex != this.old_index) {
                 this._cardDetailsWindow.refresh(this.index);
-                this.old_index = this.index;
+                this.old_index = listIndex;
             }
             if (Input.isTriggered('cancel'))
                 this.phase = 3;
@@ -3612,12 +3613,18 @@ Window_TripleTriad_CardList.prototype.initialize = function (x, y, width, height
 };
 
 Window_TripleTriad_CardList.prototype.makeCommandList = function () {
-    for (var n = 0; n < this.card_list.length; n++) {
-        if ($dataTripleTriad.self_tt_cards.includes(n) || $dataTripleTriad.all_cards.includes(n))
+    var isUnlocked = (n) => $dataTripleTriad.self_tt_cards.includes(n) || $dataTripleTriad.all_cards.includes(n);
+    this._cardIdByIndex = [...Array(this.card_list.length).keys()].sort((a, b) => isUnlocked(b) - isUnlocked(a));
+    this._cardIdByIndex.forEach(n => {
+        if (isUnlocked(n))
             this.addCommand(JSON.parse(this.card_list[n])['Name'], JSON.parse(this.card_list[n])['Name']);
         else
             this.addCommand("??????", "N/A", false);
-    }
+    });
+};
+
+Window_TripleTriad_CardList.prototype.cardIdAtIndex = function (index) {
+    return this._cardIdByIndex ? this._cardIdByIndex[index] : index;
 };
 
 Window_TripleTriad_CardList.prototype.windowHeight = function () {
@@ -3627,7 +3634,8 @@ Window_TripleTriad_CardList.prototype.windowWidth = function () {
     return this.windowW;
 };
 Window_TripleTriad_CardList.prototype.processOk = function () {
-    if ((this.isCurrentItemEnabled() && $dataTripleTriad.all_cards.includes(this.index())) || $dataTripleTriad.self_tt_cards.length == 5) {
+    var cardId = this.cardIdAtIndex(this.index());
+    if ((this.isCurrentItemEnabled() && $dataTripleTriad.all_cards.includes(cardId)) || $dataTripleTriad.self_tt_cards.length == 5) {
         this.playOkSound();
         this.updateInputData();
         this.callOkHandler();
