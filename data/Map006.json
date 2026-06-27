@@ -729,7 +729,7 @@
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 2, "parameters": ["Всего лишь посыльный, \\.не более того."] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 2, "parameters": ["Ты здесь для того, чтобы помочь возводить великую "] },
+            { "code": 401, "indent": 2, "parameters": ["Ты здесь для того, чтобы помочь возвести великую "] },
             { "code": 401, "indent": 2, "parameters": ["башню."] },
             { "code": 401, "indent": 2, "parameters": [" "] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },

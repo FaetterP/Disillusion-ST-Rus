@@ -2655,7 +2655,7 @@
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Почему такой человек, как ты, копается в воспоминаниях "] },
             { "code": 401, "indent": 0, "parameters": ["так небрежно? "] },
-            { "code": 401, "indent": 0, "parameters": ["Мне не интересно, чтобы меня беспокоили, \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Я не желаю, чтобы меня беспокоили, \\."] },
             { "code": 401, "indent": 0, "parameters": ["так что, пожалуйста, продолжай свой путь."] },
             { "code": 221, "indent": 0, "parameters": [] },
             { "code": 231, "indent": 0, "parameters": [2, "womeninwhite", 0, 0, 0, 0, 100, 100, 255, 0] },

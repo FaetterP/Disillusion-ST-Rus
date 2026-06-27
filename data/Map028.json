@@ -628,7 +628,7 @@
             { "code": 657, "indent": 0, "parameters": ["Width = 816"] },
             { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Я больше не хочу здесь находиться."] },
+            { "code": 401, "indent": 0, "parameters": ["Я больше не хочу быть здесь."] },
             { "code": 102, "indent": 0, "parameters": [["Что ты имеешь в виду?", "Ладно."], 1, 0, 2, 0] },
             { "code": 402, "indent": 0, "parameters": [0, "Что ты имеешь в виду?"] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2, ""] },

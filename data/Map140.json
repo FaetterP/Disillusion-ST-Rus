@@ -1734,7 +1734,7 @@
             { "code": 221, "indent": 1, "parameters": [] },
             { "code": 250, "indent": 1, "parameters": [{ "name": "Blow6", "volume": 45, "pitch": 50, "pan": 0 }] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["<i> Вы пробиваете хрупкую стену своей дрелью."] },
+            { "code": 401, "indent": 1, "parameters": ["<i> Вы сносите хрупкую стену своей дрелью."] },
             { "code": 214, "indent": 1, "parameters": [] },
             { "code": 222, "indent": 1, "parameters": [] },
             { "code": 0, "indent": 1, "parameters": [] },

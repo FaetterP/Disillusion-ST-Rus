@@ -1766,7 +1766,7 @@
             { "code": 231, "indent": 0, "parameters": [1, "hug", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 222, "indent": 0, "parameters": [] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Огромные объятия от меня к тебе."] },
+            { "code": 401, "indent": 0, "parameters": ["Крепко тебя обнимаю."] },
             { "code": 401, "indent": 0, "parameters": [""] },
             { "code": 401, "indent": 0, "parameters": ["...."] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
@@ -2158,7 +2158,7 @@
             { "code": 401, "indent": 0, "parameters": ["Эта девушка Мел действительно твёрдо убеждена, что "] },
             { "code": 401, "indent": 0, "parameters": ["она может освободить других из какого-то цикла."] },
             { "code": 401, "indent": 0, "parameters": ["Но зачем? \\.Если бы она хотела прощения, ей бы стоило "] },
-            { "code": 401, "indent": 0, "parameters": ["сменить своё отношение. \\.Улыбка порой может помочь!"] },
+            { "code": 401, "indent": 0, "parameters": ["сменить своё отношение. \\.Улыбка порой многое меняет!"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Я ищу что-то новое, \\.так что пойду с тобой."] },
             { "code": 0, "indent": 0, "parameters": [] }
@@ -2415,7 +2415,7 @@
             { "code": 401, "indent": 0, "parameters": [""] },
             { "code": 401, "indent": 0, "parameters": ["......"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["Я хочу больше не быть такой самовлюблённой. \\."] },
+            { "code": 401, "indent": 0, "parameters": ["Я больше не хочу становиться такой красивой. \\."] },
             { "code": 401, "indent": 0, "parameters": ["Как тебе такое?"] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],

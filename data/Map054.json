@@ -1916,7 +1916,7 @@
             { "code": 401, "indent": 2, "parameters": ["На самом деле, \\.я верю, что без этой информации "] },
             { "code": 401, "indent": 2, "parameters": ["можно найти больше покоя в своём отдыхе."] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 2, "parameters": ["Я доверяю тебе. Протяни руку к ангелу и "] },
+            { "code": 401, "indent": 2, "parameters": ["Я доверяю тебе. Протяни руку в ангела и "] },
             { "code": 401, "indent": 2, "parameters": ["достань первое, что попадётся."] },
             { "code": 221, "indent": 2, "parameters": [] },
             { "code": 231, "indent": 2, "parameters": [1, "rustedangel3", 0, 0, 0, 0, 100, 100, 255, 0] },

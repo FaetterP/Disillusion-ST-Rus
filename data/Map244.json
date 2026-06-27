@@ -1347,7 +1347,7 @@
             { "code": 657, "indent": 1, "parameters": ["Opacity level = 255"] },
             { "code": 657, "indent": 1, "parameters": ["Duration = 60"] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["<i>Великий лотос, \\ настоящее дно Нараки."] },
+            { "code": 401, "indent": 1, "parameters": ["<i>Великий лотос, \\.настоящее дно Нараки."] },
             {
               "code": 357,
               "indent": 1,
