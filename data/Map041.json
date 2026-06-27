@@ -68,7 +68,7 @@
             { "code": 231, "indent": 0, "parameters": [2, "hell2", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 231, "indent": 0, "parameters": [3, "hell3", 0, 0, 0, 0, 100, 100, 255, 0] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> An individual is chained in place."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Человек прикован на месте."] },
             { "code": 357, "indent": 0, "parameters": ["Mimosa_MouseCursorPlus", "enable_cursor", "Enable Cursor", {}] },
             {
               "code": 357,

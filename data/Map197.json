@@ -800,7 +800,7 @@
           "image": { "tileId": 0, "characterName": "!$1blueegg", "direction": 4, "pattern": 1, "characterIndex": 0 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> Locked."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Закрыто."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,
@@ -878,7 +878,7 @@
             { "code": 657, "indent": 0, "parameters": ["Opacity level = 255"] },
             { "code": 657, "indent": 0, "parameters": ["Duration = 60"] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> A golden rose lies among the asphodel."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Среди асфоделей лежит золотая роза."] },
             {
               "code": 357,
               "indent": 0,
@@ -900,7 +900,7 @@
             { "code": 126, "indent": 0, "parameters": [42, 0, 0, 1] },
             { "code": 222, "indent": 0, "parameters": [] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> Obtained the golden rose."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Получена золотая роза."] },
             { "code": 221, "indent": 0, "parameters": [] },
             { "code": 235, "indent": 0, "parameters": [1] },
             { "code": 126, "indent": 0, "parameters": [42, 0, 0, 1] },

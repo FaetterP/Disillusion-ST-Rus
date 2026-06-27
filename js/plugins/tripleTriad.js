@@ -597,7 +597,6 @@ PluginManager.registerCommand(pluginName, "Add Card", args => {
     for (const card of cardList) {
         $dataTripleTriad.all_cards.push(parseInt(card));
     }
-
 });
 PluginManager.registerCommand(pluginName, "Remove Card", args => {
     const cardList = JSON.parse(args['cardId']);
@@ -679,7 +678,7 @@ function Scene_TripleTriad() {
     this.initialize_variables();
     this.initialize.apply(this, arguments);
     this.createWindowLayer();
-    this.initialize_rules_windows();
+    // this.initialize_rules_windows();
 }
 
 Scene_TripleTriad.prototype = Object.create(Scene_Base.prototype);
@@ -1202,12 +1201,8 @@ Scene_TripleTriad.prototype.move_cards_initial_position = function () {
 // Function : show_rules - Shows the rules of the duel
 //-----------------------------------------------------------------------------
 Scene_TripleTriad.prototype.show_rules = function () {
-    if (Input.isTriggered('cancel') || Input.isTriggered('ok') || TouchInput.isTriggered()) {
-        this._rulesWindow.close();
-        AudioManager.playBgm({ name: JSON.parse(this.enemy_configuration[$dataTripleTriad.enemy_id])['bgm_music'], pan: 0, pitch: 100, volume: 100 });
-        this.phase = 3;
-
-    }
+    AudioManager.playBgm({ name: JSON.parse(this.enemy_configuration[$dataTripleTriad.enemy_id])['bgm_music'], pan: 0, pitch: 100, volume: 100 });
+    this.phase = 3;
 };
 //////////////////////////// PHASE 3 //////////////////////////////////////
 //-----------------------------------------------------------------------------
@@ -2716,13 +2711,13 @@ Scene_After_Match_TT.prototype.initialize_afterMatch_windows = function () {
     switch (this.win_case) {
         case 0:
         case 1:
-            this._rulesWindow.drawTextEx("One - Winners pick! use directional keys to choose", 0, 0);
+            this._rulesWindow.drawTextEx("Победитель выбирает одну карту! \n(используйте кнопки ходьбы)", 0, 0);
             break;
         case 2:
-            this._rulesWindow.drawTextEx("Direct - \nEach player gets its cards color!", 0, 0);
+            this._rulesWindow.drawTextEx("Каждый игрок забирает карты своего цвета!", 0, 0);
             break;
         case 3:
-            this._rulesWindow.drawTextEx("All - Winner wins it all!!", 0, 0);
+            this._rulesWindow.drawTextEx("Победитель выигрывает всё!!", 0, 0);
             break;
     }
     this.addWindow(this._rulesWindow);
@@ -3218,7 +3213,7 @@ Scene_Album_TT.prototype.createBackground = function () {
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.load_variables = function () {
     this.index = 0;
-    this.old_index = 0;
+    this.old_index = -1;
     this.triple_triad_frame_count = 0;
     this.card_start_position = [];
     this.card_end_position = [];
@@ -3244,7 +3239,7 @@ Scene_Album_TT.prototype.load_plugin_parameters = function () {
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.initialize_cardList_windows = function () {
 
-    this._cardListWindow = new Window_TripleTriad_CardList(200, 200, 200, Graphics.height - 200);
+    this._cardListWindow = new Window_TripleTriad_CardList(200, 175, 200, Graphics.height - 175);
     for (var n = 0; n < this.card_list.length; n++)
         this._cardListWindow.setHandler(JSON.parse(this.card_list[n])['Name'], this.addCard.bind(this));
     this.addWindow(this._cardListWindow);
@@ -3275,7 +3270,7 @@ Scene_Album_TT.prototype.initialize_hand_windows = function () {
 // Function : initialize_cardDetails_windows - Initiates card Details
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.initialize_cardDetails_windows = function () {
-    this._cardDetailsWindow = new Window_TripleTriad_CardDetails(200, 200, Graphics.width - 200, Graphics.height - 200);
+    this._cardDetailsWindow = new Window_TripleTriad_CardDetails(200, 175, Graphics.width - 200, Graphics.height - 175);
     this.addWindow(this._cardDetailsWindow);
     if (!this.use_window)
         this._cardDetailsWindow.opacity = 0;
@@ -3427,10 +3422,11 @@ Scene_Album_TT.prototype.update = function () {
     }
     switch (this.phase) {
         case 0:
-            this.index = this._cardListWindow.index();
-            if (this.index != this.old_index) {
+            var listIndex = this._cardListWindow.index();
+            this.index = this._cardListWindow.cardIdAtIndex(listIndex);
+            if (listIndex != this.old_index) {
                 this._cardDetailsWindow.refresh(this.index);
-                this.old_index = this.index;
+                this.old_index = listIndex;
             }
             if (Input.isTriggered('cancel'))
                 this.phase = 3;
@@ -3617,12 +3613,18 @@ Window_TripleTriad_CardList.prototype.initialize = function (x, y, width, height
 };
 
 Window_TripleTriad_CardList.prototype.makeCommandList = function () {
-    for (var n = 0; n < this.card_list.length; n++) {
-        if ($dataTripleTriad.self_tt_cards.includes(n) || $dataTripleTriad.all_cards.includes(n))
+    var isUnlocked = (n) => $dataTripleTriad.self_tt_cards.includes(n) || $dataTripleTriad.all_cards.includes(n);
+    this._cardIdByIndex = [...Array(this.card_list.length).keys()].sort((a, b) => isUnlocked(b) - isUnlocked(a));
+    this._cardIdByIndex.forEach(n => {
+        if (isUnlocked(n))
             this.addCommand(JSON.parse(this.card_list[n])['Name'], JSON.parse(this.card_list[n])['Name']);
         else
             this.addCommand("??????", "N/A", false);
-    }
+    });
+};
+
+Window_TripleTriad_CardList.prototype.cardIdAtIndex = function (index) {
+    return this._cardIdByIndex ? this._cardIdByIndex[index] : index;
 };
 
 Window_TripleTriad_CardList.prototype.windowHeight = function () {
@@ -3632,7 +3634,8 @@ Window_TripleTriad_CardList.prototype.windowWidth = function () {
     return this.windowW;
 };
 Window_TripleTriad_CardList.prototype.processOk = function () {
-    if ((this.isCurrentItemEnabled() && $dataTripleTriad.all_cards.includes(this.index())) || $dataTripleTriad.self_tt_cards.length == 5) {
+    var cardId = this.cardIdAtIndex(this.index());
+    if ((this.isCurrentItemEnabled() && $dataTripleTriad.all_cards.includes(cardId)) || $dataTripleTriad.self_tt_cards.length == 5) {
         this.playOkSound();
         this.updateInputData();
         this.callOkHandler();
