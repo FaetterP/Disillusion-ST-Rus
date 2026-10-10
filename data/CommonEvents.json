@@ -412,7 +412,7 @@
       { "code": 401, "indent": 0, "parameters": ["...."] },
       { "code": 221, "indent": 0, "parameters": [] },
       { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-      { "code": 401, "indent": 0, "parameters": ["<i>Ты не можешь отделаться от чувства, что стал"] },
+      { "code": 401, "indent": 0, "parameters": ["<i>Вы не можете отделаться от чувства, что стали"] },
       { "code": 401, "indent": 0, "parameters": ["немного невезучим или отмеченным чем-то ужасным."] },
       { "code": 122, "indent": 0, "parameters": [57, 57, 0, 0, 2] },
       { "code": 122, "indent": 0, "parameters": [58, 58, 0, 0, 1] },
