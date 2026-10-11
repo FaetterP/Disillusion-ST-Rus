@@ -647,6 +647,23 @@ function Game_TripleTriad() {
 };
 var $dataTripleTriad = null;
 
+document.addEventListener('keydown', function (e) {
+    if (e.repeat || !e.ctrlKey || !e.shiftKey || e.altKey || e.code !== 'KeyG')
+        return;
+    if (!$dataTripleTriad)
+        return;
+    var total = JSON.parse(PluginManager.parameters('tripleTriad')['Card Creation']).length;
+    for (var id = 0; id < total; id++) {
+        if (!$dataTripleTriad.self_tt_cards.includes(id) && !$dataTripleTriad.all_cards.includes(id))
+            $dataTripleTriad.all_cards.push(id);
+    }
+    var scene = SceneManager._scene;
+    if (scene instanceof Scene_Album_TT) {
+        scene._cardListWindow.refresh();
+        scene._cardDetailsWindow.refresh(scene.index);
+    }
+});
+
 const tt_alias_createGameObjects = DataManager.createGameObjects;
 DataManager.createGameObjects = function () {
     tt_alias_createGameObjects.call(this);
@@ -2086,53 +2103,50 @@ Scene_TripleTriad.prototype.is_flipping = function () {
 Scene_TripleTriad.prototype.end_game = function () {
     if (this.triple_triad_frame_count < 10)
         this._endGameImage.scale.y = Math.round((this._endGameImage.scale.y + 0.1) * 10) / 10;
-    if (this.triple_triad_frame_count >= 30) {
-        if (Input.isTriggered('ok') || TouchInput.isTriggered()) {
-            $dataTripleTriad.board_state = [[], []];
-            for (var x = 0; x < 3; x++)
-                for (var y = 0; y < 3; y++) {
-                    if (this.board_card_values[x][y][4] == 0)
-                        $dataTripleTriad.board_state[0].push(this.board_state[x][y]);
-                    else
-                        $dataTripleTriad.board_state[1].push(this.board_state[x][y]);
-                };
+    if (this.triple_triad_frame_count < 120)
+        return;
 
-            if (this.score == 5 && this.suddenDeath) {
-                var get_cards_flip = $dataTripleTriad.board_state;
-                var copy_npc_cards_hand = JSON.parse(JSON.stringify(this.npc_cards_hand));
-                var copy_player_cards_hand = JSON.parse(JSON.stringify(this.player_cards_hand));
-                for (var card = 0; card < get_cards_flip[0].length; card++) {
-                    if (get_cards_flip[0][card] > 4) {
-                        this.remove_specific_item(this.npc_cards_hand, copy_npc_cards_hand[get_cards_flip[0][card] - 5]);
-                        this.player_cards_hand.push(copy_npc_cards_hand[get_cards_flip[0][card] - 5]);
-                    };
-                };
-                for (var card = 0; card < get_cards_flip[1].length; card++) {
-                    if (get_cards_flip[1][card] <= 4) {
-                        this.remove_specific_item(this.player_cards_hand, copy_player_cards_hand[get_cards_flip[1][card]]);
-                        this.npc_cards_hand.push(copy_player_cards_hand[get_cards_flip[1][card]]);
-                    };
+    $dataTripleTriad.board_state = [[], []];
+    for (var x = 0; x < 3; x++)
+        for (var y = 0; y < 3; y++) {
+            if (this.board_card_values[x][y][4] == 0)
+                $dataTripleTriad.board_state[0].push(this.board_state[x][y]);
+            else
+                $dataTripleTriad.board_state[1].push(this.board_state[x][y]);
+        };
 
-                };
-                this.load_plugin_parameters();
-                // this.initialize_enemy_variables();
-                this.initialize_variables(true);
-                this.initialize.apply(this, arguments);
-                this.createWindowLayer();
-                this.initialize_rules_windows();
-
-            }
-            else if (this.score == 5 && $dataTripleTriad.currentRule != 2) {
-                $dataTripleTriad.score = this.score;
-                SceneManager.goto(Scene_Map);
-            }
-            else {
-                $dataTripleTriad.score = this.score;
-                SceneManager.push(Scene_After_Match_TT);
+    if (this.score == 5 && this.suddenDeath) {
+        var get_cards_flip = $dataTripleTriad.board_state;
+        var copy_npc_cards_hand = JSON.parse(JSON.stringify(this.npc_cards_hand));
+        var copy_player_cards_hand = JSON.parse(JSON.stringify(this.player_cards_hand));
+        for (var card = 0; card < get_cards_flip[0].length; card++) {
+            if (get_cards_flip[0][card] > 4) {
+                this.remove_specific_item(this.npc_cards_hand, copy_npc_cards_hand[get_cards_flip[0][card] - 5]);
+                this.player_cards_hand.push(copy_npc_cards_hand[get_cards_flip[0][card] - 5]);
+            };
+        };
+        for (var card = 0; card < get_cards_flip[1].length; card++) {
+            if (get_cards_flip[1][card] <= 4) {
+                this.remove_specific_item(this.player_cards_hand, copy_player_cards_hand[get_cards_flip[1][card]]);
+                this.npc_cards_hand.push(copy_player_cards_hand[get_cards_flip[1][card]]);
             };
 
-
         };
+        this.load_plugin_parameters();
+        // this.initialize_enemy_variables();
+        this.initialize_variables(true);
+        this.initialize.apply(this, arguments);
+        this.createWindowLayer();
+        this.initialize_rules_windows();
+
+    }
+    else if (this.score == 5 && $dataTripleTriad.currentRule != 2) {
+        $dataTripleTriad.score = this.score;
+        SceneManager.goto(Scene_Map);
+    }
+    else {
+        $dataTripleTriad.score = this.score;
+        SceneManager.push(Scene_After_Match_TT);
     };
 };
 
@@ -2670,6 +2684,7 @@ Scene_After_Match_TT.prototype.load_variables = function () {
     this.cursor_start_position = [0, 0];
     this.card_flipping = new Array();
     this.index = 0;
+    this.exit_wait = 0;
     this.phase_flip = 0;
     this.win_case = $dataTripleTriad.currentRule;
     this.enemy_phase = 0;
@@ -2710,8 +2725,10 @@ Scene_After_Match_TT.prototype.initialize_afterMatch_windows = function () {
     this._rulesWindow = new Window_TripleTriad_AfterMatch(Graphics.boxWidth / 2 - 250, 20, 500, 110);
     switch (this.win_case) {
         case 0:
+            this._rulesWindow.drawTextEx("Победитель выбирает одну карту!\n(кликните по карте)", 0, 0);
+            break;
         case 1:
-            this._rulesWindow.drawTextEx("Победитель выбирает одну карту! \n(используйте кнопки ходьбы)", 0, 0);
+            this._rulesWindow.drawTextEx("Противник забирает одну из ваших карт!", 0, 0);
             break;
         case 2:
             this._rulesWindow.drawTextEx("Каждый игрок забирает карты своего цвета!", 0, 0);
@@ -2723,14 +2740,6 @@ Scene_After_Match_TT.prototype.initialize_afterMatch_windows = function () {
     this.addWindow(this._rulesWindow);
     this._rulesWindow.opacity = 0;
     this._rulesWindow.close();
-
-    this._confirmWindow = new Window_TripleTriad_AfterMatch_Confirmation(Graphics.boxWidth / 2 - 50, 320, 100, 110);
-
-
-    this.addWindow(this._confirmWindow);
-    this._confirmWindow.opacity = 0;
-    this._confirmWindow.close();
-
 }
 //-----------------------------------------------------------------------------
 // Function : create_background - creates background Images
@@ -2811,9 +2820,6 @@ Scene_After_Match_TT.prototype.update = function () {
         case 2:
             this.choose_card();
             break;
-        case 3:
-            this.confirm_flip();
-            break;
         case 4:
             this.flip_all_cards();
             break;
@@ -2830,9 +2836,9 @@ Scene_After_Match_TT.prototype.update = function () {
 // Function : wait_for_click - waits for click
 //-----------------------------------------------------------------------------
 Scene_After_Match_TT.prototype.wait_for_click = function () {
-    if (Input.isTriggered('ok') || TouchInput.isTriggered()) {
+    this.exit_wait++;
+    if (this.exit_wait >= 60) {
         this._rulesWindow.close();
-        SoundManager.playOk();
         this.phase = 6;
     }
 };
@@ -2856,23 +2862,6 @@ Scene_After_Match_TT.prototype.close_scene = function () {
 
 };
 
-//-----------------------------------------------------------------------------
-// Function : confirm_flip - confirms flip
-//-----------------------------------------------------------------------------
-Scene_After_Match_TT.prototype.confirm_flip = function () {
-    if (this._confirmWindow.isClosed()) {
-        if (this._confirmWindow.index() == 0) {
-            this.phase = 4;
-            console.log(this.index);
-            $dataTripleTriad.all_cards.push($dataTripleTriad.enemy_tt_cards[$dataTripleTriad.enemy_id][this.index]);
-            $dataTripleTriad.enemy_tt_cards[$dataTripleTriad.enemy_id].splice(this.index, 1)
-            this.card_flipping.push(this.index + 5);
-        }
-        if (this._confirmWindow.index() == 1) {
-            this.phase = 2;
-        }
-    }
-};
 //////////////////////////// PHASE 0 //////////////////////////////////////
 //-----------------------------------------------------------------------------
 // Function : update_opacity - updates initial opacity
@@ -2890,7 +2879,6 @@ Scene_After_Match_TT.prototype.update_opacity = function () {
         AudioManager.playSe({ name: this.aux_images['card_shuffle_sound'], pan: 0, pitch: 100, volume: 100 });
         this.phase = 1;
         this._rulesWindow.opacity = 255;
-        this._confirmWindow.opacity = 255;
         this.triple_triad_frame_count = 0;
     }
 };
@@ -2916,8 +2904,6 @@ Scene_After_Match_TT.prototype.move_cards = function (y) {
 
 
         if (this.win_case == 0) {
-            this._game_cursor.opacity = 255;
-            this.set_cursor_end_position(this._cards_player_1_B[0].x, this._cards_player_1_B[0].y);
             this._rulesWindow.open();
         }
 
@@ -2941,22 +2927,12 @@ Scene_After_Match_TT.prototype.move_cards = function (y) {
 // Function : choose_card - choose card
 //-----------------------------------------------------------------------------
 Scene_After_Match_TT.prototype.choose_card = function () {
+    if (this.win_case == 0) {
+        this.choose_card_by_mouse();
+        return;
+    }
     if (!this.is_cursor_moving())
         return;
-    if (this.win_case == 0) {
-        if (Input.isRepeated('left')) {
-            SoundManager.playCursor();
-            this.update_player_card_index(-1);
-        }
-        if (Input.isRepeated('right')) {
-            SoundManager.playCursor();
-            this.update_player_card_index(1);
-        }
-        if (Input.isTriggered('ok')) {
-            this._confirmWindow.open();
-            this.phase = 3;
-        }
-    }
     if (this.win_case == 1) {
         if (this.enemy_phase == 1)
             this.phase = 4;
@@ -3016,6 +2992,33 @@ Scene_After_Match_TT.prototype.choose_card = function () {
             this.phase = 4;
         }
     }
+};
+
+//-----------------------------------------------------------------------------
+// Function : choose_card_by_mouse - выбор карты кликом
+//-----------------------------------------------------------------------------
+Scene_After_Match_TT.prototype.choose_card_by_mouse = function () {
+    if (!TouchInput.isTriggered())
+        return;
+    for (var i = 4; i >= 0; i--) {
+        if (this._cards_player_2_A[i].isButtonTouched()) {
+            this.take_enemy_card(i);
+            return;
+        }
+    }
+};
+
+//-----------------------------------------------------------------------------
+// Function : take_enemy_card - забирает выбранную карту противника
+//-----------------------------------------------------------------------------
+Scene_After_Match_TT.prototype.take_enemy_card = function (index) {
+    SoundManager.playOk();
+    this.index = index;
+    var enemyCards = $dataTripleTriad.enemy_tt_cards[$dataTripleTriad.enemy_id];
+    $dataTripleTriad.all_cards.push(enemyCards[index]);
+    enemyCards.splice(index, 1);
+    this.card_flipping.push(index + 5);
+    this.phase = 4;
 };
 
 //-----------------------------------------------------------------------------
@@ -3130,34 +3133,6 @@ Window_TripleTriad_AfterMatch.prototype.constructor = Window_TripleTriad_AfterMa
 
 Window_TripleTriad_AfterMatch.prototype.initialize = function (x, y, width, height) {
     Window_Base.prototype.initialize.call(this, new Rectangle(x, y, width, height));
-};
-
-function Window_TripleTriad_AfterMatch_Confirmation() {
-    this.initialize.apply(this, arguments);
-}
-
-Window_TripleTriad_AfterMatch_Confirmation.prototype = Object.create(Window_Command.prototype);
-Window_TripleTriad_AfterMatch_Confirmation.prototype.constructor = Window_TripleTriad_AfterMatch_Confirmation;
-
-Window_TripleTriad_AfterMatch_Confirmation.prototype.initialize = function (x, y, width, height) {
-    Window_Command.prototype.initialize.call(this, new Rectangle(x, y, width, height));
-};
-
-Window_TripleTriad_AfterMatch_Confirmation.prototype.makeCommandList = function () {
-    this.addCommand("Yes", 'Yes');
-    this.addCommand("No", 'No');
-};
-
-Window_TripleTriad_AfterMatch_Confirmation.prototype.processOk = function () {
-    if (this.isCurrentItemEnabled()) {
-        this.playOkSound();
-        this.updateInputData();
-        this.deactivate();
-        this.callOkHandler();
-        this.close();
-    } else {
-        this.playBuzzerSound();
-    }
 };
 
 
