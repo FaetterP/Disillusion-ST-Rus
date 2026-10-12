@@ -83,7 +83,7 @@
           "list": [
             { "code": 111, "indent": 0, "parameters": [1, 179, 0, 1, 0] },
             { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 1, "parameters": ["<i> The cherub is dead. "] },
+            { "code": 401, "indent": 1, "parameters": ["<i> Херувим мёртв. "] },
             { "code": 117, "indent": 1, "parameters": [81] },
             { "code": 0, "indent": 1, "parameters": [] },
             { "code": 411, "indent": 0, "parameters": [] },
@@ -373,7 +373,7 @@
             { "code": 122, "indent": 6, "parameters": [179, 179, 0, 0, 1] },
             { "code": 221, "indent": 6, "parameters": [] },
             { "code": 101, "indent": 6, "parameters": ["", 0, 0, 2, ""] },
-            { "code": 401, "indent": 6, "parameters": ["<i> The cherub starved to death."] },
+            { "code": 401, "indent": 6, "parameters": ["<i> Херувим умер от голода."] },
             { "code": 117, "indent": 6, "parameters": [81] },
             { "code": 0, "indent": 6, "parameters": [] },
             { "code": 411, "indent": 5, "parameters": [] },

@@ -597,7 +597,6 @@ PluginManager.registerCommand(pluginName, "Add Card", args => {
     for (const card of cardList) {
         $dataTripleTriad.all_cards.push(parseInt(card));
     }
-
 });
 PluginManager.registerCommand(pluginName, "Remove Card", args => {
     const cardList = JSON.parse(args['cardId']);
@@ -648,6 +647,23 @@ function Game_TripleTriad() {
 };
 var $dataTripleTriad = null;
 
+document.addEventListener('keydown', function (e) {
+    if (e.repeat || !e.ctrlKey || !e.shiftKey || e.altKey || e.code !== 'KeyG')
+        return;
+    if (!$dataTripleTriad)
+        return;
+    var total = JSON.parse(PluginManager.parameters('tripleTriad')['Card Creation']).length;
+    for (var id = 0; id < total; id++) {
+        if (!$dataTripleTriad.self_tt_cards.includes(id) && !$dataTripleTriad.all_cards.includes(id))
+            $dataTripleTriad.all_cards.push(id);
+    }
+    var scene = SceneManager._scene;
+    if (scene instanceof Scene_Album_TT) {
+        scene._cardListWindow.refresh();
+        scene._cardDetailsWindow.refresh(scene.index);
+    }
+});
+
 const tt_alias_createGameObjects = DataManager.createGameObjects;
 DataManager.createGameObjects = function () {
     tt_alias_createGameObjects.call(this);
@@ -679,7 +695,7 @@ function Scene_TripleTriad() {
     this.initialize_variables();
     this.initialize.apply(this, arguments);
     this.createWindowLayer();
-    this.initialize_rules_windows();
+    // this.initialize_rules_windows();
 }
 
 Scene_TripleTriad.prototype = Object.create(Scene_Base.prototype);
@@ -1202,12 +1218,8 @@ Scene_TripleTriad.prototype.move_cards_initial_position = function () {
 // Function : show_rules - Shows the rules of the duel
 //-----------------------------------------------------------------------------
 Scene_TripleTriad.prototype.show_rules = function () {
-    if (Input.isTriggered('cancel') || Input.isTriggered('ok') || TouchInput.isTriggered()) {
-        this._rulesWindow.close();
-        AudioManager.playBgm({ name: JSON.parse(this.enemy_configuration[$dataTripleTriad.enemy_id])['bgm_music'], pan: 0, pitch: 100, volume: 100 });
-        this.phase = 3;
-
-    }
+    AudioManager.playBgm({ name: JSON.parse(this.enemy_configuration[$dataTripleTriad.enemy_id])['bgm_music'], pan: 0, pitch: 100, volume: 100 });
+    this.phase = 3;
 };
 //////////////////////////// PHASE 3 //////////////////////////////////////
 //-----------------------------------------------------------------------------
@@ -2091,53 +2103,50 @@ Scene_TripleTriad.prototype.is_flipping = function () {
 Scene_TripleTriad.prototype.end_game = function () {
     if (this.triple_triad_frame_count < 10)
         this._endGameImage.scale.y = Math.round((this._endGameImage.scale.y + 0.1) * 10) / 10;
-    if (this.triple_triad_frame_count >= 30) {
-        if (Input.isTriggered('ok') || TouchInput.isTriggered()) {
-            $dataTripleTriad.board_state = [[], []];
-            for (var x = 0; x < 3; x++)
-                for (var y = 0; y < 3; y++) {
-                    if (this.board_card_values[x][y][4] == 0)
-                        $dataTripleTriad.board_state[0].push(this.board_state[x][y]);
-                    else
-                        $dataTripleTriad.board_state[1].push(this.board_state[x][y]);
-                };
+    if (this.triple_triad_frame_count < 120)
+        return;
 
-            if (this.score == 5 && this.suddenDeath) {
-                var get_cards_flip = $dataTripleTriad.board_state;
-                var copy_npc_cards_hand = JSON.parse(JSON.stringify(this.npc_cards_hand));
-                var copy_player_cards_hand = JSON.parse(JSON.stringify(this.player_cards_hand));
-                for (var card = 0; card < get_cards_flip[0].length; card++) {
-                    if (get_cards_flip[0][card] > 4) {
-                        this.remove_specific_item(this.npc_cards_hand, copy_npc_cards_hand[get_cards_flip[0][card] - 5]);
-                        this.player_cards_hand.push(copy_npc_cards_hand[get_cards_flip[0][card] - 5]);
-                    };
-                };
-                for (var card = 0; card < get_cards_flip[1].length; card++) {
-                    if (get_cards_flip[1][card] <= 4) {
-                        this.remove_specific_item(this.player_cards_hand, copy_player_cards_hand[get_cards_flip[1][card]]);
-                        this.npc_cards_hand.push(copy_player_cards_hand[get_cards_flip[1][card]]);
-                    };
+    $dataTripleTriad.board_state = [[], []];
+    for (var x = 0; x < 3; x++)
+        for (var y = 0; y < 3; y++) {
+            if (this.board_card_values[x][y][4] == 0)
+                $dataTripleTriad.board_state[0].push(this.board_state[x][y]);
+            else
+                $dataTripleTriad.board_state[1].push(this.board_state[x][y]);
+        };
 
-                };
-                this.load_plugin_parameters();
-                // this.initialize_enemy_variables();
-                this.initialize_variables(true);
-                this.initialize.apply(this, arguments);
-                this.createWindowLayer();
-                this.initialize_rules_windows();
-
-            }
-            else if (this.score == 5 && $dataTripleTriad.currentRule != 2) {
-                $dataTripleTriad.score = this.score;
-                SceneManager.goto(Scene_Map);
-            }
-            else {
-                $dataTripleTriad.score = this.score;
-                SceneManager.push(Scene_After_Match_TT);
+    if (this.score == 5 && this.suddenDeath) {
+        var get_cards_flip = $dataTripleTriad.board_state;
+        var copy_npc_cards_hand = JSON.parse(JSON.stringify(this.npc_cards_hand));
+        var copy_player_cards_hand = JSON.parse(JSON.stringify(this.player_cards_hand));
+        for (var card = 0; card < get_cards_flip[0].length; card++) {
+            if (get_cards_flip[0][card] > 4) {
+                this.remove_specific_item(this.npc_cards_hand, copy_npc_cards_hand[get_cards_flip[0][card] - 5]);
+                this.player_cards_hand.push(copy_npc_cards_hand[get_cards_flip[0][card] - 5]);
+            };
+        };
+        for (var card = 0; card < get_cards_flip[1].length; card++) {
+            if (get_cards_flip[1][card] <= 4) {
+                this.remove_specific_item(this.player_cards_hand, copy_player_cards_hand[get_cards_flip[1][card]]);
+                this.npc_cards_hand.push(copy_player_cards_hand[get_cards_flip[1][card]]);
             };
 
-
         };
+        this.load_plugin_parameters();
+        // this.initialize_enemy_variables();
+        this.initialize_variables(true);
+        this.initialize.apply(this, arguments);
+        this.createWindowLayer();
+        this.initialize_rules_windows();
+
+    }
+    else if (this.score == 5 && $dataTripleTriad.currentRule != 2) {
+        $dataTripleTriad.score = this.score;
+        SceneManager.goto(Scene_Map);
+    }
+    else {
+        $dataTripleTriad.score = this.score;
+        SceneManager.push(Scene_After_Match_TT);
     };
 };
 
@@ -2675,6 +2684,7 @@ Scene_After_Match_TT.prototype.load_variables = function () {
     this.cursor_start_position = [0, 0];
     this.card_flipping = new Array();
     this.index = 0;
+    this.exit_wait = 0;
     this.phase_flip = 0;
     this.win_case = $dataTripleTriad.currentRule;
     this.enemy_phase = 0;
@@ -2715,27 +2725,21 @@ Scene_After_Match_TT.prototype.initialize_afterMatch_windows = function () {
     this._rulesWindow = new Window_TripleTriad_AfterMatch(Graphics.boxWidth / 2 - 250, 20, 500, 110);
     switch (this.win_case) {
         case 0:
+            this._rulesWindow.drawTextEx("Победитель выбирает одну карту!\n(кликните по карте)", 0, 0);
+            break;
         case 1:
-            this._rulesWindow.drawTextEx("One - Winners pick! use directional keys to choose", 0, 0);
+            this._rulesWindow.drawTextEx("Противник забирает одну из ваших карт!", 0, 0);
             break;
         case 2:
-            this._rulesWindow.drawTextEx("Direct - \nEach player gets its cards color!", 0, 0);
+            this._rulesWindow.drawTextEx("Каждый игрок забирает карты своего цвета!", 0, 0);
             break;
         case 3:
-            this._rulesWindow.drawTextEx("All - Winner wins it all!!", 0, 0);
+            this._rulesWindow.drawTextEx("Победитель выигрывает всё!!", 0, 0);
             break;
     }
     this.addWindow(this._rulesWindow);
     this._rulesWindow.opacity = 0;
     this._rulesWindow.close();
-
-    this._confirmWindow = new Window_TripleTriad_AfterMatch_Confirmation(Graphics.boxWidth / 2 - 50, 320, 100, 110);
-
-
-    this.addWindow(this._confirmWindow);
-    this._confirmWindow.opacity = 0;
-    this._confirmWindow.close();
-
 }
 //-----------------------------------------------------------------------------
 // Function : create_background - creates background Images
@@ -2816,9 +2820,6 @@ Scene_After_Match_TT.prototype.update = function () {
         case 2:
             this.choose_card();
             break;
-        case 3:
-            this.confirm_flip();
-            break;
         case 4:
             this.flip_all_cards();
             break;
@@ -2835,9 +2836,9 @@ Scene_After_Match_TT.prototype.update = function () {
 // Function : wait_for_click - waits for click
 //-----------------------------------------------------------------------------
 Scene_After_Match_TT.prototype.wait_for_click = function () {
-    if (Input.isTriggered('ok') || TouchInput.isTriggered()) {
+    this.exit_wait++;
+    if (this.exit_wait >= 60) {
         this._rulesWindow.close();
-        SoundManager.playOk();
         this.phase = 6;
     }
 };
@@ -2861,23 +2862,6 @@ Scene_After_Match_TT.prototype.close_scene = function () {
 
 };
 
-//-----------------------------------------------------------------------------
-// Function : confirm_flip - confirms flip
-//-----------------------------------------------------------------------------
-Scene_After_Match_TT.prototype.confirm_flip = function () {
-    if (this._confirmWindow.isClosed()) {
-        if (this._confirmWindow.index() == 0) {
-            this.phase = 4;
-            console.log(this.index);
-            $dataTripleTriad.all_cards.push($dataTripleTriad.enemy_tt_cards[$dataTripleTriad.enemy_id][this.index]);
-            $dataTripleTriad.enemy_tt_cards[$dataTripleTriad.enemy_id].splice(this.index, 1)
-            this.card_flipping.push(this.index + 5);
-        }
-        if (this._confirmWindow.index() == 1) {
-            this.phase = 2;
-        }
-    }
-};
 //////////////////////////// PHASE 0 //////////////////////////////////////
 //-----------------------------------------------------------------------------
 // Function : update_opacity - updates initial opacity
@@ -2895,7 +2879,6 @@ Scene_After_Match_TT.prototype.update_opacity = function () {
         AudioManager.playSe({ name: this.aux_images['card_shuffle_sound'], pan: 0, pitch: 100, volume: 100 });
         this.phase = 1;
         this._rulesWindow.opacity = 255;
-        this._confirmWindow.opacity = 255;
         this.triple_triad_frame_count = 0;
     }
 };
@@ -2921,8 +2904,6 @@ Scene_After_Match_TT.prototype.move_cards = function (y) {
 
 
         if (this.win_case == 0) {
-            this._game_cursor.opacity = 255;
-            this.set_cursor_end_position(this._cards_player_1_B[0].x, this._cards_player_1_B[0].y);
             this._rulesWindow.open();
         }
 
@@ -2946,22 +2927,12 @@ Scene_After_Match_TT.prototype.move_cards = function (y) {
 // Function : choose_card - choose card
 //-----------------------------------------------------------------------------
 Scene_After_Match_TT.prototype.choose_card = function () {
+    if (this.win_case == 0) {
+        this.choose_card_by_mouse();
+        return;
+    }
     if (!this.is_cursor_moving())
         return;
-    if (this.win_case == 0) {
-        if (Input.isRepeated('left')) {
-            SoundManager.playCursor();
-            this.update_player_card_index(-1);
-        }
-        if (Input.isRepeated('right')) {
-            SoundManager.playCursor();
-            this.update_player_card_index(1);
-        }
-        if (Input.isTriggered('ok')) {
-            this._confirmWindow.open();
-            this.phase = 3;
-        }
-    }
     if (this.win_case == 1) {
         if (this.enemy_phase == 1)
             this.phase = 4;
@@ -3021,6 +2992,33 @@ Scene_After_Match_TT.prototype.choose_card = function () {
             this.phase = 4;
         }
     }
+};
+
+//-----------------------------------------------------------------------------
+// Function : choose_card_by_mouse - выбор карты кликом
+//-----------------------------------------------------------------------------
+Scene_After_Match_TT.prototype.choose_card_by_mouse = function () {
+    if (!TouchInput.isTriggered())
+        return;
+    for (var i = 4; i >= 0; i--) {
+        if (this._cards_player_2_A[i].isButtonTouched()) {
+            this.take_enemy_card(i);
+            return;
+        }
+    }
+};
+
+//-----------------------------------------------------------------------------
+// Function : take_enemy_card - забирает выбранную карту противника
+//-----------------------------------------------------------------------------
+Scene_After_Match_TT.prototype.take_enemy_card = function (index) {
+    SoundManager.playOk();
+    this.index = index;
+    var enemyCards = $dataTripleTriad.enemy_tt_cards[$dataTripleTriad.enemy_id];
+    $dataTripleTriad.all_cards.push(enemyCards[index]);
+    enemyCards.splice(index, 1);
+    this.card_flipping.push(index + 5);
+    this.phase = 4;
 };
 
 //-----------------------------------------------------------------------------
@@ -3137,34 +3135,6 @@ Window_TripleTriad_AfterMatch.prototype.initialize = function (x, y, width, heig
     Window_Base.prototype.initialize.call(this, new Rectangle(x, y, width, height));
 };
 
-function Window_TripleTriad_AfterMatch_Confirmation() {
-    this.initialize.apply(this, arguments);
-}
-
-Window_TripleTriad_AfterMatch_Confirmation.prototype = Object.create(Window_Command.prototype);
-Window_TripleTriad_AfterMatch_Confirmation.prototype.constructor = Window_TripleTriad_AfterMatch_Confirmation;
-
-Window_TripleTriad_AfterMatch_Confirmation.prototype.initialize = function (x, y, width, height) {
-    Window_Command.prototype.initialize.call(this, new Rectangle(x, y, width, height));
-};
-
-Window_TripleTriad_AfterMatch_Confirmation.prototype.makeCommandList = function () {
-    this.addCommand("Yes", 'Yes');
-    this.addCommand("No", 'No');
-};
-
-Window_TripleTriad_AfterMatch_Confirmation.prototype.processOk = function () {
-    if (this.isCurrentItemEnabled()) {
-        this.playOkSound();
-        this.updateInputData();
-        this.deactivate();
-        this.callOkHandler();
-        this.close();
-    } else {
-        this.playBuzzerSound();
-    }
-};
-
 
 //-----------------------------------------------------------------------------
 // Scene_Album_TT
@@ -3193,15 +3163,18 @@ Scene_Album_TT.prototype.constructor = Scene_Album_TT;
 // Function : create_extra_buttons - creates background image
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.create_extra_buttons = function () {
+    var duelMode = $dataTripleTriad.push_triple_triad;
     this.leaveBtn = new Sprite_Clickable();
     this.leaveBtn.bitmap = ImageManager.loadTripleTriad(this.extras['Album Back Button']);
     this.leaveBtn.x = parseInt(this.extras['Album Back Button X'])
     this.leaveBtn.y = parseInt(this.extras['Album Back Button Y'])
+    this.leaveBtn.visible = !duelMode
     this.addChild(this.leaveBtn);
     this.duelBtn = new Sprite_Clickable();
     this.duelBtn.bitmap = ImageManager.loadTripleTriad(this.extras['Album Duel Button']);
     this.duelBtn.x = parseInt(this.extras['Album Duel Button X'])
     this.duelBtn.y = parseInt(this.extras['Album Duel Button Y'])
+    this.duelBtn.visible = duelMode && this.phase != 7;
     this.addChild(this.duelBtn);
 }
 
@@ -3218,7 +3191,8 @@ Scene_Album_TT.prototype.createBackground = function () {
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.load_variables = function () {
     this.index = 0;
-    this.old_index = 0;
+    this.old_index = -1;
+    this.remove_index = -1;
     this.triple_triad_frame_count = 0;
     this.card_start_position = [];
     this.card_end_position = [];
@@ -3244,7 +3218,7 @@ Scene_Album_TT.prototype.load_plugin_parameters = function () {
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.initialize_cardList_windows = function () {
 
-    this._cardListWindow = new Window_TripleTriad_CardList(200, 200, 200, Graphics.height - 200);
+    this._cardListWindow = new Window_TripleTriad_CardList(200, 175, 200, Graphics.height - 175);
     for (var n = 0; n < this.card_list.length; n++)
         this._cardListWindow.setHandler(JSON.parse(this.card_list[n])['Name'], this.addCard.bind(this));
     this.addWindow(this._cardListWindow);
@@ -3275,7 +3249,7 @@ Scene_Album_TT.prototype.initialize_hand_windows = function () {
 // Function : initialize_cardDetails_windows - Initiates card Details
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.initialize_cardDetails_windows = function () {
-    this._cardDetailsWindow = new Window_TripleTriad_CardDetails(200, 200, Graphics.width - 200, Graphics.height - 200);
+    this._cardDetailsWindow = new Window_TripleTriad_CardDetails(200, 175, Graphics.width - 200, Graphics.height - 175);
     this.addWindow(this._cardDetailsWindow);
     if (!this.use_window)
         this._cardDetailsWindow.opacity = 0;
@@ -3300,8 +3274,9 @@ Scene_Album_TT.prototype.addCard = function () {
     this.phase = 1;
     this.remove_specific_item($dataTripleTriad.all_cards, this.index);
     this.add_single_card_image(this._cards_player_1_A, $dataTripleTriad.self_tt_cards.length, parseInt(this.image_list['Cards_Hand_X']) + $dataTripleTriad.self_tt_cards.length * parseInt(this.image_list['Distance']), parseInt(this.image_list['Cards_Hand_Y']), this.index, false);
-    this.card_end_position[0] = 100 + $dataTripleTriad.self_tt_cards.length * parseInt(this.image_list['Distance']);
+    this.card_end_position[0] = parseInt(this.image_list['Cards_Hand_X']) + $dataTripleTriad.self_tt_cards.length * parseInt(this.image_list['Distance']);
     $dataTripleTriad.self_tt_cards.push(this.index);
+    this._cardListWindow.refresh();
     this._cardDetailsWindow.refresh(this.index);
     this.triple_triad_frame_count = 0;
     this.card_start_position[0] = Graphics.width + this._cards_back_cards.width / 2;
@@ -3340,7 +3315,7 @@ Scene_Album_TT.prototype.move_card_back = function () {
     if (this.triple_triad_frame_count >= 15) {
         this._cards_back_cards.x = this.card_end_position[0];
         this._cards_back_cards.y = this.card_end_position[1];
-        this.phase = 0;
+        this.finish_card_removal();
         this.phase_flip = 0;
         AudioManager.playSe({ name: this.aux_images['card_flipping_sound'], pan: 0, pitch: 100, volume: 100 });
     }
@@ -3351,6 +3326,52 @@ Scene_Album_TT.prototype.move_card_back = function () {
         this._cards_back_cards.y += parseInt(y / 15);
     }
 };
+
+//-----------------------------------------------------------------------------
+// Function : finish_card_removal - removes the sprite of the removed card from the
+// sprites array (keeps it in sync with $dataTripleTriad.self_tt_cards) and, if the
+// removed card was not the last one, starts the "shift cards left" animation
+//-----------------------------------------------------------------------------
+Scene_Album_TT.prototype.finish_card_removal = function () {
+    var i = this.remove_index;
+    var removed = this._cards_player_1_A.splice(i, 1)[0];
+    if (removed)
+        this.removeChild(removed);
+
+    if (i < $dataTripleTriad.self_tt_cards.length) {
+        this.shift_start_x = [];
+        for (var k = i; k < $dataTripleTriad.self_tt_cards.length; k++)
+            this.shift_start_x[k] = this._cards_player_1_A[k].x;
+        this.triple_triad_frame_count = 0;
+        this.phase = 9;
+    }
+    else {
+        this.remove_index = -1;
+        this.phase = 0;
+        this._cardListWindow.activate();
+    }
+};
+
+//-----------------------------------------------------------------------------
+// Function : shift_cards_left - smoothly moves the cards that were to the right of
+// the removed card into the freed space
+//-----------------------------------------------------------------------------
+Scene_Album_TT.prototype.shift_cards_left = function () {
+    var t = Math.min(this.triple_triad_frame_count / 15, 1);
+    var baseX = parseInt(this.image_list['Cards_Hand_X']);
+    var dist = parseInt(this.image_list['Distance']);
+    for (var k = this.remove_index; k < $dataTripleTriad.self_tt_cards.length; k++) {
+        var startX = this.shift_start_x[k];
+        var endX = baseX + k * dist;
+        this._cards_player_1_A[k].x = Math.round(startX + (endX - startX) * t);
+    }
+    if (t >= 1) {
+        this.remove_index = -1;
+        this.phase = 0;
+        this._cardListWindow.activate();
+    }
+};
+
 //-----------------------------------------------------------------------------
 // Function : create_cards - creates Card Images Images
 //-----------------------------------------------------------------------------
@@ -3405,35 +3426,35 @@ Scene_Album_TT.prototype.remove_specific_item = function (arr, card) {
 Scene_Album_TT.prototype.update = function () {
     Scene_Base.prototype.update.call(this);
     this.triple_triad_frame_count++;
-    if (this.leaveBtn.isPressed() && TouchInput.isTriggered()) {
-        if ($dataTripleTriad.push_triple_triad) {
-            SoundManager.playBuzzer();
-        }
-        else {
-            this.close_all_windows();
-            this.phase = 6;
-        }
+    if (this.leaveBtn.visible && this.leaveBtn.isPressed() && TouchInput.isTriggered()) {
+        this.close_all_windows();
+        this.phase = 6;
     }
-    if (this.duelBtn.isPressed() && TouchInput.isTriggered()) {
-        if ($dataTripleTriad.push_triple_triad && $dataTripleTriad.self_tt_cards.length == 5) {
+    if (this.duelBtn.visible && this.duelBtn.isPressed() && TouchInput.isTriggered()) {
+        if ($dataTripleTriad.self_tt_cards.length == 5) {
             $dataTripleTriad.push_triple_triad = false;
-            SoundManager.playOk()
+            SoundManager.playOk();
             SceneManager.push(Scene_TripleTriad);
             return;
         }
         else {
-            SoundManager.playBuzzer()
+            SoundManager.playBuzzer();
         }
     }
+    if (this.duelBtn.visible && this.phase != 6)
+        this.duelBtn.opacity = ($dataTripleTriad.self_tt_cards.length == 5) ? 255 : 120;
     switch (this.phase) {
         case 0:
-            this.index = this._cardListWindow.index();
-            if (this.index != this.old_index) {
+            var listIndex = this._cardListWindow.index();
+            this.index = this._cardListWindow.cardIdAtIndex(listIndex);
+            if (listIndex != this.old_index) {
                 this._cardDetailsWindow.refresh(this.index);
-                this.old_index = this.index;
+                this.old_index = listIndex;
             }
-            if (Input.isTriggered('cancel'))
+            if (Input.isTriggered('cancel')) {
+                this.remove_index = $dataTripleTriad.self_tt_cards.length - 1; // X removes the last card, as before
                 this.phase = 3;
+            }
             this.process_touch_cancel();
             break;
 
@@ -3460,6 +3481,9 @@ Scene_Album_TT.prototype.update = function () {
             break;
         case 8:
             this.wait_for_click();
+            break;
+        case 9:
+            this.shift_cards_left();
             break;
     }
 };
@@ -3505,8 +3529,14 @@ Scene_Album_TT.prototype.move_scene = function () {
 // Function : add_card_to_hand - adds a card
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.process_touch_cancel = function () {
-    if ($dataTripleTriad.self_tt_cards.length > 0 && this._cards_player_1_A[$dataTripleTriad.self_tt_cards.length - 1]._touching)
-        this.phase = 3;
+    for (var i = $dataTripleTriad.self_tt_cards.length - 1; i >= 0; i--) {
+        var sprite = this._cards_player_1_A[i];
+        if (sprite && sprite._touching) {
+            this.remove_index = i;
+            this.phase = 3;
+            return;
+        }
+    }
 };
 //-----------------------------------------------------------------------------
 // Function : add_card_to_hand - adds a card
@@ -3523,8 +3553,9 @@ Scene_Album_TT.prototype.add_card_to_hand = function () {
 // Function : remove_last_card_animation - removes last card animation
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.remove_last_card_animation = function () {
+    var sprite = this._cards_player_1_A[this.remove_index];
     if (this.phase_flip == 0)
-        this.flip_x_card(this._cards_back_cards, this._cards_player_1_A[$dataTripleTriad.self_tt_cards.length]);
+        this.flip_x_card(this._cards_back_cards, sprite);
     else if (this.phase_flip == 1) {
         this.phase = 5;
         this.phase_flip = 0;
@@ -3541,7 +3572,8 @@ Scene_Album_TT.prototype.remove_last_card_animation = function () {
 // Function : flip_x_card - flips cards horizontally
 //-----------------------------------------------------------------------------
 Scene_Album_TT.prototype.remove_last_card = function () {
-    if ($dataTripleTriad.self_tt_cards.length == 0) {
+    var cards = $dataTripleTriad.self_tt_cards;
+    if (cards.length == 0) {
         this.phase = 0;
         this._cardListWindow.activate();
         if ($dataTripleTriad.push_triple_triad) {
@@ -3553,13 +3585,21 @@ Scene_Album_TT.prototype.remove_last_card = function () {
         }
         return;
     }
+    var i = this.remove_index;
+    if (i < 0 || i >= cards.length)
+        i = cards.length - 1;
+    this.remove_index = i;
+
+    this._cardListWindow.deactivate();
+
     SoundManager.playCancel();
-    $dataTripleTriad.all_cards.push($dataTripleTriad.self_tt_cards[$dataTripleTriad.self_tt_cards.length - 1]);
+    $dataTripleTriad.all_cards.push(cards[i]);
     this._cards_back_cards.y = parseInt(this.image_list['Cards_Hand_Y']);
+    this._cards_back_cards.x = parseInt(this.image_list['Cards_Hand_X']) + i * parseInt(this.image_list['Distance']);
     this._cards_back_cards.scale.x = 0;
     this._cards_back_cards.opacity = 255;
-    $dataTripleTriad.self_tt_cards.pop();
-    this._cards_back_cards.x = parseInt(this.image_list['Cards_Hand_X']) + $dataTripleTriad.self_tt_cards.length * parseInt(this.image_list['Distance']);
+    cards.splice(i, 1);
+    this._cardListWindow.refresh();
     this.phase_flip = 0;
     this.phase = 4;
 };
@@ -3617,12 +3657,19 @@ Window_TripleTriad_CardList.prototype.initialize = function (x, y, width, height
 };
 
 Window_TripleTriad_CardList.prototype.makeCommandList = function () {
-    for (var n = 0; n < this.card_list.length; n++) {
-        if ($dataTripleTriad.self_tt_cards.includes(n) || $dataTripleTriad.all_cards.includes(n))
-            this.addCommand(JSON.parse(this.card_list[n])['Name'], JSON.parse(this.card_list[n])['Name']);
+    var isUnlocked = (n) => $dataTripleTriad.self_tt_cards.includes(n) || $dataTripleTriad.all_cards.includes(n);
+    this._cardIdByIndex = [...Array(this.card_list.length).keys()].sort((a, b) => isUnlocked(b) - isUnlocked(a));
+    var hasFreeCopy = (n) => $dataTripleTriad.all_cards.includes(n);
+    this._cardIdByIndex.forEach(n => {
+        if (isUnlocked(n))
+            this.addCommand(JSON.parse(this.card_list[n])['Name'], JSON.parse(this.card_list[n])['Name'], hasFreeCopy(n));
         else
             this.addCommand("??????", "N/A", false);
-    }
+    });
+};
+
+Window_TripleTriad_CardList.prototype.cardIdAtIndex = function (index) {
+    return this._cardIdByIndex ? this._cardIdByIndex[index] : index;
 };
 
 Window_TripleTriad_CardList.prototype.windowHeight = function () {
@@ -3632,7 +3679,8 @@ Window_TripleTriad_CardList.prototype.windowWidth = function () {
     return this.windowW;
 };
 Window_TripleTriad_CardList.prototype.processOk = function () {
-    if ((this.isCurrentItemEnabled() && $dataTripleTriad.all_cards.includes(this.index())) || $dataTripleTriad.self_tt_cards.length == 5) {
+    var cardId = this.cardIdAtIndex(this.index());
+    if ((this.isCurrentItemEnabled() && $dataTripleTriad.all_cards.includes(cardId)) || $dataTripleTriad.self_tt_cards.length == 5) {
         this.playOkSound();
         this.updateInputData();
         this.callOkHandler();
