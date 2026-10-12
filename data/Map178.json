@@ -2088,7 +2088,7 @@
             { "code": 412, "indent": 1, "parameters": [] },
             { "code": 111, "indent": 1, "parameters": [1, 165, 0, 92, 0] },
             { "code": 101, "indent": 2, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 2, "parameters": ["<i>Вы нашли карту: Пусто."] },
+            { "code": 401, "indent": 2, "parameters": ["<i>Вы нашли карту: Пустой."] },
             { "code": 357, "indent": 2, "parameters": ["tripleTriad", "Add Card", "Add Card", { "cardId": "[\"102\"]" }] },
             { "code": 657, "indent": 2, "parameters": ["cardId = [\"102\"]"] },
             { "code": 221, "indent": 2, "parameters": [] },
