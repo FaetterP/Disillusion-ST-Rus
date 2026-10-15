@@ -680,9 +680,12 @@
           "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
           "list": [
             { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 117, "indent": 0, "parameters": [200] },
+            { "code": 117, "indent": 0, "parameters": [197] },
+            { "code": 117, "indent": 0, "parameters": [196] },
+            { "code": 117, "indent": 0, "parameters": [195] },
+            { "code": 117, "indent": 0, "parameters": [199] },
+            { "code": 117, "indent": 0, "parameters": [198] },
             { "code": 214, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
@@ -697,8 +700,8 @@
           "walkAnime": true
         }
       ],
-      "x": 14,
-      "y": 22
+      "x": 17,
+      "y": 28
     },
     {
       "id": 6,
@@ -738,51 +741,7 @@
       "x": 3,
       "y": 11
     },
-    {
-      "id": 7,
-      "name": "event common caller",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-          "list": [
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 214, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 14,
-      "y": 28
-    },
+    null,
     {
       "id": 8,
       "name": "EV008",
@@ -1434,7 +1393,7 @@
           "image": { "tileId": 0, "characterName": "", "direction": 2, "pattern": 2, "characterIndex": 2 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> You stepped on a trap."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Вы наступили в ловушку."] },
             { "code": 250, "indent": 0, "parameters": [{ "name": "bsfx6", "volume": 100, "pitch": 100, "pan": 0 }] },
             { "code": 311, "indent": 0, "parameters": [0, 0, 1, 0, 8, true] },
             { "code": 223, "indent": 0, "parameters": [[255, -255, -255, 0], 60, true] },
@@ -1480,7 +1439,7 @@
           "image": { "tileId": 0, "characterName": "", "direction": 2, "pattern": 2, "characterIndex": 2 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> You stepped on a trap."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Вы наступили в ловушку."] },
             { "code": 250, "indent": 0, "parameters": [{ "name": "bsfx6", "volume": 100, "pitch": 100, "pan": 0 }] },
             { "code": 311, "indent": 0, "parameters": [0, 0, 1, 0, 8, true] },
             { "code": 223, "indent": 0, "parameters": [[255, -255, -255, 0], 60, true] },
@@ -1581,51 +1540,7 @@
       "x": 4,
       "y": 3
     },
-    {
-      "id": 26,
-      "name": "event common caller",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-          "list": [
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 214, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 18,
-      "y": 28
-    },
+    null,
     {
       "id": 27,
       "name": "Flash Light.",
@@ -1782,51 +1697,7 @@
       "x": 14,
       "y": 13
     },
-    {
-      "id": 29,
-      "name": "event common caller",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-          "list": [
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 214, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 21,
-      "y": 28
-    },
+    null,
     {
       "id": 30,
       "name": "trap",
@@ -1852,7 +1723,7 @@
           "image": { "tileId": 0, "characterName": "", "direction": 2, "pattern": 2, "characterIndex": 2 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> You stepped on a trap."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Вы наступили в ловушку."] },
             { "code": 250, "indent": 0, "parameters": [{ "name": "bsfx6", "volume": 100, "pitch": 100, "pan": 0 }] },
             { "code": 311, "indent": 0, "parameters": [0, 0, 1, 0, 8, true] },
             { "code": 223, "indent": 0, "parameters": [[255, -255, -255, 0], 60, true] },
@@ -1898,7 +1769,7 @@
           "image": { "tileId": 0, "characterName": "", "direction": 2, "pattern": 2, "characterIndex": 2 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> You stepped on a trap."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Вы наступили в ловушку."] },
             { "code": 250, "indent": 0, "parameters": [{ "name": "bsfx6", "volume": 100, "pitch": 100, "pan": 0 }] },
             { "code": 311, "indent": 0, "parameters": [0, 0, 1, 0, 8, true] },
             { "code": 223, "indent": 0, "parameters": [[255, -255, -255, 0], 60, true] },
@@ -1919,96 +1790,8 @@
       "x": 6,
       "y": 28
     },
-    {
-      "id": 32,
-      "name": "event common caller",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-          "list": [
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 214, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 18,
-      "y": 31
-    },
-    {
-      "id": 33,
-      "name": "event common caller",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-          "list": [
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 214, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 21,
-      "y": 32
-    },
+    null,
+    null,
     {
       "id": 34,
       "name": "cahinlink fence",
@@ -2161,96 +1944,8 @@
       "x": 8,
       "y": 28
     },
-    {
-      "id": 38,
-      "name": "event common caller",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-          "list": [
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 214, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 19,
-      "y": 33
-    },
-    {
-      "id": 39,
-      "name": "event common caller",
-      "note": "",
-      "pages": [
-        {
-          "conditions": {
-            "actorId": 1,
-            "actorValid": false,
-            "itemId": 1,
-            "itemValid": false,
-            "selfSwitchCh": "A",
-            "selfSwitchValid": false,
-            "switch1Id": 1,
-            "switch1Valid": false,
-            "switch2Id": 1,
-            "switch2Valid": false,
-            "variableId": 1,
-            "variableValid": false,
-            "variableValue": 0
-          },
-          "directionFix": false,
-          "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-          "list": [
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 214, "indent": 0, "parameters": [] },
-            { "code": 0, "indent": 0, "parameters": [] }
-          ],
-          "moveFrequency": 3,
-          "moveRoute": { "list": [{ "code": 0, "parameters": [] }], "repeat": true, "skippable": false, "wait": false },
-          "moveSpeed": 3,
-          "moveType": 0,
-          "priorityType": 0,
-          "stepAnime": false,
-          "through": false,
-          "trigger": 4,
-          "walkAnime": true
-        }
-      ],
-      "x": 22,
-      "y": 33
-    },
+    null,
+    null,
     {
       "id": 40,
       "name": "trap",
@@ -2276,7 +1971,7 @@
           "image": { "tileId": 0, "characterName": "", "direction": 2, "pattern": 2, "characterIndex": 2 },
           "list": [
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> You stepped on a trap."] },
+            { "code": 401, "indent": 0, "parameters": ["<i> Вы наступили в ловушку."] },
             { "code": 250, "indent": 0, "parameters": [{ "name": "bsfx6", "volume": 100, "pitch": 100, "pan": 0 }] },
             { "code": 311, "indent": 0, "parameters": [0, 0, 1, 0, 8, true] },
             { "code": 223, "indent": 0, "parameters": [[255, -255, -255, 0], 60, true] },
