@@ -10,7 +10,7 @@
   "encounterList": [],
   "encounterStep": 30,
   "height": 50,
-  "note": "<mz3d>\nlight(white)\nsun(white)\nedge(clamp)\nfog(magenta|6,11)\nceiling(A4,3,1|backface:false)\n</mz3d>\n<mz3d-tiles>\nA4,0,0:top(A5,0,0|alpha:0.75)\nB,0-7,5-7:shape(cross)\nB,0-7,6:fringe(0)\n</mz3d-tiles>",
+  "note": "<mz3d>\nlight(white)\nsun(white)\nedge(clamp)\nfog(magenta|6,11)\nceiling(A4,3,1|backface:false)\n</mz3d>\n<mz3d-tiles>\nA4,0,0:top(A5,0,0|alpha:0.75)\nB,0-7,5-7:shape(cross)\nB,0-7,6:fringe(0)\n</mz3d-tiles>\n<noedgefix>Undergroundwalls9</noedgefix>",
   "parallaxLoopX": false,
   "parallaxLoopY": false,
   "parallaxName": "",

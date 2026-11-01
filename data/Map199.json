@@ -1393,7 +1393,7 @@
             { "code": 657, "indent": 0, "parameters": ["Word Wrap = No Change"] },
             { "code": 250, "indent": 0, "parameters": [{ "name": "Amelvoice1", "volume": 75, "pitch": 70, "pan": 0 }] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["We LOVE casting spells"] },
+            { "code": 401, "indent": 0, "parameters": ["Мы ЛЮБИМ использовать заклинания."] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
           "moveFrequency": 3,

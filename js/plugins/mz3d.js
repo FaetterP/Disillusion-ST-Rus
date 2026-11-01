@@ -2943,7 +2943,11 @@ class AbstractMeshBuilder {
     const { width, height } = tsTexture.getBaseSize();
     rect = mz3d.finalizeTextureRect(rect, width, height);
     let { x, y, width: w, height: h } = rect;
-    if (mz3d.EDGE_FIX) {x += mz3d.EDGE_FIX;y += mz3d.EDGE_FIX;w -= mz3d.EDGE_FIX * 2;h -= mz3d.EDGE_FIX * 2;}
+    const texName = (tsTexture.url || tsTexture.name || '').split('/').pop().replace(/\.png$/i, '').toLowerCase();
+    const skipEdgeFix = mz3d.noEdgeFixTextures.has(texName);
+    if (!mz3d._loggedTextures) mz3d._loggedTextures = new Set();
+    if (!mz3d._loggedTextures.has(texName)) { mz3d._loggedTextures.add(texName); console.log('[mz3d noedgefix] texture:', texName, '| skip:', skipEdgeFix, '| set:', [...mz3d.noEdgeFixTextures]); }
+    if (mz3d.EDGE_FIX && !skipEdgeFix) {x += mz3d.EDGE_FIX;y += mz3d.EDGE_FIX;w -= mz3d.EDGE_FIX * 2;h -= mz3d.EDGE_FIX * 2;}
     return {
       x1: x / width,
       y1: (height - y) / height,
@@ -6092,6 +6096,29 @@ Object.assign(_main_js__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
 
     console.log("Finished loading external data");
 
+    // Parse <noedgefix> tags from tileset note AND map note.
+    // <noedgefix/> — all textures in this tileset skip edgefix
+    // <noedgefix>tex1,tex2</noedgefix> — only listed texture names skip edgefix
+    mz3d.noEdgeFixTextures.clear();
+    const _tsNote = ($gameMap.tileset() && $gameMap.tileset().note) || '';
+    const _mapNote = ($dataMap && $dataMap.note) || '';
+    console.log('[mz3d] tileset note snippet:', _tsNote.slice(0,120));
+    console.log('[mz3d] map note snippet:', _mapNote.slice(0,120));
+    const _noedgeSrc = _tsNote + '\n' + _mapNote;
+    const _noedgeAllMatch = /<noedgefix\s*\/>/i.test(_noedgeSrc);
+    const _noedgeListMatch = /<noedgefix\s*>([\s\S]*?)<\/noedgefix>/i.exec(_noedgeSrc);
+    if (_noedgeAllMatch) {
+      for (const tsName of $gameMap.tileset().tilesetNames) {
+        if (tsName) mz3d.noEdgeFixTextures.add(tsName.toLowerCase());
+      }
+    } else if (_noedgeListMatch) {
+      for (const n of _noedgeListMatch[1].split(',')) {
+        const t = n.trim().toLowerCase();
+        if (t) mz3d.noEdgeFixTextures.add(t);
+      }
+    }
+    console.log('[mz3d] noEdgeFixTextures:', [...mz3d.noEdgeFixTextures]);
+
     const lines = this.readConfigurationBlocks($gameMap.tileset().note) +
     '\n' + this.readConfigurationBlocks(this.getDataMap().note, 'm[vz]3d-tiles');
     //const readLines = /^\s*([abcde]\d?\s*,\s*\d+\s*,\s*\d+)\s*:(.*)$/gmi;
@@ -8930,6 +8957,7 @@ function tryParseString(s) {
   ALPHA_NO_CUTOFF: 0.01,
 
   get EDGE_FIX() {return Number(parameters.edgefix) * (0,_util_js__WEBPACK_IMPORTED_MODULE_0__.tileSize)() / 48;},
+  noEdgeFixTextures: new Set(),
   ANTIALIASING: (0,_util_js__WEBPACK_IMPORTED_MODULE_0__.booleanString)(parameters.antialiasing),
   FOV: Number(parameters.fov),
   RES_SCALE: parameter('resScale', 1, Number) || 1,
@@ -42998,7 +43026,8 @@ vec2 ratio=frameData[2].xy/frameData[0].zw;
 if (frameData[2].z==1.){
 tileUV.xy=tileUV.yx;
 }
-vec4 nc=texture2D(spriteSheet,tileUV*frameSize+offset);
+vec2 sampleUV=clamp(tileUV*frameSize+offset,offset+sheetUnits*0.5,offset+frameSize-sheetUnits*0.5);
+vec4 nc=texture2D(spriteSheet,sampleUV);
 if (i==0){
 color=nc;
 } else {
