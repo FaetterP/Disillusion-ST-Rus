@@ -2971,7 +2971,7 @@
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Пожалуйста..... "] },
             { "code": 401, "indent": 0, "parameters": [""] },
-            { "code": 401, "indent": 0, "parameters": ["Я хочу, чтобы ты прекратил это....."] },
+            { "code": 401, "indent": 0, "parameters": ["Я хочу, чтобы ты прекратила это....."] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Это задание.... \\.Оно будет напрасным."] },
             { "code": 401, "indent": 0, "parameters": [""] },
@@ -7774,7 +7774,7 @@
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
             { "code": 401, "indent": 0, "parameters": ["Охх?... \\.Это Барре!"] },
             { "code": 401, "indent": 0, "parameters": [""] },
-            { "code": 401, "indent": 0, "parameters": ["Ты искал здесь каких-нибудь тварей!?"] },
+            { "code": 401, "indent": 0, "parameters": ["Ты искала здесь каких-нибудь тварей!?"] },
             {
               "code": 357,
               "indent": 0,
