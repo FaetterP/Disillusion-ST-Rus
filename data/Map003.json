@@ -1200,9 +1200,12 @@
           "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
           "list": [
             { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 117, "indent": 0, "parameters": [200] },
+            { "code": 117, "indent": 0, "parameters": [197] },
+            { "code": 117, "indent": 0, "parameters": [196] },
+            { "code": 117, "indent": 0, "parameters": [195] },
+            { "code": 117, "indent": 0, "parameters": [199] },
+            { "code": 117, "indent": 0, "parameters": [198] },
             { "code": 214, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],

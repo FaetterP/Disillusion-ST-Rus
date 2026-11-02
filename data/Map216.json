@@ -976,9 +976,12 @@
           "image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
           "list": [
             { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
-            { "code": 117, "indent": 0, "parameters": [33] },
+            { "code": 117, "indent": 0, "parameters": [200] },
+            { "code": 117, "indent": 0, "parameters": [197] },
+            { "code": 117, "indent": 0, "parameters": [196] },
+            { "code": 117, "indent": 0, "parameters": [195] },
+            { "code": 117, "indent": 0, "parameters": [199] },
+            { "code": 117, "indent": 0, "parameters": [198] },
             { "code": 214, "indent": 0, "parameters": [] },
             { "code": 0, "indent": 0, "parameters": [] }
           ],
@@ -1174,7 +1177,7 @@
           "list": [
             { "code": 357, "indent": 0, "parameters": ["KoTC Advanced Minimap", "DisableKoTCMinimap", "Disable Minimap", {}] },
             { "code": 101, "indent": 0, "parameters": ["", 0, 1, 2, ""] },
-            { "code": 401, "indent": 0, "parameters": ["<i> a small chest for managing items you've found."] },
+            { "code": 401, "indent": 0, "parameters": ["<i>Небольшой сундук для хранения найденных предметов."] },
             { "code": 355, "indent": 0, "parameters": ["SceneManager.push(Scene_Item)"] },
             { "code": 357, "indent": 0, "parameters": ["KoTC Advanced Minimap", "EnableKoTCMinimap", "Enable Minimap", {}] },
             { "code": 0, "indent": 0, "parameters": [] }
